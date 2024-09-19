@@ -1,4 +1,4 @@
-D_8070 = 0x8070; // ignore:true
-func_400129F0 = 0x400129F0; // ignore:true
-
-iosCreateIdleThread = 0x400129a0;
+   .L40014708 = 0x40014708; // rom:0x46F8 type:label
+func_40014708 = 0x40014708; // rom:0x17DC4 type:func allow_duplicated:true
+func_40014708 = 0x40014708; // rom:0x17FD4 type:func allow_duplicated:true
+func_40014708 = 0x40014708; // rom:0x1824C type:func allow_duplicated:true

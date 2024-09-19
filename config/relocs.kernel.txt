@@ -1,0 +1,3 @@
+rom:0x15068 symbol:func_FAKE reloc:MIPS_26
+rom:0x15074 symbol:func_FAKE reloc:MIPS_26
+rom:0x15624 symbol:func_FAKE reloc:MIPS_26

@@ -1,0 +1,22 @@
+rule as
+  command = cpp -Iinclude -I include/sdk/ee -I include/sdk -I include/gcc $in | mips-linux-gnu-as -no-pad-sections -EL -march=5900 -mabi=eabi -Iinclude -o $out
+  description = as $in
+rule cc
+  command = /workspaces/SOTC/tools/cc/ee-gcc2.96/bin/ee-gcc -c -Iinclude -I include/sdk/ee -I include/sdk -I include/gcc -O2 -g2 $in -o $out && mips-linux-gnu-strip $out -N dummy-symbol-name
+  description = cc $in
+rule ld
+  command = mips-linux-gnu-ld -EL -T config/kernel.auto_funcs.txt -T config/kernel.auto_symbols.txt -Map $mapfile -T $in -o $out
+  description = link $out
+rule sha1sum
+  command = sha1sum -c $in && touch $out
+  description = sha1sum $in
+rule elf
+  command = mips-linux-gnu-objcopy $in $out -O binary
+  description = elf $out
+build build/src/kernel/21A0.c.o: cc src/kernel/21A0.c
+build build/asm/kernel/data/0.s.o: as asm/kernel/data/0.s
+build build/asm/kernel/data/354B0.s.o: as asm/kernel/data/354B0.s
+build build/KERNEL.elf: ld main.ld | build/asm/kernel/data/0.s.o build/src/kernel/21A0.c.o build/asm/kernel/data/354B0.s.o
+  mapfile = build/foo.map
+build build/KERNEL.XFF: elf build/KERNEL.elf
+build build/KERNEL.XFF.ok: sha1sum checksum.sha1 | build/KERNEL.XFF

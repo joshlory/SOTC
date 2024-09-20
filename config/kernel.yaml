@@ -1,0 +1,40 @@
+sha1: ac00c937b84cbe2e283a97e59e09a11886118388
+options:
+    # paths
+    basename: KERNEL.XFF
+    target_path: iso/KERNEL.XFF
+    base_path: ..
+
+    asm_path: asm/kernel
+    src_path: src/kernel
+    build_path: build
+
+    symbol_addrs_path: config/symbols.kernel.txt
+    reloc_addrs_path: config/relocs.kernel.txt
+    create_undefined_funcs_auto: False
+    create_undefined_syms_auto: False
+
+    # compiler
+    compiler: EEGCC
+    platform: ps2
+
+    migrate_rodata_to_functions: True
+
+    string_encoding: EUC-JP
+    rodata_string_guesser_level: 2 # improve string detection
+    disasm_unknown: True
+    named_regs_for_c_funcs: True
+    find_file_boundaries: True
+    section_order: [".text", ".data", ".rodata", ".lit4", ".sdata", ".sbss", ".bss"]
+segments:
+    - name: main
+      type: code
+      start: 0x0
+      vram: 0x40010000
+      subsegments:
+        - [0x0, databin, kernel_header]
+        - [0x21A0, c]
+        - [0x354B0, data]
+        - [0x36430, rodata]
+        - [0x39A68, sbss]
+    - [0x63B88]

@@ -1,0 +1,42 @@
+sha1: 63c4cd94e8510dddebfa9e484af4ba69a089e155
+options:
+    # paths
+    basename: MANAGER.XFF
+    target_path: iso/MANAGER.XFF
+    base_path: ..
+
+    asm_path: asm/manager
+    src_path: src/manager
+    build_path: build
+
+    symbol_addrs_path: config/symbols.manager.txt
+    reloc_addrs_path: config/relocs.manager.txt
+    create_undefined_funcs_auto: False
+    create_undefined_syms_auto: False
+
+    # compiler
+    compiler: EEGCC
+    platform: ps2
+
+    migrate_rodata_to_functions: True
+
+    string_encoding: EUC-JP
+    rodata_string_guesser_level: 3 # improve string detection
+    disasm_unknown: True
+    named_regs_for_c_funcs: True
+    find_file_boundaries: True
+    section_order: [".text", ".data", ".rodata", ".lit4", ".sdata", ".sbss", ".bss"]
+segments:
+    - name: main
+      type: code
+      start: 0x0
+      vram: 0x40010000
+      subsegments:
+        - [0x0, databin, manager_header]
+        - [0x4A60, c]
+        - [0xFA050, data] # vudata
+        - [0x114440, data]
+        - [0x11F100, rodata]
+        - [0x125DF4, sdata]
+        - [0x1260B8, sbss]
+    - [0x19A940]

@@ -1,0 +1,9732 @@
+iso/KERNEL.XFF
+count_0C = 15 (some kind of section count)
+xxxxx_10 = 00000000
+xff_size = 408456
+xxxxx_18 = 00000000
+count_1C = 0
+xxxxx_20 = 4001210c
+symcount = 1901
+xxxxx_28 = 40049a68
+xxxxx_2C = 40051138
+xxxxx_30 = 400100b0
+xxxxx_34 = 400102b0
+count_38 = 6
+xxxxx_3C = 40012064
+seccount = 16
+xxxxx_44 = 40010070
+xxxxx_48 = 4001210c
+
+off_sign    = 00006990 27024
+50_count_1C = 0000210c
+symbols1    = 00039a68
+symstrtab   = 00041138
+sections    = 000000b0
+symbols2    = 000002b0
+64_count_38 = 00002064
+secnameoffs = 00000070
+secstrtab   = 0000210c
+
+Symbols
+ [0] 
+  00000000
+  00000000
+  00000000
+  00000000
+ [1] 
+  00000000
+  00000000
+  00000000
+  00010003
+ [2] 
+  00000000
+  00000000
+  00000000
+  00020003
+ [3] 
+  00000000
+  00000000
+  00000000
+  00030003
+ [4] 
+  00000000
+  00000000
+  00000000
+  00040003
+ [5] 
+  00000000
+  00000000
+  00000000
+  00050003
+ [6] 
+  00000000
+  00000000
+  00000000
+  00060003
+ [7] 
+  00000000
+  00000000
+  00000000
+  00070003
+ [8] 
+  00000000
+  00000000
+  00000000
+  00080003
+ [9] 
+  00000000
+  00000000
+  00000000
+  00090003
+ [10] 
+  00000000
+  00000000
+  00000000
+  000a0003
+ [11] 
+  00000000
+  00000000
+  00000000
+  000b0003
+ [12] 
+  00000000
+  00000000
+  00000000
+  000c0003
+ [13] 
+  00000000
+  00000000
+  00000000
+  000e0003
+ [14] 
+  00000000
+  00000000
+  00000000
+  000f0003
+ [15] 
+  00000000
+  00000000
+  00000000
+  00100003
+ [16] Sg2SlotGetSlotClassIdx
+  00000001
+  00026640
+  0000001c
+  00010012
+ [17] iosGetIVSyncMode
+  00000018
+  0001abb8
+  0000000c
+  00010012
+ [18] gsBox
+  00000029
+  00016e80
+  00000444
+  00010012
+ [19] __ps2_klibinfo__
+  0000002f
+  00132370
+  00000000
+  fff10011
+ [20] Sg2StAdpcmInit
+  00000040
+  0002c9a0
+  0000002c
+  00010012
+ [21] StabilizeToYRotQuaternion
+  0000004f
+  0000feb8
+  000000cc
+  00010012
+ [22] Sg2DmaInit
+  00000069
+  0001ee50
+  00000008
+  00010012
+ [23] _sceCd_scmdsdata
+  00000074
+  00135180
+  00000408
+  fff10011
+ [24] _sceMcFatReadFile
+  00000085
+  0011f108
+  00000208
+  fff10012
+ [25] _EnableIntc
+  00000097
+  00106e20
+  00000010
+  fff10012
+ [26] isysRequestDeleteObj
+  000000a3
+  0001a1b8
+  0000010c
+  00010012
+ [27] sceMc2GetEntSpace
+  000000b8
+  0011bba8
+  0000003c
+  fff10012
+ [28] _mprec_log10
+  000000ca
+  0012f890
+  00000070
+  fff10012
+ [29] executableModuleGroup
+  000000d7
+  00000380
+  00000004
+  00050011
+ [30] iosGsChangeScreenOffset
+  000000ed
+  000160a0
+  00000014
+  00010012
+ [31] iosCalcIcolorToBrightness
+  00000105
+  0000d408
+  00000084
+  00010012
+ [32] sndSepInitTickParam
+  0000011f
+  0001d998
+  00000070
+  00010012
+ [33] sceDread
+  00000133
+  0010c950
+  00000154
+  fff10012
+ [34] iosGetCnt0Pc
+  0000013c
+  000007c0
+  00000008
+  00010012
+ [35] sceMc2ReadFileAsync
+  00000149
+  0011ab08
+  00000120
+  fff10012
+ [36] __mprec_tinytens
+  0000015d
+  00139d50
+  00000028
+  fff10011
+ [37] sceSifMUnBindRpc
+  0000016e
+  00119ed8
+  0000013c
+  fff10012
+ [38] Sg2SlotFindLoop
+  0000017f
+  000288e8
+  00000048
+  00010012
+ [39] debug_sep_config
+  0000018f
+  00025d80
+  000001dc
+  00010012
+ [40] all_soundmute
+  000001a0
+  00020d78
+  00000088
+  00010012
+ [41] strcpy
+  000001ae
+  001290b0
+  00000114
+  fff10012
+ [42] _hi0bits
+  000001b5
+  0012ebf8
+  00000080
+  fff10012
+ [43] Sg2CtrlSetTickMode
+  000001be
+  0001ed60
+  00000014
+  00010012
+ [44] iosLoaderFRead
+  000001d1
+  0000ab90
+  00000014
+  00010012
+ [45] __main
+  000001e0
+  00125108
+  00000038
+  fff10012
+ [46] sceSifAddCmdHandler
+  000001e7
+  00112d00
+  00000078
+  fff10012
+ [47] sceGsPutDispEnv
+  000001fb
+  00114630
+  000000bc
+  fff10012
+ [48] GetTimerUsedUnusedCounters
+  0000020b
+  00111040
+  0000005c
+  fff10012
+ [49] Sg2CtrlGetTickMode
+  00000226
+  0001ed78
+  0000000c
+  00010012
+ [50] sceSifSetRebootNotifyBuffer
+  00000239
+  00111c18
+  0000007c
+  fff10012
+ [51] Sg2ExStAdpcmOpenFake
+  00000255
+  0001f820
+  00000084
+  00010012
+ [52] Sg2CtrlInit
+  0000026a
+  0001edb0
+  00000054
+  00010012
+ [53] iosResetCpuRapCounter
+  00000276
+  00000c90
+  0000002c
+  00010012
+ [54] iosScaleColorToONE
+  0000028c
+  00012058
+  00000020
+  00010012
+ [55] sceRemove
+  0000029f
+  0010c158
+  0000001c
+  fff10012
+ [56] sceMc2WriteFileAsync
+  000002a9
+  0011ac28
+  00000120
+  fff10012
+ [57] iosCreateThread
+  000002be
+  000061d8
+  000001b4
+  00010012
+ [58] fmodf
+  000002ce
+  00030548
+  00000014
+  00010012
+ [59] sceGsSetDefDispEnv
+  000002d4
+  001142b8
+  00000374
+  fff10012
+ [60] Sg2DspSetMasterVolumeMax
+  000002e7
+  0001f2e0
+  00000030
+  00010012
+ [61] GetSystemCallEntry
+  00000300
+  0010fd90
+  00000034
+  fff10012
+ [62] sceNetcnfifSetLatestEntry
+  00000313
+  00122c58
+  0000007c
+  fff10012
+ [63] _lseek_r
+  0000032d
+  001312b8
+  00000060
+  fff10012
+ [64] vab_get_progchunk
+  00000336
+  0002cdb8
+  000000ac
+  00010012
+ [65] iosGetScaleInverseVector
+  00000348
+  00011de0
+  0000005c
+  00010012
+ [66] Sg2SlotFindVabChNote
+  00000361
+  000289e0
+  00000068
+  00010012
+ [67] iosGetPrintfMode
+  00000376
+  000060e0
+  0000000c
+  00010012
+ [68] Shock_SetShockVoiceSet
+  00000387
+  00007400
+  00000034
+  00010012
+ [69] sqrt
+  0000039e
+  000304e8
+  00000014
+  00010012
+ [70] Sg2ExStAdpcmPause
+  000003a3
+  000200a8
+  00000044
+  00010012
+ [71] getTWH
+  000003b5
+  00018a70
+  0000005c
+  00010012
+ [72] iosCallBackThreadMgr
+  000003bc
+  00006930
+  00000060
+  00010012
+ [73] Sg2SepPause
+  000003d1
+  00025490
+  000000d4
+  00010012
+ [74] Sg2SlotSetPause
+  000003dd
+  00029128
+  0000007c
+  00010012
+ [75] iosITOF15ToMmColMvec
+  000003ed
+  0000d728
+  00000028
+  00010012
+ [76] vsprintf_r
+  00000402
+  0012c1a0
+  00000054
+  fff10012
+ [77] _sceCd_cd_scmd
+  0000040d
+  001356c0
+  00000028
+  fff10011
+ [78] iosLoaderGetFileSize
+  0000041c
+  0000aba8
+  0000004c
+  00010012
+ [79] Sg2SlotModKeyOff
+  00000431
+  000299a8
+  0000010c
+  00010012
+ [80] sceDmaSync
+  00000442
+  00114fe8
+  00000038
+  fff10012
+ [81] vab_get_semastervol
+  0000044d
+  0002cf30
+  00000028
+  00010012
+ [82] Sg2ExPcmOutputOpen
+  00000461
+  0002e908
+  000000e0
+  00010012
+ [83] sceSifMBindRpcParam
+  00000474
+  00119d08
+  000001d0
+  fff10012
+ [84] DisableDmac
+  00000488
+  00107640
+  00000068
+  fff10012
+ [85] __divdi3
+  00000494
+  00123480
+  00000694
+  fff10012
+ [86] ioctl
+  0000049d
+  001120c0
+  00000008
+  fff10012
+ [87] RotQuaternionYExact
+  000004a3
+  0000f5a0
+  000000b4
+  00010012
+ [88] iosCdSetErrorCallback
+  000004b7
+  00000620
+  00000014
+  00010012
+ [89] RemoveIntcHandler
+  000004cd
+  00106de0
+  00000010
+  fff10012
+ [90] iosRecvMsg
+  000004df
+  00004828
+  00000178
+  00010012
+ [91] Sg2SmfpClose
+  000004ea
+  0002afd0
+  00000058
+  00010012
+ [92] iosITOF15VectorXYZ
+  000004f7
+  00012020
+  00000014
+  00010012
+ [93] _sceCd_ncmd_prechk
+  0000050a
+  001176a8
+  00000158
+  fff10012
+ [94] InitTLB
+  0000051d
+  0010f650
+  00000040
+  fff10012
+ [95] _sceMcFatGetEntSpace
+  00000525
+  00120470
+  000000c4
+  fff10012
+ [96] __floatdidf
+  0000053a
+  001270a0
+  000000a8
+  fff10012
+ [97] iosInverseCurrentMatrix
+  00000546
+  0000c528
+  0000004c
+  00010012
+ [98] iosDlChainTail
+  0000055e
+  00013158
+  000000c4
+  00010012
+ [99] iGsGetIMR
+  0000056d
+  00107410
+  00000010
+  fff10012
+ [100] iosFileRead
+  00000577
+  0000a918
+  00000160
+  00010012
+ [101] _kill_r
+  00000583
+  00128a70
+  0000005c
+  fff10012
+ [102] RotCurrentQuaternionZ
+  0000058b
+  0000ef38
+  00000084
+  00010012
+ [103] vschedGameTime
+  000005a1
+  000007d4
+  00000004
+  00050011
+ [104] check_free_letter_post
+  000005b0
+  0001b398
+  00000040
+  00010012
+ [105] iosDlGetWorkBufId
+  000005c7
+  00013598
+  00000014
+  00010012
+ [106] iosResetKernel
+  000005d9
+  00006b78
+  00000014
+  00010012
+ [107] Sg2SlotSetLfoVolSpeed
+  000005e8
+  000294d0
+  00000150
+  00010012
+ [108] printf
+  000005fe
+  001286c0
+  00000070
+  fff10012
+ [109] sceSifQueryMemSize
+  00000605
+  0010e0e8
+  00000070
+  fff10012
+ [110] QueryIntrContext
+  00000618
+  00107560
+  00000010
+  fff10012
+ [111] vsprintf
+  00000629
+  0012c148
+  00000054
+  fff10012
+ [112] RFU083_iSetEventFlag
+  00000632
+  00107210
+  00000010
+  fff10012
+ [113] initSound
+  00000647
+  0001dcf8
+  00000114
+  00010012
+ [114] _SceMcComGetSysInfo
+  00000651
+  00121018
+  00000018
+  fff10012
+ [115] iosWaitIdleThread
+  00000665
+  000007d8
+  00000024
+  00010012
+ [116] _sceMcFatUnFormat
+  00000677
+  0011d8e0
+  00000100
+  fff10012
+ [117] RFU009
+  00000689
+  00106d50
+  00000010
+  fff10012
+ [118] sceNetcnfifGetCount
+  00000690
+  00122558
+  00000064
+  fff10012
+ [119] _signal_r
+  000006a4
+  001287f8
+  00000080
+  fff10012
+ [120] SyncDCache
+  000006ae
+  001319c0
+  0000007c
+  fff10012
+ [121] _sceMcpReadSysInfo
+  000006b9
+  001205d0
+  00000114
+  fff10012
+ [122] sceSifFreeSysMemory
+  000006cc
+  0010df60
+  00000078
+  fff10012
+ [123] setPcmTickProcFunc
+  000006e0
+  0001df00
+  0000000c
+  00010012
+ [124] __sseek
+  000006f3
+  0012fc28
+  00000064
+  fff10012
+ [125] __sinit
+  000006fb
+  0012db00
+  0000008c
+  fff10012
+ [126] Sg2SlotFreeSearch
+  00000703
+  00026660
+  00000404
+  00010012
+ [127] iosMcInit
+  00000715
+  00003de8
+  000000f8
+  00010012
+ [128] Sg2SmfpMidiOut
+  0000071f
+  0002b918
+  00000098
+  00010012
+ [129] sceOpen
+  0000072e
+  0010aec0
+  00000290
+  fff10012
+ [130] iosConvertStringSJIStoEUC
+  00000736
+  0001b8d8
+  0000013c
+  00010012
+ [131] RFU090_iReferEventFlagStatus
+  00000750
+  00107280
+  00000010
+  fff10012
+ [132] sceInetGetInterfaceList
+  0000076d
+  00118ed0
+  00000088
+  fff10012
+ [133] Sg2SlotFindVabChSsaBaseNote
+  00000785
+  00028a48
+  00000074
+  00010012
+ [134] _sceMcpReadClust
+  000007a1
+  00120808
+  00000040
+  fff10012
+ [135] Sg2StAdpcmSetVolume
+  000007b2
+  0002c808
+  00000078
+  00010012
+ [136] __sceKernlGetEhSemaId
+  000007c6
+  0010fce8
+  0000000c
+  fff10012
+ [137] __register_frame
+  000007dc
+  00126210
+  00000030
+  fff10012
+ [138] DisableIntc
+  000007ed
+  00107570
+  00000068
+  fff10012
+ [139] _setlocale_r
+  000007f9
+  0012e590
+  0000008c
+  fff10012
+ [140] sceClose
+  00000806
+  0010b150
+  00000178
+  fff10012
+ [141] __sfmoreglue
+  0000080f
+  0012d950
+  00000078
+  fff10012
+ [142] ZeroPoint
+  0000081c
+  00000490
+  00000010
+  00050011
+ [143] ungetc
+  00000826
+  00130f60
+  00000188
+  fff10012
+ [144] iosIColAddVec
+  0000082d
+  0000d540
+  0000002c
+  00010012
+ [145] iosGetTan
+  0000083b
+  000116a0
+  00000034
+  00010012
+ [146] scePad2StateIntToStr
+  00000845
+  00115988
+  00000034
+  fff10012
+ [147] __malloc_unlock
+  0000085a
+  00128610
+  0000004c
+  fff10012
+ [148] mallocStartAdrs
+  0000086a
+  00000154
+  00000004
+  00050011
+ [149] sceFsSetIopBuf
+  0000087a
+  0010ac90
+  00000140
+  fff10012
+ [150] Sg2RemoteGetSlotReleaseLv
+  00000889
+  00024cd0
+  00000018
+  00010012
+ [151] iRotateThreadReadyQueue
+  000008a3
+  001079f0
+  0000007c
+  fff10012
+ [152] _sceMcpIsSpeckOutBlock
+  000008bb
+  00120e10
+  00000048
+  fff10012
+ [153] iStartTimerCounter
+  000008d2
+  001110a0
+  000000ac
+  fff10012
+ [154] sceCdInit
+  000008e5
+  00117bb0
+  000002e8
+  fff10012
+ [155] iosInitMessageSystem
+  000008ef
+  000049a0
+  00000008
+  00010012
+ [156] ZDirVector
+  00000904
+  000004e0
+  00000010
+  00050011
+ [157] _strtod_r
+  0000090f
+  0012fcb0
+  00000f14
+  fff10012
+ [158] LoaderSysJumpRecoverPointNoStateSetting
+  00000919
+  00100bf8
+  00000084
+  fff10012
+ [159] sceMc2DeleteAsync
+  00000941
+  0011ae40
+  000000e8
+  fff10012
+ [160] iSetAlarm
+  00000953
+  00106ec0
+  00000010
+  fff10012
+ [161] iosCreatePartitionWithPc
+  0000095d
+  00003b40
+  00000070
+  00010012
+ [162] iosPowf
+  00000976
+  0000d938
+  00000014
+  00010012
+ [163] sceSifSearchModuleByAddress
+  0000097e
+  0010ea40
+  00000090
+  fff10012
+ [164] vab_get_seprogchunk
+  0000099a
+  0002cd20
+  00000098
+  00010012
+ [165] sceGsSetDefClear
+  000009ae
+  001147b8
+  00000104
+  fff10012
+ [166] iosFollowAllLink
+  000009bf
+  00003c58
+  00000058
+  00010012
+ [167] ScrollDisplay
+  000009d0
+  00106490
+  0000009c
+  fff10012
+ [168] iosGetRandom
+  000009de
+  00011c48
+  00000050
+  00010012
+ [169] iosPushVu0RegistersToWork
+  000009eb
+  0000bd10
+  00000104
+  00010012
+ [170] Sg2ExPcmInputSetOutputMode
+  00000a05
+  0002e6d8
+  00000024
+  00010012
+ [171] sceInetPoll
+  00000a20
+  001186a8
+  000000a4
+  fff10012
+ [172] iosSyncPath
+  00000a2c
+  00014440
+  000002c4
+  00010012
+ [173] sndVabHDClose
+  00000a38
+  0001db48
+  00000018
+  00010012
+ [174] Sg2SlotSetPitch
+  00000a46
+  000290b0
+  00000078
+  00010012
+ [175] Sg2VabHdOpen
+  00000a56
+  0002cf58
+  00000088
+  00010012
+ [176] _sceMcCoreChangeSocketTypeDbc2Mc
+  00000a63
+  001221b0
+  00000044
+  fff10012
+ [177] GetRotLimitationQuaternion
+  00000a84
+  0000e638
+  00000370
+  00010012
+ [178] sceMc2Init
+  00000a9f
+  0011a288
+  000001a8
+  fff10012
+ [179] ReferSemaStatus
+  00000aaa
+  00107150
+  00000010
+  fff10012
+ [180] iosKeybdInit
+  00000aba
+  0001e420
+  00000034
+  00010012
+ [181] iosNetRecvMsgWithStateCallback
+  00000ac7
+  00005238
+  000001c8
+  00010012
+ [182] _xlaunch
+  00000ae6
+  0010f9c0
+  00000000
+  fff10011
+ [183] isysResolveAllProgramModule
+  00000aef
+  00009a50
+  000000f4
+  00010012
+ [184] Sg2SepInit
+  00000b0b
+  00025cd8
+  000000a8
+  00010012
+ [185] sceSifUnloadModule
+  00000b16
+  0010e910
+  00000090
+  fff10012
+ [186] memmove
+  00000b29
+  001283cc
+  00000104
+  fff10012
+ [187] sceNetcnfifAllocWorkarea
+  00000b31
+  00122ea0
+  00000040
+  fff10012
+ [188] Sg2SlotSetReverbOnBit
+  00000b4a
+  00029de0
+  00000064
+  00010012
+ [189] iosKeybdGetInfo
+  00000b60
+  0001e4a0
+  00000064
+  00010012
+ [190] iosGetCurrentDC
+  00000b70
+  00012768
+  0000000c
+  00010012
+ [191] iosApplyM_Mat
+  00000b80
+  0000d398
+  0000006c
+  00010012
+ [192] _cleanup
+  00000b8e
+  0012dae0
+  0000001c
+  fff10012
+ [193] iosDlChainHead
+  00000b97
+  00013090
+  000000c4
+  00010012
+ [194] iosApplyCurrentMatrix
+  00000ba6
+  0000c438
+  00000020
+  00010012
+ [195] sceResetttyinit
+  00000bbc
+  00111e50
+  0000000c
+  fff10012
+ [196] powf
+  00000bcc
+  00030560
+  00000014
+  00010012
+ [197] sceMc2DeleteSocket
+  00000bd1
+  0011a598
+  0000007c
+  fff10012
+ [198] iosSetCameraMatrix
+  00000be4
+  0000c9f0
+  00000120
+  00010012
+ [199] LoaderSysChstat
+  00000bf7
+  001030f8
+  00000014
+  fff10012
+ [200] sceSifRemoveRebootNotifyHandler
+  00000c07
+  00111d50
+  00000054
+  fff10012
+ [201] ____VolPerBackup
+  00000c27
+  0001ff80
+  00000050
+  00010012
+ [202] _Balloc
+  00000c38
+  0012e8e8
+  000000a4
+  fff10012
+ [203] MakeStrHashValue
+  00000c40
+  0001e8f0
+  000000b4
+  00010012
+ [204] LoaderSysDeleteExternalThreadList
+  00000c51
+  001028f0
+  0000003c
+  fff10012
+ [205] iosMallocInGarbagePtn
+  00000c73
+  00002018
+  00000128
+  00010012
+ [206] iReferThreadStatus
+  00000c89
+  00106ff0
+  00000010
+  fff10012
+ [207] Sg2SlotSetTimePitchParam
+  00000c9c
+  000297a8
+  0000003c
+  00010012
+ [208] RFU082_SetEventFlag
+  00000cb5
+  00107200
+  00000010
+  fff10012
+ [209] Sg2SlotSetVolShiftDownParam
+  00000cc9
+  00029fa8
+  00000014
+  00010012
+ [210] iosGetStabYZVector
+  00000ce5
+  00011e78
+  00000038
+  00010012
+ [211] isysInitISYSLetterObj
+  00000cf8
+  0001ada8
+  00000028
+  00010012
+ [212] _sceCd_ncmd_semid
+  00000d0e
+  00133b68
+  00000004
+  fff10011
+ [213] iosDlCheckAdrs
+  00000d20
+  00013818
+  00000034
+  00010012
+ [214] LoaderSysDeleteAllExternalIopMemory
+  00000d2f
+  00102c90
+  00000064
+  fff10012
+ [215] initmemprintf
+  00000d53
+  00104088
+  00000008
+  fff10012
+ [216] isysGetLinkNum
+  00000d61
+  0001a5b8
+  0000005c
+  00010012
+ [217] sceInetControl
+  00000d70
+  00118e28
+  000000a8
+  fff10012
+ [218] Sg2CtrlGetTickTime
+  00000d7f
+  0001eda0
+  0000000c
+  00010012
+ [219] GetLimitationQuaternionWithBaseAxis
+  00000d92
+  0000e9a8
+  00000338
+  00010012
+ [220] Sg2ExPcmOutputClose
+  00000db6
+  0002e9e8
+  00000060
+  00010012
+ [221] sceSifSetCmdBuffer
+  00000dca
+  00112cd0
+  00000018
+  fff10012
+ [222] iGetCop0
+  00000ddd
+  00107380
+  00000010
+  fff10012
+ [223] GetQuaternionByEulerZXYExact
+  00000de6
+  000106f8
+  00000214
+  00010012
+ [224] iosSetScreenEnv
+  00000e03
+  00015dc8
+  00000124
+  00010012
+ [225] isysDisposeModuleObjRelocationElement
+  00000e13
+  00009f68
+  000000f4
+  00010012
+ [226] iosPadGetXZInputR
+  00000e39
+  00005c98
+  000001f4
+  00010012
+ [227] sceSifGetReg
+  00000e4b
+  001074f0
+  00000010
+  fff10012
+ [228] sceMc2ChmodAsync
+  00000e58
+  0011b250
+  00000100
+  fff10012
+ [229] InitException
+  00000e69
+  001020c0
+  0000010c
+  fff10012
+ [230] atol
+  00000e77
+  0012c320
+  0000001c
+  fff10012
+ [231] __errno
+  00000e7c
+  00127628
+  0000000c
+  fff10012
+ [232] sceUmount
+  00000e84
+  0010d508
+  0000001c
+  fff10012
+ [233] iosTransCurrentMatrix
+  00000e8e
+  0000bf20
+  0000001c
+  00010012
+ [234] Sg2SlotSetBasicParam
+  00000ea4
+  00028c50
+  000000ec
+  00010012
+ [235] DisposeRelocationElement
+  00000eb9
+  00101950
+  000000e0
+  fff10012
+ [236] isysObjDeleteUnLock
+  00000ed2
+  0001a318
+  00000028
+  00010012
+ [237] Sg2SlotSearchPriorityOlder
+  00000ee6
+  00027220
+  00000404
+  00010012
+ [238] isysGetSymdefModuleObjNum
+  00000f01
+  0000a140
+  00000070
+  00010012
+ [239] isysGetXffWorkSize
+  00000f1b
+  00009ed0
+  00000054
+  00010012
+ [240] LoaderSysExecuteRecoveryFirstProcess
+  00000f2e
+  00102608
+  00000124
+  fff10012
+ [241] sceMc2GetInfoAsync
+  00000f53
+  0011a898
+  000000c0
+  fff10012
+ [242] iosCopyMatrix
+  00000f66
+  0000c7f0
+  00000028
+  00010012
+ [243] sceCdCallback
+  00000f74
+  00116d80
+  00000068
+  fff10012
+ [244] iosScaleMatrix
+  00000f82
+  0000cd48
+  00000030
+  00010012
+ [245] getSlotInfo
+  00000f91
+  0001df68
+  00000014
+  00010012
+ [246] _isysCreateObj
+  00000f9d
+  0001a0f8
+  000000b8
+  00010012
+ [247] SetPrimColor
+  00000fac
+  00106998
+  0000014c
+  fff10012
+ [248] __ieee754_rem_pio2f
+  00000fb9
+  00031c08
+  000003b0
+  00010012
+ [249] sceGsSwapDBuff
+  00000fcd
+  00113c00
+  0000005c
+  fff10012
+ [250] iosSWToMmColMvec
+  00000fdc
+  0000d6d8
+  00000028
+  00010012
+ [251] getCRTCoffsetV
+  00000fed
+  00016090
+  0000000c
+  00010012
+ [252] sceVif1PkEnd
+  00000ffc
+  00113248
+  00000058
+  fff10012
+ [253] Sg2SmfpStatus
+  00001009
+  0002b430
+  00000028
+  00010012
+ [254] GetGsVParam
+  00001017
+  001071b0
+  00000010
+  fff10012
+ [255] RFU091
+  00001023
+  00107290
+  00000010
+  fff10012
+ [256] isysGetObjIdentifierByObj
+  0000102a
+  0001a620
+  00000030
+  00010012
+ [257] isysStartSubThread
+  00001044
+  0001c3f0
+  00000084
+  00010012
+ [258] _d2b
+  00001057
+  0012f638
+  00000184
+  fff10012
+ [259] iosCdStStart
+  0000105c
+  00000460
+  0000002c
+  00010012
+ [260] sceTtyInit
+  00001069
+  001128e0
+  000000bc
+  fff10012
+ [261] _ExecPS2
+  00001074
+  00106d30
+  00000010
+  fff10012
+ [262] _multiply
+  0000107d
+  0012ed70
+  0000020c
+  fff10012
+ [263] RFU081_DeleteEventFlag
+  00001087
+  001071f0
+  00000010
+  fff10012
+ [264] isysInitGroup
+  0000109e
+  0001a2c8
+  0000000c
+  00010012
+ [265] PutString
+  000010ac
+  00105948
+  00000098
+  fff10012
+ [266] LoaderSysDumpIopModuleIdentifiers
+  000010b6
+  00103258
+  00000094
+  fff10012
+ [267] _fstat_r
+  000010d8
+  00131258
+  0000005c
+  fff10012
+ [268] iosApplyRotCurrentMatrix
+  000010e1
+  0000c458
+  00000020
+  00010012
+ [269] scePowerOffHandler
+  000010fa
+  0010a8d8
+  000000a0
+  fff10012
+ [270] Sg2ChipInit
+  0000110d
+  0001eaf8
+  00000034
+  00010012
+ [271] iosSetCurrentMatrix
+  00001119
+  0000c360
+  00000018
+  00010012
+ [272] AddDmacHandler
+  0000112d
+  00106df0
+  00000010
+  fff10012
+ [273] isysGetLetterObj
+  0000113c
+  0001ade8
+  00000040
+  00010012
+ [274] errno
+  0000114d
+  0013a30c
+  00000004
+  fff10011
+ [275] __make_dp
+  00001153
+  00125970
+  0000002c
+  fff10012
+ [276] ZUnitVectorInv
+  0000115d
+  000004d0
+  00000010
+  00050011
+ [277] SetQuaternionByAxisRotateWithNoRegularize
+  0000116c
+  0000f120
+  00000074
+  00010012
+ [278] __svfscanf
+  00001196
+  0012b3b8
+  00000c8c
+  fff10012
+ [279] UnitMatrix
+  000011a1
+  000003c0
+  00000040
+  00050011
+ [280] _sceCd_CdInit_ON
+  000011ac
+  00133b84
+  00000004
+  fff10011
+ [281] _sceMcFatDeleteFile
+  000011bd
+  0011f8f0
+  00000230
+  fff10012
+ [282] TLBInfo
+  000011d1
+  00132a68
+  0000001c
+  fff10011
+ [283] sceMc2SearchSocket
+  000011d9
+  0011a618
+  000000ac
+  fff10012
+ [284] Sg2VabBdOpen
+  000011ec
+  0002d068
+  00000068
+  00010012
+ [285] Sg2ExPcmInputAutoFilterCtrl
+  000011f9
+  0002e8c8
+  0000003c
+  00010012
+ [286] gpMainCallCounter
+  00001215
+  00000640
+  00000004
+  00050011
+ [287] sceSifQueryMaxFreeMemSize
+  00001227
+  0010e158
+  00000070
+  fff10012
+ [288] EndTimer
+  00001241
+  00110688
+  000000b8
+  fff10012
+ [289] iosMulCurrentMatrixL
+  0000124a
+  0000c3e0
+  00000058
+  00010012
+ [290] checkHookDesc
+  0000125f
+  00103300
+  0000003c
+  fff10012
+ [291] _ratio
+  0000126d
+  0012f7c0
+  000000cc
+  fff10012
+ [292] LoaderSysPrintf
+  00001274
+  00102cf8
+  00000074
+  fff10012
+ [293] __make_fp
+  00001284
+  001271a8
+  0000002c
+  fff10012
+ [294] iTerminateThread
+  0000128e
+  00106f40
+  00000010
+  fff10012
+ [295] Sg2SmfpPause
+  0000129f
+  0002b358
+  0000007c
+  00010012
+ [296] RelocateSelfSymbol
+  000012ac
+  001018b8
+  00000098
+  fff10012
+ [297] _gp
+  000012bf
+  00141e70
+  00000004
+  fff10011
+ [298] sceCdNcmdDiskReady
+  000012c3
+  00117800
+  00000098
+  fff10012
+ [299] iosSetVSchedulerFunc
+  000012d6
+  000163e8
+  00000010
+  00010012
+ [300] ModuleStackStart
+  000012eb
+  0013a114
+  00000004
+  fff10011
+ [301] sceDmaRecvI
+  000012fc
+  00114f68
+  00000080
+  fff10012
+ [302] EnableDmacHandler
+  00001308
+  001072e0
+  00000010
+  fff10012
+ [303] iosDmaSendSChainPath2
+  0000131a
+  00015950
+  000000d4
+  00010012
+ [304] iosGetRandomVector
+  00001330
+  00011c98
+  0000001c
+  00010012
+ [305] TimerBusClock2USec
+  00001343
+  00111658
+  000000a8
+  fff10012
+ [306] sceDbcSRData
+  00001356
+  00116668
+  0000018c
+  fff10012
+ [307] _s2b
+  00001363
+  0012eac8
+  00000130
+  fff10012
+ [308] XUnitPointInv
+  00001368
+  00000520
+  00000010
+  00050011
+ [309] sceDbcSetWorkAddr
+  00001376
+  00115ed0
+  0000006c
+  fff10012
+ [310] _i2b
+  00001388
+  0012ed38
+  00000038
+  fff10012
+ [311] Sg2ExPcmOutputBufferClear
+  0000138d
+  0002ea48
+  00000074
+  00010012
+ [312] iosGetSin
+  000013a7
+  00011620
+  0000003c
+  00010012
+ [313] get_vabid
+  000013b1
+  0002ca00
+  00000040
+  00010012
+ [314] getpid
+  000013bb
+  001121a0
+  00000008
+  fff10012
+ [315] sceCdInitEeCB
+  000013c2
+  00116f58
+  0000009c
+  fff10012
+ [316] iosIColToMvecSl
+  000013d0
+  0000d8c0
+  0000002c
+  00010012
+ [317] CreateSema
+  000013e0
+  001070e0
+  00000010
+  fff10012
+ [318] Sg2StPcmSetVolume
+  000013eb
+  0002f820
+  00000030
+  00010012
+ [319] _sceCd_ncmdrdata
+  000013fd
+  00133bc0
+  00000060
+  fff10011
+ [320] sceNetcnfifCreateCallbackThread
+  0000140e
+  00122310
+  000000c4
+  fff10012
+ [321] Sg2ExPcmOutputAutoFilterCtrl
+  0000142e
+  0002ed08
+  00000028
+  00010012
+ [322] isysJumpSubThread
+  0000144b
+  0001cf18
+  000000d8
+  00010012
+ [323] iosFree
+  0000145d
+  00003a18
+  00000044
+  00010012
+ [324] iosNetOpen
+  00001465
+  00005498
+  000000c4
+  00010012
+ [325] Sg2SepCont
+  00001470
+  00025568
+  000000b8
+  00010012
+ [326] iosPushCurrentMatrix
+  0000147b
+  0000bce0
+  00000018
+  00010012
+ [327] sqrtf
+  00001490
+  00030578
+  00000014
+  00010012
+ [328] Sg2ExStAdpcmGetBuffer
+  00001496
+  00020248
+  00000028
+  00010012
+ [329] ShockVoiceSetCommon
+  000014ac
+  0000036c
+  00000004
+  00050011
+ [330] Sg2SlotSetTimeVolParam
+  000014c0
+  00029768
+  0000003c
+  00010012
+ [331] sceDmaWatch
+  000014d7
+  00115020
+  00000034
+  fff10012
+ [332] _sceMcCoreWriteBack
+  000014e3
+  00121798
+  00000138
+  fff10012
+ [333] iosAllocPacketPtrPath1
+  000014f7
+  00013068
+  00000024
+  00010012
+ [334] sceCdCbfunc_number
+  0000150e
+  00133ba4
+  00000004
+  fff10011
+ [335] sceVif1PkReset
+  00001521
+  00113188
+  00000010
+  fff10012
+ [336] getScreenOffsetX
+  00001530
+  00015510
+  0000000c
+  00010012
+ [337] sceMc2GetInfo
+  00001541
+  0011b868
+  0000003c
+  fff10012
+ [338] iosCubicBezierVectorXYZ
+  0000154f
+  0000b330
+  0000008c
+  00010012
+ [339] GetCurrentQuaternion
+  00001567
+  0000ece0
+  00000020
+  00010012
+ [340] LoaderSysFOpen
+  0000157c
+  00103008
+  00000014
+  fff10012
+ [341] RotCurrentQuaternionX
+  0000158b
+  0000ee28
+  00000084
+  00010012
+ [342] SetDrawEnvironment
+  000015a1
+  001068d0
+  000000c4
+  fff10012
+ [343] iosGPFrameInit
+  000015b4
+  00016320
+  00000070
+  00010012
+ [344] dpsub
+  000015c3
+  00125438
+  00000064
+  fff10012
+ [345] CopyMultiQuaternion
+  000015c9
+  0000f748
+  00000038
+  00010012
+ [346] sceSifExecNotifyHandler
+  000015dd
+  00111da8
+  000000a8
+  fff10012
+ [347] iosDlGetCreateAdrs
+  000015f5
+  000138b8
+  00000028
+  00010012
+ [348] Sg2SlotSetAdsr
+  00001608
+  00029208
+  00000050
+  00010012
+ [349] Sg2VabGetBdSize
+  00001617
+  0002cfe0
+  00000084
+  00010012
+ [350] iosFvecToICol
+  00001627
+  0000d878
+  00000048
+  00010012
+ [351] isceSifSendCmd
+  00001635
+  00112f40
+  0000003c
+  fff10012
+ [352] iPutTLBEntry
+  00001644
+  0010f5a0
+  00000010
+  fff10012
+ [353] SCE_CD_debug
+  00001651
+  00133b50
+  00000004
+  fff10011
+ [354] sceMc2FormatAsync
+  0000165e
+  0011a738
+  000000b0
+  fff10012
+ [355] Sg2SlotFindSlotClassChSsaBaseNote
+  00001670
+  00028bd8
+  00000074
+  00010012
+ [356] sceLseek
+  00001692
+  0010b2c8
+  0000023c
+  fff10012
+ [357] iReferSemaStatus
+  0000169b
+  00107160
+  00000010
+  fff10012
+ [358] ResolveRelocation
+  000016ac
+  001000d0
+  000001a4
+  fff10012
+ [359] iosMallocSetExecGarbageCallback
+  000016be
+  00003900
+  00000094
+  00010012
+ [360] setSoundMode
+  000016de
+  0001df80
+  0000002c
+  00010012
+ [361] SetVCommonHandler
+  000016eb
+  00106da0
+  00000010
+  fff10012
+ [362] DisableDmacHandler
+  000016fd
+  00107300
+  00000010
+  fff10012
+ [363] EnableDispatchThread
+  00001710
+  00106f60
+  00000010
+  fff10012
+ [364] Sg2StPcmStart
+  00001725
+  0002f7c0
+  00000030
+  00010012
+ [365] Sg2ExStAdpcmSetFd
+  00001733
+  0001fa08
+  0000000c
+  00010012
+ [366] SetCPUTimer
+  00001745
+  001073d0
+  00000010
+  fff10012
+ [367] Sg2SepStopSndOff
+  00001751
+  000253d8
+  000000b8
+  00010012
+ [368] memcpy
+  00001762
+  0012831c
+  000000b0
+  fff10012
+ [369] sceMc2CreateFileAsync
+  00001769
+  0011ad48
+  000000f8
+  fff10012
+ [370] isysGetSubThreadWorkSize
+  0000177f
+  0001cff0
+  00000008
+  00010012
+ [371] iosGetTCount
+  00001798
+  00000b78
+  00000014
+  00010012
+ [372] Sg2SlotVabKeyOffGroup
+  000017a5
+  00029bc8
+  00000144
+  00010012
+ [373] _sceMcpReadUserClustOnCache
+  000017bb
+  00120c90
+  00000140
+  fff10012
+ [374] LoaderSysFlushPrint
+  000017d7
+  001032f8
+  00000008
+  fff10012
+ [375] sceDmaRecv
+  000017eb
+  00114ea0
+  00000048
+  fff10012
+ [376] SetTexDrawEnvironment
+  000017f6
+  00106750
+  000000ac
+  fff10012
+ [377] _sceCd_cd_ncmd
+  0000180c
+  00134d10
+  00000028
+  fff10011
+ [378] iosCreateIopMgr
+  0000181b
+  00000fb8
+  00000008
+  00010012
+ [379] iosMvecAllOne
+  0000182b
+  0000d230
+  00000010
+  00010012
+ [380] __infinity
+  00001839
+  00139e50
+  00000008
+  fff10011
+ [381] sndSepTickProc
+  00001844
+  0001d350
+  00000210
+  00010012
+ [382] key_value
+  00001853
+  0016a118
+  00000400
+  fff10011
+ [383] iosGetClock
+  0000185d
+  00000858
+  00000010
+  00010012
+ [384] isysGroupForExit
+  00001869
+  0001a428
+  000000d4
+  00010012
+ [385] sceVsnprintf
+  0000187a
+  00108f08
+  00000038
+  fff10012
+ [386] sceSifMExitRpc
+  00001887
+  00119ac8
+  00000030
+  fff10012
+ [387] sceSifCheckStatRpc
+  00001896
+  00109c80
+  0000003c
+  fff10012
+ [388] _cleanup_r
+  000018a9
+  0012dac0
+  0000001c
+  fff10012
+ [389] is_init_letter_called
+  000018b4
+  0001b0e8
+  00000008
+  00010012
+ [390] TimerUSec2BusClock
+  000018ca
+  00111700
+  00000070
+  fff10012
+ [391] YUnitPoint
+  000018dd
+  00000500
+  00000010
+  00050011
+ [392] Sg2SlotSetSsa
+  000018e8
+  00028d40
+  00000044
+  00010012
+ [393] iosResetDC
+  000018f6
+  00012798
+  000000c8
+  00010012
+ [394] getModuleSize
+  00001901
+  0000a070
+  0000000c
+  00010012
+ [395] LoaderSysCheckCDBootMode
+  0000190f
+  00102fe0
+  00000008
+  fff10012
+ [396] Sg2SlotSearchParam
+  00001928
+  00027628
+  000004b8
+  00010012
+ [397] __DTOR_END__
+  0000193b
+  001361d8
+  00000000
+  fff10011
+ [398] iosGetASin
+  00001948
+  00011938
+  0000000c
+  00010012
+ [399] MultiCurrentQuaternion
+  00001953
+  0000ed20
+  00000054
+  00010012
+ [400] iosGetACosf
+  0000196a
+  000116d8
+  00000084
+  00010012
+ [401] IdentityQuaternion
+  00001976
+  00000400
+  00000010
+  00050011
+ [402] iEnableIntc
+  00001989
+  00107710
+  00000020
+  fff10012
+ [403] sndVabHDOpen
+  00001995
+  0001daf0
+  00000058
+  00010012
+ [404] iosGetPacketPtrPath1
+  000019a2
+  00013008
+  00000048
+  00010012
+ [405] iDisableIntc
+  000019b7
+  00107730
+  00000020
+  fff10012
+ [406] iosInitRandom
+  000019c4
+  00011c28
+  00000020
+  00010012
+ [407] iosRotCurrentMatrixY
+  000019d2
+  0000c158
+  000000a4
+  00010012
+ [408] sceDbcSendData2
+  000019e7
+  00116928
+  000001b0
+  fff10012
+ [409] iosClampSW_AddMvec
+  000019f7
+  0000d280
+  0000003c
+  00010012
+ [410] iosIopRead
+  00001a0a
+  00000278
+  000001e4
+  00010012
+ [411] sndVabDelete
+  00001a15
+  0001dad8
+  00000014
+  00010012
+ [412] iosSetDC
+  00001a22
+  00012648
+  00000048
+  00010012
+ [413] iosGetRotYVector
+  00001a2b
+  0000c008
+  000000a4
+  00010012
+ [414] sceCdRead
+  00001a3c
+  00032dc8
+  000001e0
+  00010012
+ [415] Sg2SepPlaySelectCore
+  00001a46
+  00025108
+  00000218
+  00010012
+ [416] GetLimitationQuaternion
+  00001a5b
+  00010d40
+  00000104
+  00010012
+ [417] Sg2SlotSetLfoPitchDepth
+  00001a73
+  000293e0
+  000000a4
+  00010012
+ [418] GetQuaternionByAxisDirZX
+  00001a8b
+  0000fb18
+  000001ac
+  00010012
+ [419] spriteTexFast
+  00001aa4
+  000181b8
+  000005b8
+  00010012
+ [420] dpmul
+  00001ab2
+  001254a0
+  00000284
+  fff10012
+ [421] sceInetGetRoutingTable
+  00001ab8
+  00119000
+  00000098
+  fff10012
+ [422] iosSetDCViewPortCenter
+  00001acf
+  000125c0
+  00000084
+  00010012
+ [423] GetQuaternionByAxisDirZYExact
+  00001ae6
+  0000f928
+  000001f0
+  00010012
+ [424] AllocTimerCounter
+  00001b04
+  00110eb8
+  00000048
+  fff10012
+ [425] iosDebPcVsyncCounterCheck
+  00001b16
+  000007b8
+  00000008
+  00010012
+ [426] iosGetATan2fExact
+  00001b30
+  000118d0
+  00000068
+  00010012
+ [427] Sg2ExPcmInputGetLipFrame
+  00001b42
+  0002e520
+  00000028
+  00010012
+ [428] sceSifMCallRpc
+  00001b5b
+  0011a018
+  00000270
+  fff10012
+ [429] sce_call_rpc
+  00001b6a
+  00123360
+  00000090
+  fff10012
+ [430] Sg2RemoteGetDspChangeStatus
+  00001b77
+  00024ce8
+  00000018
+  00010012
+ [431] _isysCreateSubMsgQueue
+  00001b93
+  0001c270
+  00000018
+  00010012
+ [432] isysAddGroupWithLinkParamNoWait
+  00001baa
+  0001a2d8
+  00000014
+  00010012
+ [433] loaderThreadJumpCode
+  00001bca
+  00100af4
+  00000000
+  fff10010
+ [434] malloc
+  00001bdf
+  00127868
+  00000054
+  fff10012
+ [435] iosSetSyncNoReturnFunc
+  00001be6
+  00015db8
+  00000010
+  00010012
+ [436] _printf_r
+  00001bfd
+  00128660
+  0000005c
+  fff10012
+ [437] LoaderSysUnloadIopModuleByName
+  00001c07
+  00103d88
+  00000104
+  fff10012
+ [438] RFU000_FullReset
+  00001c26
+  00106cc0
+  00000010
+  fff10012
+ [439] isatty
+  00001c37
+  00112180
+  00000008
+  fff10012
+ [440] iosNetClose
+  00001c3e
+  00005400
+  00000098
+  00010012
+ [441] _raise_r
+  00001c4a
+  00128878
+  000000d8
+  fff10012
+ [442] Sg2SlotSetLfoVolTbl
+  00001c53
+  00029488
+  00000044
+  00010012
+ [443] Shock_SetMotor
+  00001c67
+  00007658
+  0000015c
+  00010012
+ [444] SetCPUTimerHandler
+  00001c76
+  001073c0
+  00000010
+  fff10012
+ [445] sceMc2ChdirAsync
+  00001c89
+  0011b150
+  00000100
+  fff10012
+ [446] iosDefaultPadData
+  00001c9a
+  00000270
+  000000f0
+  00050011
+ [447] _isysRecvSubMsg
+  00001cac
+  0001c288
+  0000006c
+  00010012
+ [448] Shock_Decode
+  00001cbc
+  00007528
+  0000012c
+  00010012
+ [449] get_letter_type
+  00001cc9
+  0001b6b8
+  00000030
+  00010012
+ [450] __mprec_tens
+  00001cd9
+  00139c60
+  000000c8
+  fff10011
+ [451] OutputLinkerScriptFile
+  00001ce6
+  00100590
+  000004c4
+  fff10012
+ [452] iosCdInit
+  00001cfd
+  00000748
+  00000060
+  00010012
+ [453] sceGsSyncV
+  00001d07
+  00113c60
+  00000094
+  fff10012
+ [454] LoaderSysLoadIopModuleFromEEBuffer
+  00001d12
+  00102d70
+  0000026c
+  fff10012
+ [455] iosMmColToSWMvec
+  00001d35
+  0000d700
+  00000028
+  00010012
+ [456] iosGetReflectVector
+  00001d46
+  00011d10
+  00000030
+  00010012
+ [457] _sceMcpMakeSpecoutBlock
+  00001d5a
+  00120ea0
+  00000174
+  fff10012
+ [458] iosPadGetXZInputLwithThreshold
+  00001d72
+  00005940
+  000001e4
+  00010012
+ [459] strtodf
+  00001d91
+  00130bf0
+  00000028
+  fff10012
+ [460] dptofp
+  00001d99
+  001259a0
+  00000054
+  fff10012
+ [461] Sg2SlotFindSlotClassChNote
+  00001da0
+  00028b70
+  00000068
+  00010012
+ [462] iosGetStabXYVector
+  00001dbb
+  00011e40
+  00000038
+  00010012
+ [463] Sg2CtrlRemoveTickProc
+  00001dce
+  0001ec40
+  000000b8
+  00010012
+ [464] sceGsResetPath
+  00001de4
+  00113630
+  00000068
+  fff10012
+ [465] iGetTLBEntry
+  00001df3
+  0010f610
+  00000010
+  fff10012
+ [466] sceNetcnfifFreeWorkarea
+  00001e00
+  00122ee0
+  00000034
+  fff10012
+ [467] iosInitDC
+  00001e18
+  00012860
+  0000001c
+  00010012
+ [468] sndSepPlayerSrh
+  00001e22
+  0001d6d0
+  00000084
+  00010012
+ [469] Sg2ExStAdpcmGetFd
+  00001e32
+  0001fa18
+  00000008
+  00010012
+ [470] iosCreatePrintMgr
+  00001e44
+  000060d8
+  00000008
+  00010012
+ [471] DisableDispatchThread
+  00001e56
+  00106f50
+  00000010
+  fff10012
+ [472] Init_Controler
+  00001e6c
+  00007478
+  0000000c
+  00010012
+ [473] __malloc_top_pad
+  00001e7b
+  00136178
+  00000008
+  fff10011
+ [474] getTextureAreaAddressFBP
+  00001e8c
+  000154d8
+  00000034
+  00010012
+ [475] sceDeci2Poll
+  00001ea5
+  001122c0
+  00000024
+  fff10012
+ [476] iGetTimerUsedUnusedCounters
+  00001eb2
+  00110ff0
+  00000050
+  fff10012
+ [477] _getpid_r
+  00001ece
+  00128ad0
+  00000014
+  fff10012
+ [478] SetPrimColorTex
+  00001ed8
+  00106ae8
+  0000016c
+  fff10012
+ [479] AddSbusIntcHandler
+  00001ee8
+  00106d60
+  00000010
+  fff10012
+ [480] iosPadChkConnect
+  00001efb
+  00005f90
+  00000028
+  00010012
+ [481] gsRegEnd
+  00001f0c
+  00016740
+  000001ec
+  00010012
+ [482] _sceMcCoreGetConnection
+  00001f15
+  00121f88
+  00000038
+  fff10012
+ [483] Sg2VabInit
+  00001f2d
+  0002d1e8
+  00000040
+  00010012
+ [484] strtoul
+  00001f38
+  00130e48
+  0000002c
+  fff10012
+ [485] sceSifRemoveRpc
+  00001f40
+  00109e28
+  00000094
+  fff10012
+ [486] InitTLBFunctions
+  00001f50
+  0010f4c8
+  000000c4
+  fff10012
+ [487] __mb_cur_max
+  00001f61
+  001361c8
+  00000004
+  fff10011
+ [488] Sg2SlotSetNoiseOnBit
+  00001f6e
+  00029eb8
+  00000064
+  00010012
+ [489] iosScaleCurrentMatrix
+  00001f83
+  0000c2a8
+  0000008c
+  00010012
+ [490] _localeconv_r
+  00001f99
+  0012e620
+  0000000c
+  fff10012
+ [491] iosLoaderFOpen
+  00001fa7
+  0000aa78
+  000000a0
+  00010012
+ [492] InitDld
+  00001fb6
+  000094d0
+  00000088
+  00010012
+ [493] sceCdReadIOPm
+  00001fbe
+  00032fa8
+  00000154
+  00010012
+ [494] getZBufferAddressTBP
+  00001fcc
+  00015460
+  0000001c
+  00010012
+ [495] initialElfInfo
+  00001fe1
+  00131d48
+  00000070
+  fff10011
+ [496] iFinish
+  00001ff0
+  00016510
+  00000038
+  00010012
+ [497] sceIoctl
+  00001ff8
+  0010ba38
+  00000388
+  fff10012
+ [498] push_back_letter_in_post
+  00002001
+  0001b4b0
+  00000094
+  00010012
+ [499] sceSifSetReg
+  0000201a
+  001074e0
+  00000010
+  fff10012
+ [500] iosSetIVSyncMode
+  00002027
+  0001aba8
+  0000000c
+  00010012
+ [501] sceCdPOffCallback
+  00002038
+  00117238
+  00000080
+  fff10012
+ [502] __sigtramp_r
+  0000204a
+  00128950
+  00000098
+  fff10012
+ [503] _sceMcCoreWriteSameData
+  00002057
+  00121d20
+  00000134
+  fff10012
+ [504] iosCreateIVArbitrationSema
+  0000206f
+  00012fb0
+  00000030
+  00010012
+ [505] GetQuaternionByAxisDirZY
+  0000208a
+  0000f780
+  000001a8
+  00010012
+ [506] sceMc2ReadFile
+  000020a3
+  0011b928
+  0000003c
+  fff10012
+ [507] iosGetDCGroup
+  000020b2
+  00012880
+  0000000c
+  00010012
+ [508] Deci2Call
+  000020c0
+  00107510
+  00000010
+  fff10012
+ [509] Sg2SlotFree
+  000020ca
+  00028860
+  00000030
+  00010012
+ [510] Sg2StAdpcmClose
+  000020d6
+  0002c7d8
+  0000002c
+  00010012
+ [511] SetLocate
+  000020e6
+  00106480
+  0000000c
+  fff10012
+ [512] isysGetSubThreadStackUse
+  000020f0
+  0001cff8
+  000000ac
+  00010012
+ [513] _sbrk_r
+  00002109
+  00128730
+  00000058
+  fff10012
+ [514] InitDebPc
+  00002111
+  000007d0
+  00000008
+  00010012
+ [515] Sg2StPcmInit
+  0000211b
+  0002f898
+  0000002c
+  00010012
+ [516] Sg2ExPcmOutputGetLipFrame
+  00002128
+  0002eba0
+  0000000c
+  00010012
+ [517] Sg2SlotSetSeMasVol
+  00002142
+  00028e98
+  00000058
+  00010012
+ [518] Sg2CtrlEntryTickProcById
+  00002155
+  0001ec00
+  00000040
+  00010012
+ [519] ReleaseAlarm
+  0000216e
+  00106e70
+  00000010
+  fff10012
+ [520] getDispBufferAddressTBP
+  0000217b
+  000153f0
+  00000008
+  00010012
+ [521] dch
+  00002193
+  00133ab0
+  00000028
+  fff10011
+ [522] __frame_state_for
+  00002197
+  00126e70
+  000001b8
+  fff10012
+ [523] Sg2ExPcmInputSetAutoFilterDirect
+  000021a9
+  0002e748
+  000000f0
+  00010012
+ [524] is_letter_reach_time
+  000021ca
+  0001b0c0
+  00000028
+  00010012
+ [525] __smakebuf
+  000021df
+  0012e678
+  00000154
+  fff10012
+ [526] sceDeci2Open
+  000021ea
+  00112220
+  00000044
+  fff10012
+ [527] dpcmp
+  000021f7
+  00125868
+  0000004c
+  fff10012
+ [528] InitIopDev
+  000021fd
+  0001e1d8
+  0000002c
+  00010012
+ [529] iosCubicBezier
+  00002208
+  0000b220
+  00000040
+  00010012
+ [530] _sceMcCoreDeleteSocket
+  00002217
+  00122148
+  00000068
+  fff10012
+ [531] iosCdSetMode
+  0000222e
+  00000638
+  00000030
+  00010012
+ [532] fabsf
+  0000223b
+  000303d8
+  00000028
+  00010012
+ [533] iosSyncGP
+  00002241
+  000160b8
+  000000fc
+  00010012
+ [534] _sceCd_c_cb_sem
+  0000224b
+  00133b74
+  00000004
+  fff10011
+ [535] _read_r
+  0000225b
+  00131318
+  00000060
+  fff10012
+ [536] symbolDefModuleGroup
+  00002263
+  00000390
+  00000004
+  00050011
+ [537] Sg2SlotSetLoop
+  00002278
+  00029290
+  00000028
+  00010012
+ [538] get_letter_receiver_data
+  00002287
+  0001b100
+  00000008
+  00010012
+ [539] LoaderSysEntryExternalSemaList
+  000022a0
+  001027e0
+  0000004c
+  fff10012
+ [540] iosAbsVector
+  000022bf
+  00011cf8
+  00000014
+  00010012
+ [541] vab_get_seseq
+  000022cc
+  0002cc58
+  000000c4
+  00010012
+ [542] iosSPrintf
+  000022da
+  00006010
+  00000054
+  00010012
+ [543] TimerBusClock2Freq
+  000022e5
+  00111770
+  00000054
+  fff10012
+ [544] sceGsSetDefDrawEnv
+  000022f8
+  00113698
+  000001e4
+  fff10012
+ [545] scePad2DeleteSocket
+  0000230b
+  001152b8
+  00000054
+  fff10012
+ [546] iosTransGP
+  0000231f
+  00016280
+  0000005c
+  00010012
+ [547] getProgressiveMode
+  0000232a
+  00015540
+  0000000c
+  00010012
+ [548] iosRotTransCurrentMatrix
+  0000233d
+  0000d1b0
+  00000060
+  00010012
+ [549] sceLibnetWaitGetInterfaceEvent
+  00002356
+  00119940
+  00000078
+  fff10012
+ [550] __unpack_d
+  00002375
+  001272b0
+  000000bc
+  fff10012
+ [551] Sg2SepPlay
+  00002380
+  000250f0
+  00000018
+  00010012
+ [552] PreparePowerOff
+  0000238b
+  00104f60
+  0000008c
+  fff10012
+ [553] SetQuaternionByAxisRotateVExact
+  0000239b
+  0000f1e0
+  00000040
+  00010012
+ [554] Sg2ExStAdpcmTrkVolumePercent
+  000023bb
+  0001fd50
+  0000009c
+  00010012
+ [555] sceMc2Mkdir
+  000023d8
+  0011ba68
+  0000003c
+  fff10012
+ [556] fflush
+  000023e4
+  0012d7d8
+  00000114
+  fff10012
+ [557] sceInetSend
+  000023eb
+  00118c48
+  000000b0
+  fff10012
+ [558] LoaderSysDeleteAllExternalThread
+  000023f7
+  00102b68
+  0000006c
+  fff10012
+ [559] __malloc_max_sbrked_mem
+  00002418
+  00136188
+  00000008
+  fff10011
+ [560] Sg2DspEffectSetSwitch
+  00002430
+  0001f228
+  00000024
+  00010012
+ [561] iosGetTCountExtension
+  00002446
+  00000b90
+  00000024
+  00010012
+ [562] ioskernel
+  0000245c
+  00006990
+  00000170
+  00010012
+ [563] Sg2ExStAdpcmCont
+  00002466
+  000200f0
+  00000024
+  00010012
+ [564] getDrawScreenWidth
+  00002477
+  00015340
+  0000000c
+  00010012
+ [565] LoaderSysInitExternalThreadList
+  0000248a
+  00102a40
+  0000003c
+  fff10012
+ [566] sceInetCtlGetState
+  000024aa
+  00119310
+  00000074
+  fff10012
+ [567] sceMc2Delete
+  000024bd
+  0011b9e8
+  0000003c
+  fff10012
+ [568] Sg2DspEffectSetDepth
+  000024ca
+  0001ef28
+  00000068
+  00010012
+ [569] SetOsdConfigParam2
+  000024df
+  001073e0
+  00000010
+  fff10012
+ [570] iGetTimerSystemTime
+  000024f2
+  00110d78
+  0000004c
+  fff10012
+ [571] Sg2ModMidiout1Exclusive
+  00002506
+  00020e88
+  000000a0
+  00010012
+ [572] sceNetcnfifAddEntry
+  0000251e
+  00122ab0
+  00000088
+  fff10012
+ [573] GetEulerYXZFromQuaternionZHalfPI
+  00002532
+  000103b8
+  00000124
+  00010012
+ [574] _iDisableDmac
+  00002553
+  00106eb0
+  00000010
+  fff10012
+ [575] sceSifSyncIop
+  00002561
+  0010f218
+  00000050
+  fff10012
+ [576] iosGsResizeRootDC
+  0000256f
+  00014b50
+  0000009c
+  00010012
+ [577] iosGetStabXZVector
+  00002581
+  00011bf0
+  00000038
+  00010012
+ [578] sceDevctl
+  00002594
+  0010d768
+  000002a8
+  fff10012
+ [579] iosChkGpDlTransExec
+  0000259e
+  000162e0
+  0000003c
+  00010012
+ [580] sceDbcGetDepNumber
+  000025b2
+  00116130
+  0000016c
+  fff10012
+ [581] _sceMcCoreReadPage
+  000025c5
+  00121b70
+  0000001c
+  fff10012
+ [582] iosRotMatrixY
+  000025d8
+  0000cef0
+  0000006c
+  00010012
+ [583] GetQuaternionByEulerXYZ
+  000025e6
+  00010910
+  00000218
+  00010012
+ [584] InitSubThread
+  000025fe
+  0001c378
+  0000001c
+  00010012
+ [585] __umoddi3
+  0000260c
+  00124728
+  00000568
+  fff10012
+ [586] lseek
+  00002616
+  001120c8
+  00000008
+  fff10012
+ [587] _isysSendSubMsg
+  0000261c
+  0001c2f8
+  0000007c
+  00010012
+ [588] isysDumpSubThreadPC
+  0000262c
+  0001d0f0
+  00000008
+  00010012
+ [589] iosGsInitDC
+  00002640
+  00015f88
+  0000003c
+  00010012
+ [590] sceDmaSendN
+  0000264c
+  00114db0
+  00000074
+  fff10012
+ [591] isceSifSetDma
+  00002658
+  001074b0
+  00000010
+  fff10012
+ [592] Sg2DspEffectSetEndAdr
+  00002666
+  0001ee58
+  00000064
+  00010012
+ [593] GetDifferencialQuaternionWithNoRegularize
+  0000267c
+  0000d968
+  0000019c
+  00010012
+ [594] Sg2StPcmStop
+  000026a6
+  0002f7f0
+  0000002c
+  00010012
+ [595] iosGetACosfExact
+  000026b3
+  00011800
+  00000054
+  00010012
+ [596] gsRegEndWithPtr
+  000026c4
+  00016930
+  000001fc
+  00010012
+ [597] _sceMcpWriteSysInfo
+  000026d4
+  001206e8
+  0000011c
+  fff10012
+ [598] FreeTimerCounter
+  000026e8
+  00110fa0
+  0000004c
+  fff10012
+ [599] _sceMcpWriteUserClust
+  000026f9
+  00120df0
+  0000001c
+  fff10012
+ [600] sceNetcnfifCheckSpecialProvider
+  0000270f
+  00122de0
+  00000088
+  fff10012
+ [601] _realloc_r
+  0000272f
+  00131378
+  000005a0
+  fff10012
+ [602] __kernel_sinf
+  0000273a
+  00032a40
+  00000104
+  00010012
+ [603] _Exit
+  00002748
+  00106d00
+  00000010
+  fff10012
+ [604] _iWakeupThread
+  0000274e
+  00107020
+  00000010
+  fff10012
+ [605] iosDlRelease
+  0000275d
+  00013740
+  00000094
+  00010012
+ [606] Sg2ExStAdpcmClose
+  0000276a
+  000207e8
+  000000d4
+  00010012
+ [607] InitMath
+  0000277c
+  0000b3c0
+  0000007c
+  00010012
+ [608] iosCdStStop
+  00002785
+  00000490
+  00000008
+  00010012
+ [609] GetStrHashWorkBuffer
+  00002791
+  0001e7f0
+  00000018
+  00010012
+ [610] Sg2SlotEnvTbl
+  000027a6
+  0002ac00
+  000000c8
+  00010012
+ [611] ProbeTLBEntry
+  000027b4
+  0010f620
+  00000010
+  fff10012
+ [612] _sceMcpWriteUserClustOnCache
+  000027c2
+  001208f8
+  00000394
+  fff10012
+ [613] _lo0bits
+  000027df
+  0012ec78
+  000000bc
+  fff10012
+ [614] iosAllocIopHeap
+  000027e8
+  0001dfb0
+  00000058
+  00010012
+ [615] LoaderSysDeleteAllExternalSema
+  000027f8
+  00102500
+  00000108
+  fff10012
+ [616] PushQuaternion
+  00002817
+  0000efc0
+  00000070
+  00010012
+ [617] Sg2SlotFindSlotClass
+  00002826
+  00028ac0
+  00000050
+  00010012
+ [618] sceMc2SearchFileAsync
+  0000283b
+  0011a958
+  00000100
+  fff10012
+ [619] YUnitVector
+  00002851
+  00000470
+  00000010
+  00050011
+ [620] control_change_ev
+  0000285d
+  00000b80
+  00000200
+  00050011
+ [621] __udivdi3
+  0000286f
+  001241a8
+  0000057c
+  fff10012
+ [622] LoaderSysLoadIopModule
+  00002879
+  00103cb8
+  000000d0
+  fff10012
+ [623] iosCreateIdleThread
+  00002890
+  00000800
+  00000058
+  00010012
+ [624] _InitAlarm
+  000028a4
+  00111800
+  0000004c
+  fff10012
+ [625] Sg2ModInit
+  000028af
+  00022300
+  0000007c
+  00010012
+ [626] eeRegInfo
+  000028ba
+  00131e80
+  00000200
+  fff10011
+ [627] __mprec_bigtens
+  000028c4
+  00139d28
+  00000028
+  fff10011
+ [628] Sg2SlotFreeSearchTerm
+  000028d4
+  00026a68
+  000003bc
+  00010012
+ [629] sceSifMBindRpc
+  000028ea
+  00119ce0
+  00000024
+  fff10012
+ [630] abort
+  000028f9
+  00127548
+  00000018
+  fff10012
+ [631] sceTtyWrite
+  000028ff
+  00112698
+  00000174
+  fff10012
+ [632] isysDeleteGroupAllObj
+  0000290b
+  00019a28
+  00000194
+  00010012
+ [633] RFU073
+  00002921
+  00107170
+  00000010
+  fff10012
+ [634] dptoul
+  00002928
+  001259f8
+  000000a0
+  fff10012
+ [635] sceNetcnfifEditEntry
+  0000292f
+  00122b38
+  000000a0
+  fff10012
+ [636] Sg2ExStAdpcmGetUserParam
+  00002944
+  0001fa60
+  00000008
+  00010012
+ [637] iosGetCosf
+  0000295d
+  00011498
+  00000118
+  00010012
+ [638] getSpriteDrawFirst
+  00002968
+  000187b8
+  0000000c
+  00010012
+ [639] InitTableSinCos
+  0000297b
+  00011a18
+  00000118
+  00010012
+ [640] scePrintf
+  0000298b
+  00108ff8
+  00000080
+  fff10012
+ [641] __mcmp
+  00002995
+  0012f1d8
+  00000068
+  fff10012
+ [642] resetArcFuncCall
+  0000299c
+  00011958
+  00000024
+  00010012
+ [643] sceGsPutIMR
+  000029ad
+  00032d28
+  0000003c
+  00010012
+ [644] Sg2SlotSetTimePanParam
+  000029b9
+  000297e8
+  0000003c
+  00010012
+ [645] spriteNoTexFast
+  000029d0
+  00017d80
+  00000434
+  00010012
+ [646] Sg2SlotSetNoiseOffBit
+  000029e0
+  00029f20
+  0000006c
+  00010012
+ [647] scePad2Init
+  000029f6
+  00115108
+  00000040
+  fff10012
+ [648] Sg2ExPcmInputOpen
+  00002a02
+  0002e388
+  00000070
+  00010012
+ [649] isysWriteLinkerScriptFile
+  00002a14
+  0000a700
+  0000004c
+  00010012
+ [650] iosDlPopLayer
+  00002a2e
+  00012d20
+  000000f0
+  00010012
+ [651] iosIColToFvec
+  00002a3c
+  0000d8f0
+  00000048
+  00010012
+ [652] SCREEN_WIDTH
+  00002a4a
+  0013a230
+  00000004
+  fff10011
+ [653] iosSubMvec
+  00002a57
+  0000d300
+  0000003c
+  00010012
+ [654] _sceCdSC
+  00002a62
+  00117b00
+  000000b0
+  fff10012
+ [655] iosGetSinCos
+  00002a6b
+  000115e0
+  0000003c
+  00010012
+ [656] iosDlTransNow
+  00002a78
+  00013908
+  0000005c
+  00010012
+ [657] isysSearchModuleFuncNameByAddr
+  00002a86
+  00009628
+  00000150
+  00010012
+ [658] isysWakeupSubThread
+  00002aa5
+  0001c590
+  0000076c
+  00010012
+ [659] iosChangeThreadPriority
+  00002ab9
+  00006830
+  00000048
+  00010012
+ [660] SetHeapStartPoint
+  00002ad1
+  00101a30
+  00000014
+  fff10012
+ [661] iosDeleteSema
+  00002ae3
+  00000aa0
+  00000028
+  00010012
+ [662] __ieee754_acosf
+  00002af1
+  000308b0
+  00000424
+  00010012
+ [663] iosGetXDirXYZFromMatrix
+  00002b01
+  0000d180
+  00000014
+  00010012
+ [664] _sceMcCoreBlockErase
+  00002b19
+  00121e58
+  00000130
+  fff10012
+ [665] GetOsdConfigParam
+  00002b2e
+  00107190
+  00000010
+  fff10012
+ [666] iStart
+  00002b40
+  000164e8
+  00000028
+  00010012
+ [667] _sceCd_cd_read_intr
+  00002b47
+  00116ff8
+  000000b8
+  fff10012
+ [668] iosFTOI12Vector
+  00002b5b
+  00011b48
+  00000014
+  00010012
+ [669] iosGetMallocPtn
+  00002b6b
+  00003c20
+  00000028
+  00010012
+ [670] sceMc2GetEntSpaceAsync
+  00002b7b
+  0011b470
+  000000e8
+  fff10012
+ [671] _InitTLB
+  00002b92
+  00107550
+  00000010
+  fff10012
+ [672] Sg2ExStAdpcmTickProc
+  00002b9b
+  000208c0
+  0000005c
+  00010012
+ [673] systemcommon_ev
+  00002bb0
+  00000df8
+  00000080
+  00050011
+ [674] sceDbcSearchPortSpecific
+  00002bc0
+  001165a8
+  000000c0
+  fff10012
+ [675] IirInit
+  00002bd9
+  0002f560
+  0000001c
+  00010012
+ [676] sceNetcnfifDeleteEntry
+  00002be1
+  00122bd8
+  0000007c
+  fff10012
+ [677] InitExecPS2
+  00002bf8
+  00110000
+  000000ac
+  fff10012
+ [678] strtol
+  00002c04
+  00129900
+  0000002c
+  fff10012
+ [679] SetAlarm
+  00002c0b
+  00106e60
+  00000010
+  fff10012
+ [680] scePad2End
+  00002c14
+  00115148
+  00000068
+  fff10012
+ [681] sceSifRebootIop
+  00002c1f
+  0010f268
+  00000110
+  fff10012
+ [682] iosIColAddVecXYZ
+  00002c2f
+  0000d5a0
+  00000074
+  00010012
+ [683] Sg2DmaTransVoice
+  00002c40
+  0001ee08
+  0000002c
+  00010012
+ [684] sceSifStopDma
+  00002c51
+  001073b0
+  00000010
+  fff10012
+ [685] cosf
+  00002c5f
+  00030300
+  000000d4
+  00010012
+ [686] iosAllocPacketPtrPath1UnCachedA
+  00002c64
+  000138e0
+  00000028
+  00010012
+ [687] sceSifGetNextRequest
+  00002c84
+  00109f50
+  00000058
+  fff10012
+ [688] iGetTimerCount
+  00002c99
+  00111420
+  0000006c
+  fff10012
+ [689] SetOsdConfigParam
+  00002ca8
+  00107180
+  00000010
+  fff10012
+ [690] sceNetcnfifInit
+  00002cba
+  001222d0
+  00000040
+  fff10012
+ [691] entry_new_letter_type
+  00002cca
+  0001b640
+  0000003c
+  00010012
+ [692] DisableCache
+  00002ce0
+  00107340
+  00000010
+  fff10012
+ [693] LoaderSysPutString
+  00002ced
+  00102fe8
+  00000020
+  fff10012
+ [694] isysDumpExecutableModules
+  00002d00
+  00009778
+  00000068
+  00010012
+ [695] Sg2ExPcmInputSetPhase
+  00002d1a
+  0002e688
+  0000004c
+  00010012
+ [696] isysGroupForFirst
+  00002d30
+  00019d80
+  0000014c
+  00010012
+ [697] sceDeci2ReqSend
+  00002d42
+  00112290
+  00000030
+  fff10012
+ [698] iosMcWriteFile
+  00002d52
+  000043a0
+  000000f8
+  00010012
+ [699] _sceMcFatInit
+  00002d61
+  0011c238
+  00000060
+  fff10012
+ [700] iosAddMvec
+  00002d6f
+  0000d240
+  0000003c
+  00010012
+ [701] GetGsHParam
+  00002d7a
+  001071a0
+  00000010
+  fff10012
+ [702] _sceMcFatCreateFile
+  00002d86
+  0011eb78
+  0000058c
+  fff10012
+ [703] iosDlCheckSize
+  00002d9a
+  00013850
+  00000068
+  00010012
+ [704] sceVprintf
+  00002da9
+  00108f88
+  00000070
+  fff10012
+ [705] RFU080_CreateEventFlag
+  00002db4
+  001071e0
+  00000010
+  fff10012
+ [706] spReg
+  00002dcb
+  0013a180
+  00000004
+  fff10011
+ [707] iosCdStInit
+  00002dd1
+  00000668
+  000000dc
+  00010012
+ [708] sceDeci2GrpOpen
+  00002ddd
+  001122e8
+  00000030
+  fff10012
+ [709] dpdiv
+  00002ded
+  00125728
+  00000140
+  fff10012
+ [710] __register_frame_table
+  00002df3
+  001262a8
+  00000030
+  fff10012
+ [711] pan_tbl
+  00002e0a
+  00000a18
+  00000102
+  00050011
+ [712] all_soundoff
+  00002e12
+  00020c40
+  000000ac
+  00010012
+ [713] iosScaleColorTo255
+  00002e1f
+  00012038
+  00000020
+  00010012
+ [714] addAdpcmTickProcFunc
+  00002e32
+  0001def0
+  0000000c
+  00010012
+ [715] soundGetTickProcCnt
+  00002e47
+  0001df10
+  0000000c
+  00010012
+ [716] iCancelWakeupThread
+  00002e5b
+  00107040
+  00000010
+  fff10012
+ [717] __unpack_f
+  00002e6f
+  00127148
+  0000005c
+  fff10012
+ [718] sceMc2Rename
+  00002e7a
+  0011ba28
+  0000003c
+  fff10012
+ [719] litodp
+  00002e87
+  001258b8
+  000000b8
+  fff10012
+ [720] funcList
+  00002e8e
+  00132090
+  00000010
+  fff10011
+ [721] _sceCd_rd_intr_data
+  00002e97
+  00134c40
+  00000090
+  fff10011
+ [722] iosReleaseDC
+  00002eab
+  00012460
+  00000048
+  00010012
+ [723] sceNetcnfifSetup
+  00002eb8
+  00122228
+  000000a8
+  fff10012
+ [724] Sg2SmfpVabStopSndOff
+  00002ec9
+  0002b028
+  0000006c
+  00010012
+ [725] strrchr
+  00002ede
+  00129678
+  00000050
+  fff10012
+ [726] iosGetSinCosf
+  00002ee6
+  00011228
+  0000014c
+  00010012
+ [727] imemprintf
+  00002ef4
+  00104040
+  00000048
+  fff10012
+ [728] Sg2StAdpcmSetPitch
+  00002eff
+  0002c880
+  00000068
+  00010012
+ [729] iosWaitMalloc
+  00002f12
+  00003600
+  0000001c
+  00010012
+ [730] getDrawBufferAddressFBP
+  00002f20
+  00015430
+  00000030
+  00010012
+ [731] Sg2ExStAdpcmVolumePercent
+  00002f38
+  0001fb70
+  000000b8
+  00010012
+ [732] sceLseek64
+  00002f52
+  0010d528
+  0000023c
+  fff10012
+ [733] ExitThread
+  00002f5d
+  00106f10
+  00000010
+  fff10012
+ [734] isysAddGroupRelativeWithLinkParam
+  00002f68
+  00019420
+  00000248
+  00010012
+ [735] ZUnitPointInv
+  00002f8a
+  00000540
+  00000010
+  00050011
+ [736] setCop0Epc
+  00002f98
+  001021d0
+  0000000c
+  fff10012
+ [737] sceSymlink
+  00002fa3
+  0010da10
+  000001f8
+  fff10012
+ [738] _sceMcCoreCheckNewCard
+  00002fae
+  001214d0
+  00000100
+  fff10012
+ [739] InvalidDCache
+  00002fc5
+  00131b00
+  0000007c
+  fff10012
+ [740] iosGetFontInfo
+  00002fd3
+  0001c1c8
+  0000008c
+  00010012
+ [741] LoaderSysGetstat
+  00002fe2
+  001030e0
+  00000014
+  fff10012
+ [742] iosPadTickProc
+  00002ff3
+  00005560
+  000001e4
+  00010012
+ [743] Sg2ExPcmCheckAutoFilterSeq
+  00003002
+  0002ed30
+  00000014
+  00010012
+ [744] iosGetFontDataWithJIS
+  0000301d
+  0001bcb0
+  00000098
+  00010012
+ [745] readEModule
+  00003033
+  0000a638
+  000000c8
+  00010012
+ [746] _isysDeleteGroup
+  0000303f
+  00019668
+  000001d8
+  00010012
+ [747] channel_ev
+  00003050
+  00000d80
+  00000078
+  00050011
+ [748] iWakeupThread
+  0000305b
+  00107958
+  00000094
+  fff10012
+ [749] iosSetDCParam
+  00003069
+  000124a8
+  00000028
+  00010012
+ [750] __kernel_cosf
+  00003077
+  00032088
+  00000150
+  00010012
+ [751] sceCdSyncS
+  00003085
+  00117938
+  0000006c
+  fff10012
+ [752] Sg2ExPcmInputSetVol
+  00003090
+  0002e5f8
+  00000044
+  00010012
+ [753] __floatdisf
+  000030a4
+  00124c90
+  000000e8
+  fff10012
+ [754] iosGetRandomVector0
+  000030b0
+  00011ce0
+  00000018
+  00010012
+ [755] sceLibnetTerminate
+  000030c4
+  00119450
+  00000080
+  fff10012
+ [756] sceInetRecv
+  000030d7
+  00118a70
+  000000c8
+  fff10012
+ [757] strtod
+  000030e3
+  00130bc8
+  00000024
+  fff10012
+ [758] Sg2DspEffectSetDepth2
+  000030ea
+  0001ef90
+  00000078
+  00010012
+ [759] Sg2DspEffectChange
+  00003100
+  0001f0c8
+  0000015c
+  00010012
+ [760] isinf
+  00003113
+  0012fab8
+  00000048
+  fff10012
+ [761] LoaderSysSendAbort
+  00003119
+  001032f0
+  00000008
+  fff10012
+ [762] iEnableIntcHandler
+  0000312c
+  001072b0
+  00000010
+  fff10012
+ [763] LoaderSysDeleteAllExternalIntcHandler
+  0000313f
+  00102438
+  000000c8
+  fff10012
+ [764] RFU084_ClearEventFlag
+  00003165
+  00107220
+  00000010
+  fff10012
+ [765] sceVif1PkCloseDirectCode
+  0000317b
+  001132f8
+  0000002c
+  fff10012
+ [766] iosSignalMalloc
+  00003194
+  00003620
+  0000001c
+  00010012
+ [767] isysRelocateModuleObj
+  000031a4
+  00009e68
+  00000068
+  00010012
+ [768] fin
+  000031ba
+  00000580
+  00000020
+  00050011
+ [769] _sceSDC
+  000031be
+  00131918
+  000000a4
+  fff10012
+ [770] Sg2SmfpStop
+  000031c6
+  0002b288
+  00000068
+  00010012
+ [771] write
+  000031d2
+  00111f98
+  0000007c
+  fff10012
+ [772] Sg2ExStAdpcmPlay
+  000031d8
+  00020030
+  00000078
+  00010012
+ [773] iosFTOI4Vector
+  000031e9
+  00011b60
+  00000014
+  00010012
+ [774] sceSifSetDma
+  000031f8
+  001074a0
+  00000010
+  fff10012
+ [775] Sg2SlotGetVolShiftDownParam
+  00003205
+  00029fc0
+  0000000c
+  00010012
+ [776] _sceCd_Read_cur_pos
+  00003221
+  00134d00
+  00000010
+  fff10011
+ [777] iosSprToMemDmaAdrCopy
+  00003235
+  00006170
+  00000064
+  00010012
+ [778] Sg2DspInit
+  0000324b
+  0001f330
+  0000003c
+  00010012
+ [779] getTextureAreaAddressTBP
+  00003256
+  000154a0
+  00000034
+  00010012
+ [780] ReleaseWaitThread
+  0000326f
+  00106fb0
+  00000010
+  fff10012
+ [781] Sg2ModSetParam
+  00003281
+  000217d8
+  00000a48
+  00010012
+ [782] atof
+  00003290
+  0012c308
+  00000018
+  fff10012
+ [783] sceMc2End
+  00003295
+  0011a430
+  000000d8
+  fff10012
+ [784] iosGetCnt1Pc
+  0000329f
+  000007c8
+  00000008
+  00010012
+ [785] sceInetName2Address
+  000032ac
+  00118750
+  000000bc
+  fff10012
+ [786] iosMmColToITOF15Mvec
+  000032c0
+  0000d750
+  00000028
+  00010012
+ [787] MoveElf
+  000032d5
+  00101190
+  00000238
+  fff10012
+ [788] IirParam
+  000032dd
+  0002f580
+  00000100
+  00010012
+ [789] sceDmaRecvN
+  000032e6
+  00114ee8
+  0000007c
+  fff10012
+ [790] DisableIntcHandler
+  000032f2
+  001072c0
+  00000010
+  fff10012
+ [791] _execProgWithThread
+  00003305
+  00101cc8
+  000000c8
+  fff10012
+ [792] GetTimerPreScaleFactor
+  00003319
+  00110740
+  0000002c
+  fff10012
+ [793] gsReglistEnd
+  00003330
+  00016c18
+  00000264
+  00010012
+ [794] iosDmaSendPath1
+  0000333d
+  000155c0
+  000000e4
+  00010012
+ [795] fstat
+  0000334d
+  00112188
+  00000014
+  fff10012
+ [796] iosWaitDMA
+  00003353
+  00016030
+  00000028
+  00010012
+ [797] Sg2StPcmSetEffect
+  0000335e
+  0002f850
+  0000002c
+  00010012
+ [798] get_letter_contents_data
+  00003370
+  0001b038
+  00000008
+  00010012
+ [799] sceVibSetActParam
+  00003389
+  00115a40
+  000000ec
+  fff10012
+ [800] _sceCd_scmd_semid
+  0000339b
+  00133b6c
+  00000004
+  fff10011
+ [801] debug_mod_config
+  000033ad
+  00022380
+  000002e0
+  00010012
+ [802] iChangeThreadPriority
+  000033be
+  00106f80
+  00000010
+  fff10012
+ [803] sceMc2CheckAsync
+  000033d4
+  0011b818
+  00000024
+  fff10012
+ [804] Sg2SepStop
+  000033e5
+  00025320
+  000000b8
+  00010012
+ [805] isysObjWaitSema
+  000033f0
+  0001a688
+  00000074
+  00010012
+ [806] kill
+  00003400
+  001121a8
+  00000028
+  fff10012
+ [807] _sceMcpInit
+  00003405
+  00120538
+  00000034
+  fff10012
+ [808] sceDmaRestart
+  00003411
+  001150f0
+  00000014
+  fff10012
+ [809] _sceMcpReadUserClust
+  0000341f
+  00120dd0
+  0000001c
+  fff10012
+ [810] init_letter_manager
+  00003434
+  0001b268
+  00000038
+  00010012
+ [811] padsysInit
+  00003448
+  00104df8
+  0000007c
+  fff10012
+ [812] scePad2Read
+  00003453
+  00115310
+  000000d4
+  fff10012
+ [813] SetGsHParam
+  0000345f
+  001071c0
+  00000010
+  fff10012
+ [814] sceMc2WriteFile
+  0000346b
+  0011b968
+  0000003c
+  fff10012
+ [815] XUnitPoint
+  0000347b
+  000004f0
+  00000010
+  00050011
+ [816] sceMc2Chdir
+  00003486
+  0011baa8
+  0000003c
+  fff10012
+ [817] strcat
+  00003492
+  00128cb0
+  0000012c
+  fff10012
+ [818] Sg2SlotInit
+  00003499
+  0002a988
+  000001ac
+  00010012
+ [819] iosIColScale
+  000034a5
+  0000d490
+  000000b0
+  00010012
+ [820] sceMc2Format
+  000034b2
+  0011b8a8
+  0000003c
+  fff10012
+ [821] iosTransposeMatrix
+  000034bf
+  0000c898
+  00000048
+  00010012
+ [822] Sg2SlotSetLfoVolDepth
+  000034d2
+  00029620
+  00000148
+  00010012
+ [823] iosPadGetXZInputL
+  000034e8
+  00005748
+  000001f4
+  00010012
+ [824] sceInetCreate
+  000034fa
+  00118970
+  00000070
+  fff10012
+ [825] isysInitSubThreadExecEnv
+  00003508
+  0001c398
+  00000058
+  00010012
+ [826] isysDeleteAllGroup
+  00003521
+  00019bc0
+  000001bc
+  00010012
+ [827] iosGetMallocRootPtnRemainSize
+  00003534
+  00003c48
+  00000010
+  00010012
+ [828] sceDmaReset
+  00003552
+  00114a40
+  000000dc
+  fff10012
+ [829] Sg2RemoteGetPcmStmTransOffset
+  0000355e
+  00024cc0
+  0000000c
+  00010012
+ [830] is_hope_letter_type
+  0000357c
+  0001b028
+  00000010
+  00010012
+ [831] SetTextureWithFrameBuffer
+  00003590
+  00106688
+  000000c8
+  fff10012
+ [832] _sceMcpGetCardSpec
+  000035aa
+  00120570
+  0000001c
+  fff10012
+ [833] __ieee754_asinf
+  000035bd
+  00030cd8
+  000003a0
+  00010012
+ [834] All1Vector
+  000035cd
+  000004a0
+  00000010
+  00050011
+ [835] sceDbcEnd
+  000035d8
+  00115e28
+  00000048
+  fff10012
+ [836] iosGetFontDataWithSJIS
+  000035e2
+  0001bd48
+  00000124
+  00010012
+ [837] sceGsGetIMR
+  000035f9
+  00032d68
+  0000001c
+  00010012
+ [838] GetQuaternionAxisRotInfo
+  00003605
+  000110f8
+  0000007c
+  00010012
+ [839] KSeg0
+  0000361e
+  00107320
+  00000010
+  fff10012
+ [840] Sg2SlotCheckSlotClass
+  00003624
+  00028890
+  00000058
+  00010012
+ [841] sceSifBindRpc
+  0000363a
+  001098a0
+  0000014c
+  fff10012
+ [842] sndVabInit
+  00003648
+  0001dcc0
+  00000034
+  00010012
+ [843] isysMoveModuleObj
+  00003653
+  00008310
+  00000134
+  00010012
+ [844] __deregister_frame_info
+  00003665
+  001262d8
+  000000bc
+  fff10012
+ [845] _DisableIntc
+  0000367d
+  00106e30
+  00000010
+  fff10012
+ [846] SetVSyncFlag
+  0000368a
+  00107450
+  00000010
+  fff10012
+ [847] sceGsSetDefAlphaEnv
+  00003697
+  00114120
+  0000005c
+  fff10012
+ [848] RFU089_ReferEventFlagStatus
+  000036ab
+  00107270
+  00000010
+  fff10012
+ [849] GsPutIMR
+  000036c7
+  00107420
+  00000010
+  fff10012
+ [850] ReinitDisp
+  000036d0
+  00105dd8
+  00000158
+  fff10012
+ [851] iosRotMatrixZ
+  000036db
+  0000cf60
+  0000006c
+  00010012
+ [852] RelocateCode
+  000036e9
+  001016e8
+  00000114
+  fff10012
+ [853] sceMc2CreateFile
+  000036f6
+  0011b9a8
+  0000003c
+  fff10012
+ [854] iosGetISchedulerExecCnt
+  00003707
+  0001ab10
+  0000000c
+  00010012
+ [855] Sg2RemoteSend
+  0000371f
+  00024b48
+  00000090
+  00010012
+ [856] LoaderSysInitTCP
+  0000372d
+  00104990
+  0000032c
+  fff10012
+ [857] sceCdChgSys
+  0000373e
+  00118458
+  00000024
+  fff10012
+ [858] __pack_f
+  0000374a
+  00127490
+  000000b4
+  fff10012
+ [859] iosGetFontIDWithJIS
+  00003753
+  0001bfc0
+  00000028
+  00010012
+ [860] MultiMatrixByQuaternion
+  00003767
+  0000f370
+  00000094
+  00010012
+ [861] iosDlChainHeadCurrent
+  0000377f
+  00013220
+  000000c8
+  00010012
+ [862] sceSifDmaStat
+  00003795
+  00107480
+  00000010
+  fff10012
+ [863] sceDeci2ExReqSend
+  000037a3
+  001123b0
+  00000030
+  fff10012
+ [864] scePad2CreateSocket
+  000037b5
+  001151b0
+  00000108
+  fff10012
+ [865] sceNetcnfifGetResult
+  000037c9
+  00122478
+  000000d0
+  fff10012
+ [866] __do_global_dtors
+  000037de
+  00124fb8
+  0000008c
+  fff10012
+ [867] sceNetcnfifGetList
+  000037f0
+  001225c0
+  0000008c
+  fff10012
+ [868] gbPtn
+  00003803
+  000000b4
+  00000004
+  00050011
+ [869] iosTransposeCurrentMatrix
+  00003809
+  0000c4a8
+  0000004c
+  00010012
+ [870] iosDlGetLayerNum
+  00003823
+  00013728
+  00000014
+  00010012
+ [871] _pow5mult
+  00003834
+  0012ef80
+  000000fc
+  fff10012
+ [872] sceDeci2Close
+  0000383e
+  00112268
+  00000024
+  fff10012
+ [873] Sg2SlotSetBendValue
+  0000384c
+  00029080
+  00000030
+  00010012
+ [874] sceSifFreeIopHeap
+  00003860
+  0010dfd8
+  0000001c
+  fff10012
+ [875] sceCdDiskReady_old
+  00003872
+  00117e98
+  00000218
+  fff10012
+ [876] iDisableDmac
+  00003885
+  00107770
+  00000020
+  fff10012
+ [877] sceNetcnfifSetEnv
+  00003892
+  00122f18
+  0000004c
+  fff10012
+ [878] fptodp
+  000038a4
+  00125140
+  0000003c
+  fff10012
+ [879] iosGetFontDataWithEUC
+  000038ab
+  0001be70
+  00000150
+  00010012
+ [880] GetCop0
+  000038c1
+  00107350
+  00000010
+  fff10012
+ [881] iosSystemSema
+  000038c9
+  000000a8
+  00000004
+  00050011
+ [882] sceSifSetIopAddr
+  000038d7
+  0010efb8
+  000000dc
+  fff10012
+ [883] iAllocTimerCounter
+  000038e8
+  00110e48
+  00000070
+  fff10012
+ [884] __CTOR_LIST__
+  000038fb
+  001361cc
+  00000000
+  fff10011
+ [885] execProgWithThread
+  00003909
+  00101d90
+  0000012c
+  fff10012
+ [886] GetQuaternionFromMatrix
+  0000391c
+  0000f710
+  00000034
+  00010012
+ [887] sceNetcnfifLoadEntryAuto
+  00003934
+  001226e8
+  000003c4
+  fff10012
+ [888] sceVif1PkAddGsData
+  0000394d
+  00113468
+  00000028
+  fff10012
+ [889] Sg2SmfpInit
+  00003960
+  0002bcb0
+  00000084
+  00010012
+ [890] Sg2SlotTickProc
+  0000396c
+  00029fd0
+  000009b8
+  00010012
+ [891] waitVscheduler
+  0000397c
+  0001aa08
+  00000024
+  00010012
+ [892] iosJumpRecoverPoint
+  0000398b
+  00006b00
+  00000078
+  00010012
+ [893] sceSifStopModule
+  0000399f
+  0010e708
+  00000208
+  fff10012
+ [894] Sg2SlotSetReverbOffBit
+  000039b0
+  00029e48
+  0000006c
+  00010012
+ [895] sceNetcnfifSendIOP
+  000039c7
+  00123208
+  00000050
+  fff10012
+ [896] Sg2SlotGetPan
+  000039da
+  000298a8
+  00000020
+  00010012
+ [897] isysSearchModuleSymbolByGroup
+  000039e8
+  000097e0
+  00000170
+  00010012
+ [898] memchr
+  00003a06
+  0012e804
+  000000e0
+  fff10012
+ [899] isysLaunchExecModule
+  00003a0d
+  00009b48
+  0000004c
+  00010012
+ [900] isysGetSubThreadStackSize
+  00003a22
+  0001d0a8
+  00000044
+  00010012
+ [901] sceFsSetIopPrio
+  00003a3c
+  0010add0
+  000000f0
+  fff10012
+ [902] _sprintf_r
+  00003a4c
+  00128ae8
+  00000088
+  fff10012
+ [903] gsBoxLine
+  00003a57
+  00017868
+  00000518
+  00010012
+ [904] sceSifInitRpc
+  00003a61
+  001090f8
+  0000019c
+  fff10012
+ [905] LoaderSysGetBootArg
+  00003a6f
+  00103ca8
+  0000000c
+  fff10012
+ [906] GetTimerBaseTime
+  00003a83
+  001113d0
+  0000004c
+  fff10012
+ [907] Exit
+  00003a94
+  001102d8
+  00000028
+  fff10012
+ [908] Sg2ModOpenBgm
+  00003a99
+  000213d0
+  000001cc
+  00010012
+ [909] _free_r
+  00003aa7
+  0012dcb0
+  000002f4
+  fff10012
+ [910] iosGetExceptAxisVector
+  00003aaf
+  00011f90
+  00000054
+  00010012
+ [911] vab_get_splitchunk
+  00003ac6
+  0002ce68
+  00000014
+  00010012
+ [912] isysGetGroupSrhNext
+  00003ad9
+  0001a650
+  00000038
+  00010012
+ [913] sceSifSetDChain
+  00003aed
+  001074c0
+  00000010
+  fff10012
+ [914] sceLibnetRegisterHandler
+  00003afd
+  001194d0
+  00000040
+  fff10012
+ [915] __loader_version_id__
+  00003b16
+  00131cac
+  00000000
+  fff10011
+ [916] SetDebugHandler
+  00003b2c
+  0010f3d8
+  00000084
+  fff10012
+ [917] Sg2ExStAdpcmStopMode
+  00003b3c
+  0001f3d0
+  0000000c
+  00010012
+ [918] sceSifGetIopAddr
+  00003b51
+  0010eec8
+  000000ec
+  fff10012
+ [919] gsReg
+  00003b62
+  00018770
+  00000048
+  00010012
+ [920] iosSetDCWithClear
+  00003b68
+  000128a0
+  0000005c
+  00010012
+ [921] GsGetIMR
+  00003b7a
+  00107400
+  00000010
+  fff10012
+ [922] StartTimerSystemTime
+  00003b83
+  00110770
+  00000090
+  fff10012
+ [923] LoaderSysRebootIop
+  00003b98
+  00103e98
+  0000008c
+  fff10012
+ [924] _sceMcCoreInit
+  00003bab
+  00121188
+  00000090
+  fff10012
+ [925] _sceMcFatGetDir
+  00003bba
+  0011fc48
+  0000051c
+  fff10012
+ [926] _sceMcCoreChangeSocketTypeMc2Dbc
+  00003bca
+  001221f8
+  00000030
+  fff10012
+ [927] Sg2SmfpOpen
+  00003beb
+  0002ada0
+  00000018
+  00010012
+ [928] Sg2ModMidiout1
+  00003bf7
+  00020e00
+  00000084
+  00010012
+ [929] iReleaseWaitThread
+  00003c06
+  00106fc0
+  00000010
+  fff10012
+ [930] GetGarbageTime
+  00003c19
+  0001abd8
+  0000000c
+  00010012
+ [931] iosLoaderFClose
+  00003c28
+  0000ab18
+  00000074
+  00010012
+ [932] mktime
+  00003c38
+  0002fcc8
+  00000294
+  00010012
+ [933] LoaderSysEntryExternalIopMemoryList
+  00003c3f
+  00102830
+  00000070
+  fff10012
+ [934] send_letter
+  00003c63
+  0001b2a0
+  0000003c
+  00010012
+ [935] __malloc_sbrk_base
+  00003c6f
+  00136180
+  00000004
+  fff10011
+ [936] iosGetTableCos
+  00003c82
+  000119d0
+  00000048
+  00010012
+ [937] _sceCd_cbLoop
+  00003c91
+  00116e88
+  000000d0
+  fff10012
+ [938] iosMcCreateFile
+  00003c9f
+  00004158
+  000000a8
+  00010012
+ [939] iosEE2IopRequest
+  00003caf
+  00000f40
+  00000070
+  00010012
+ [940] sceDbcDeleteSocket
+  00003cc0
+  00116070
+  000000bc
+  fff10012
+ [941] _checkExistString
+  00003cd3
+  00101b20
+  00000068
+  fff10012
+ [942] sceFsReset
+  00003ce5
+  0010ac58
+  00000034
+  fff10012
+ [943] GetThreadId
+  00003cf0
+  00106fd0
+  00000010
+  fff10012
+ [944] iGetTimerBaseTime
+  00003cfc
+  00111388
+  00000048
+  fff10012
+ [945] strstr
+  00003d0e
+  0002ff60
+  00000084
+  00010012
+ [946] iosMouseInit
+  00003d15
+  0001e780
+  00000028
+  00010012
+ [947] _sceMcCoreReadPage2
+  00003d22
+  001219d8
+  00000194
+  fff10012
+ [948] iosSetBGColor
+  00003d36
+  00015c30
+  000000dc
+  00010012
+ [949] Sg2SmfpStopSndOff
+  00003d44
+  0002b2f0
+  00000068
+  00010012
+ [950] get_letter_receiver_obj_group
+  00003d56
+  0001b0f8
+  00000008
+  00010012
+ [951] iosDlGetTransBufId
+  00003d74
+  000135b0
+  00000014
+  00010012
+ [952] Sg2ExPcmInputSetAutoFilter
+  00003d87
+  0002e838
+  0000008c
+  00010012
+ [953] iosFreeParts
+  00003da2
+  00003a60
+  00000070
+  00010012
+ [954] SetVInterruptHandler
+  00003daf
+  00106db0
+  00000010
+  fff10012
+ [955] Sg2SmfpPlay
+  00003dc4
+  0002b098
+  000001ec
+  00010012
+ [956] SetTimerHandler
+  00003dd0
+  001115d8
+  0000007c
+  fff10012
+ [957] getIntrGpCount
+  00003de0
+  000163c0
+  00000014
+  00010012
+ [958] signal
+  00003def
+  00128a08
+  00000024
+  fff10012
+ [959] read
+  00003df6
+  00112018
+  00000074
+  fff10012
+ [960] iosDlSwap
+  00003dfb
+  000133b0
+  00000108
+  00010012
+ [961] Sg2VabHdClose
+  00003e05
+  0002d128
+  000000c0
+  00010012
+ [962] sndSepInit
+  00003e13
+  0001da08
+  00000058
+  00010012
+ [963] LoadExecPS2
+  00003e1e
+  00110290
+  00000048
+  fff10012
+ [964] sceSifCallRpc
+  00003e2a
+  00109a80
+  00000200
+  fff10012
+ [965] sceSifGetSreg
+  00003e38
+  001129d0
+  00000018
+  fff10012
+ [966] Sg2ModOpenSe
+  00003e46
+  000215a0
+  000001cc
+  00010012
+ [967] TimerFreq2BusClock
+  00003e53
+  001117c8
+  00000034
+  fff10012
+ [968] Sg2DspEffectSetType
+  00003e66
+  0001eec0
+  00000064
+  00010012
+ [969] Sg2SlotSetKeyOffBit
+  00003e7a
+  00029d78
+  00000064
+  00010012
+ [970] iosDumpIVector
+  00003e8e
+  00011d48
+  00000008
+  00010012
+ [971] vab_set_semastervol
+  00003e9d
+  0002cf00
+  0000002c
+  00010012
+ [972] sceRename
+  00003eb1
+  0010ceb0
+  00000208
+  fff10012
+ [973] PushQuaternionWithNoCopy
+  00003ebb
+  0000f030
+  00000050
+  00010012
+ [974] _EnableDmac
+  00003ed4
+  00106e40
+  00000010
+  fff10012
+ [975] _kDebugHandler
+  00003ee0
+  00132770
+  00000040
+  fff10011
+ [976] Sg2StAdpcmIopReadAdr
+  00003eef
+  0002c988
+  00000014
+  00010012
+ [977] sceSync
+  00003f04
+  0010d0d8
+  000001ac
+  fff10012
+ [978] iosFTOI15Vector
+  00003f0c
+  00011b30
+  00000014
+  00010012
+ [979] SetT2_COMP
+  00003f1c
+  00110520
+  00000010
+  fff10012
+ [980] _sceMcFatInit2
+  00003f27
+  0011c298
+  00000068
+  fff10012
+ [981] iosInitMallocSystem
+  00003f36
+  00003bb0
+  0000006c
+  00010012
+ [982] sceSifQueryBlockTopAddress
+  00003f4a
+  0010e238
+  0000007c
+  fff10012
+ [983] sceCdSync
+  00003f65
+  00117898
+  000000a0
+  fff10012
+ [984] isysSleepSubThreadM
+  00003f6f
+  0001cee0
+  00000038
+  00010012
+ [985] sceMc2Chmod
+  00003f83
+  0011bb28
+  0000003c
+  fff10012
+ [986] Sg2ExPcmInputAutoFilterInit
+  00003f8f
+  0002e700
+  00000044
+  00010012
+ [987] strncmp
+  00003fab
+  00129300
+  000001b8
+  fff10012
+ [988] Sg2SlotSearchParamOlder0
+  00003fb3
+  00027ae0
+  000004c0
+  00010012
+ [989] RFU087_PollEvnetFlag
+  00003fcc
+  00107250
+  00000010
+  fff10012
+ [990] subThreadGroup
+  00003fe1
+  000009f0
+  00000004
+  00050011
+ [991] PutStringS
+  00003ff0
+  001059e0
+  00000080
+  fff10012
+ [992] scePad2GetButtonInfo
+  00003ffb
+  001155f8
+  000000e0
+  fff10012
+ [993] iProbeTLBEntry
+  00004010
+  0010f630
+  00000010
+  fff10012
+ [994] SetDrawnTextureEnvironment
+  0000401f
+  00106800
+  000000cc
+  fff10012
+ [995] Sg2SmfpCont
+  0000403a
+  0002b3d8
+  00000058
+  00010012
+ [996] iosResetPath
+  00004046
+  00015b00
+  0000005c
+  00010012
+ [997] ReleaseTimerAlarm
+  00004053
+  00111ad0
+  000000a8
+  fff10012
+ [998] RFU063
+  00004065
+  001070d0
+  00000010
+  fff10012
+ [999] sceSifInitIopHeap
+  0000406c
+  0010dde8
+  00000088
+  fff10012
+ [1000] gSceMc2SysInfo
+  0000407e
+  00135738
+  00000308
+  fff10011
+ [1001] sceCdLayerSearchFile
+  0000408d
+  00117388
+  000002fc
+  fff10012
+ [1002] iSuspendThread
+  000040a2
+  00107a70
+  00000098
+  fff10012
+ [1003] StartTimerCounter
+  000040b1
+  00111150
+  0000004c
+  fff10012
+ [1004] init_letter_type_store
+  000040c3
+  0001b680
+  00000034
+  00010012
+ [1005] iosiWakeupThread
+  000040da
+  00006818
+  00000018
+  00010012
+ [1006] InitQuaternionDrive
+  000040eb
+  0000f0a0
+  0000001c
+  00010012
+ [1007] sceRmdir
+  000040ff
+  0010c330
+  0000001c
+  fff10012
+ [1008] padSysReadForLoader
+  00004108
+  00104e98
+  0000005c
+  fff10012
+ [1009] SetT2
+  0000411c
+  00110490
+  00000070
+  fff10012
+ [1010] vab_get_info
+  00004122
+  0002cc18
+  0000003c
+  00010012
+ [1011] iosMakeLightColorMatrix
+  0000412f
+  0000cc40
+  00000034
+  00010012
+ [1012] sceLibnetSetConfiguration
+  00004147
+  00119550
+  00000044
+  fff10012
+ [1013] iosGet2ByteCharCode
+  00004161
+  0001c258
+  00000014
+  00010012
+ [1014] sceMc2MkdirAsync
+  00004175
+  0011b058
+  000000f8
+  fff10012
+ [1015] FreeDecodedSection
+  00004186
+  00101800
+  000000b8
+  fff10012
+ [1016] strncpy
+  00004199
+  001294b8
+  000001bc
+  fff10012
+ [1017] unlink
+  000041a1
+  001121f8
+  00000028
+  fff10012
+ [1018] _sceCd_scmd_prechk
+  000041a8
+  001179a8
+  00000158
+  fff10012
+ [1019] __malloc_current_mallinfo
+  000041bb
+  00136198
+  00000028
+  fff10011
+ [1020] sceSifExitCmd
+  000041d5
+  00112c98
+  00000034
+  fff10012
+ [1021] sceInetSendTo
+  000041e3
+  00118cf8
+  000000e4
+  fff10012
+ [1022] iosDlChainTailCurrent
+  000041f1
+  000132e8
+  000000c8
+  00010012
+ [1023] StopTimerCounter
+  00004207
+  00111268
+  0000004c
+  fff10012
+ [1024] isceGsPutIMR
+  00004218
+  00032d88
+  0000003c
+  00010012
+ [1025] iosUsedPacketBufferSize
+  00004225
+  00012f38
+  00000074
+  00010012
+ [1026] iosSetDCViewPort
+  0000423d
+  00012510
+  000000ac
+  00010012
+ [1027] all_soundpause
+  0000424e
+  00020cf0
+  00000088
+  00010012
+ [1028] __sfvwrite
+  0000425d
+  0012e118
+  000003e0
+  fff10012
+ [1029] EnableIntc
+  00004268
+  001075d8
+  00000068
+  fff10012
+ [1030] SCREEN_HEIGHT
+  00004273
+  0013a234
+  00000004
+  fff10011
+ [1031] LoaderSysGetMemoryInfo
+  00004281
+  00103110
+  00000148
+  fff10012
+ [1032] Sg2SepAllStopSndOff
+  00004298
+  00025690
+  00000040
+  00010012
+ [1033] ExecOSD
+  000042ac
+  00110300
+  0000004c
+  fff10012
+ [1034] Sg2SlotTbl
+  000042b4
+  0002ab38
+  000000c4
+  00010012
+ [1035] isysDeleteSubThread
+  000042bf
+  0001c478
+  00000068
+  00010012
+ [1036] Sg2SlotSetBasePan
+  000042d3
+  00028fd8
+  00000058
+  00010012
+ [1037] debug_smfp_mod_config
+  000042e5
+  0002bd38
+  000002e4
+  00010012
+ [1038] soundTickProcCnt
+  000042fb
+  000009fc
+  00000004
+  00050011
+ [1039] _iosPushDC
+  0000430c
+  00012900
+  00000080
+  00010012
+ [1040] iosDumpMatrix
+  00004317
+  0000cfd0
+  0000014c
+  00010012
+ [1041] FlushCache
+  00004325
+  00107360
+  00000010
+  fff10012
+ [1042] iosGetClockSecond
+  00004330
+  00000868
+  00000070
+  00010012
+ [1043] Sg2SepCheckSndOn
+  00004342
+  00025700
+  00000040
+  00010012
+ [1044] iosGetRootDC
+  00004353
+  00012738
+  0000000c
+  00010012
+ [1045] get_next_letter_in_post
+  00004360
+  0001b460
+  00000024
+  00010012
+ [1046] sndBDClose
+  00004378
+  0001dcb8
+  00000008
+  00010012
+ [1047] iosNetRecv
+  00004383
+  00005020
+  00000128
+  00010012
+ [1048] Init_Shock
+  0000438e
+  00007340
+  000000c0
+  00010012
+ [1049] _sceMcCoreReadClock
+  00004399
+  001218d0
+  00000104
+  fff10012
+ [1050] SetQuaternionByAxisRotateV
+  000043ad
+  0000f198
+  00000048
+  00010012
+ [1051] PSMode
+  000043c8
+  00107520
+  00000010
+  fff10012
+ [1052] GetYRotQuaternionFromDir
+  000043cf
+  0000fd70
+  0000006c
+  00010012
+ [1053] sceSifMInitRpc
+  000043e8
+  001199b8
+  000000e8
+  fff10012
+ [1054] getMemorySafetyLockFlag
+  000043f7
+  00003da8
+  0000000c
+  00010012
+ [1055] _strtoul_r
+  0000440f
+  00130c18
+  0000022c
+  fff10012
+ [1056] RotCurrentQuaternionY
+  0000441a
+  0000eeb0
+  00000084
+  00010012
+ [1057] iosNetRecvMsg
+  00004430
+  00004d08
+  000001a4
+  00010012
+ [1058] Sg2ExPcmOutputSetAutoFilterDirect
+  0000443e
+  0002ebd0
+  000000c8
+  00010012
+ [1059] iosCubicInterVectorXYZ
+  00004460
+  0000b260
+  00000064
+  00010012
+ [1060] Sg2ExPcmOutputSetVol
+  00004477
+  0002eac0
+  00000014
+  00010012
+ [1061] Sg2StAdpcmQuit
+  0000448c
+  0002c9d0
+  0000002c
+  00010012
+ [1062] isysResolveAllModuleObjOfGroup
+  0000449b
+  0000a548
+  000000f0
+  00010012
+ [1063] _ExecOSD
+  000044ba
+  00107500
+  00000010
+  fff10012
+ [1064] sceDbcReceiveData
+  000044c3
+  00116c30
+  00000124
+  fff10012
+ [1065] g_pLetterMem
+  000044d5
+  000007dc
+  00000004
+  00050011
+ [1066] Sg2SlotFindVabCh
+  000044e2
+  00028980
+  0000005c
+  00010012
+ [1067] __fpcmp_parts_d
+  000044f3
+  00127370
+  00000120
+  fff10012
+ [1068] sceNetcnfifLoadEntry
+  00004503
+  00122650
+  00000098
+  fff10012
+ [1069] sceInetRecvFrom
+  00004518
+  00118b38
+  00000110
+  fff10012
+ [1070] Sg2SlotSetPan
+  00004528
+  00029030
+  00000030
+  00010012
+ [1071] iosSetDCClearParam
+  00004536
+  000124d0
+  00000040
+  00010012
+ [1072] iosFTOI0Vector
+  00004549
+  00011b78
+  00000014
+  00010012
+ [1073] iosCreateSema
+  00004558
+  00000a60
+  0000003c
+  00010012
+ [1074] iosTransTex
+  00004566
+  000187d0
+  0000029c
+  00010012
+ [1075] iosPushDC
+  00004572
+  00012690
+  00000054
+  00010012
+ [1076] sceLibnetWaitGetInterfaceID
+  0000457c
+  00119878
+  0000008c
+  fff10012
+ [1077] RFU005
+  00004598
+  00106d10
+  00000010
+  fff10012
+ [1078] _DisableDmac
+  0000459f
+  00106e50
+  00000010
+  fff10012
+ [1079] _close_r
+  000045ac
+  00131200
+  00000058
+  fff10012
+ [1080] get_reference_letter_type
+  000045b5
+  0001b0f0
+  00000008
+  00010012
+ [1081] LoaderSysFSeek64
+  000045cf
+  00103050
+  00000014
+  fff10012
+ [1082] Sg2ExPcmInputClose
+  000045e0
+  0002e3f8
+  0000008c
+  00010012
+ [1083] iInvalidDCache
+  000045f3
+  00131b80
+  00000014
+  fff10012
+ [1084] Sg2SepStatus
+  00004602
+  000256d0
+  00000030
+  00010012
+ [1085] LoaderSysFRead
+  0000460f
+  00103068
+  00000014
+  fff10012
+ [1086] VSync2
+  0000461e
+  00111ef0
+  000000a4
+  fff10012
+ [1087] isysObjSignalSema
+  00004625
+  0001a700
+  0000004c
+  00010012
+ [1088] _kTLBException
+  00004637
+  0010f8c0
+  0000011c
+  fff10012
+ [1089] iosCdStSkip
+  00004646
+  000005a8
+  00000020
+  00010012
+ [1090] sceGsGetGParam
+  00004652
+  00113620
+  0000000c
+  fff10012
+ [1091] _kExitTLBHandler
+  00004661
+  0010fa00
+  000000f4
+  fff10012
+ [1092] vab_get_veltbl
+  00004672
+  0002ce80
+  00000038
+  00010012
+ [1093] memcmp
+  00004681
+  00128288
+  00000094
+  fff10012
+ [1094] sceCdPowerOff
+  00004688
+  001182d0
+  000000b4
+  fff10012
+ [1095] Sg2ExPcmOutputSetOutputMode
+  00004696
+  0002eaf0
+  0000000c
+  00010012
+ [1096] dpadd
+  000046b2
+  001253e0
+  00000058
+  fff10012
+ [1097] iosCreateThreadS
+  000046b8
+  00006688
+  000000c4
+  00010012
+ [1098] iosRotMatrixX
+  000046c9
+  0000ce80
+  0000006c
+  00010012
+ [1099] _sceMcCoreSetWriteBackHole
+  000046d7
+  00121290
+  00000028
+  fff10012
+ [1100] getDispBufferAddressFBP
+  000046f2
+  000153f8
+  00000008
+  00010012
+ [1101] iosGetDRandomVector
+  0000470a
+  00011cb8
+  00000024
+  00010012
+ [1102] sceCdDiskReady
+  0000471e
+  001180b0
+  00000220
+  fff10012
+ [1103] isysGroupGetObjNumForce
+  0000472d
+  00019fd0
+  00000128
+  00010012
+ [1104] Sg2StPcmIopTransOffset
+  00004745
+  0002f880
+  00000014
+  00010012
+ [1105] Sg2RemoteTickProc
+  0000475c
+  00024d20
+  000001ec
+  00010012
+ [1106] iosMcUnformat
+  0000476e
+  000044e0
+  00000048
+  00010012
+ [1107] iosDlGetLayer
+  0000477c
+  000135f8
+  00000014
+  00010012
+ [1108] Sg2SepVabStopSndOff
+  0000478a
+  00025620
+  0000006c
+  00010012
+ [1109] soundSetRevMode
+  0000479e
+  0001df20
+  00000038
+  00010012
+ [1110] iosWaitGPFinish
+  000047ae
+  000163f8
+  00000064
+  00010012
+ [1111] sscanf
+  000047be
+  00128c08
+  000000a8
+  fff10012
+ [1112] sceReadlink
+  000047c5
+  0010dc08
+  000001e0
+  fff10012
+ [1113] isysRemoveModuleObjGroup
+  000047d1
+  00009950
+  00000068
+  00010012
+ [1114] DIntr
+  000047ea
+  0010fc20
+  00000050
+  fff10012
+ [1115] _sceCd_old_module
+  000047f0
+  00133b80
+  00000004
+  fff10011
+ [1116] sceNetcnfifCheckCapacity
+  00004802
+  00122d30
+  00000054
+  fff10012
+ [1117] sceSifQueryTotalFreeMemSize
+  0000481b
+  0010e1c8
+  00000070
+  fff10012
+ [1118] InitAlarm
+  00004837
+  001103b8
+  000000d4
+  fff10012
+ [1119] Sg2ExStAdpcmGetTargetLsn
+  00004841
+  0001fa38
+  00000014
+  00010012
+ [1120] LoaderSysRmdir
+  0000485a
+  001030b0
+  00000014
+  fff10012
+ [1121] sceMc2Unformat
+  00004869
+  0011b8e8
+  0000003c
+  fff10012
+ [1122] Sg2DspEffectSetFeedBack
+  00004878
+  0001f068
+  00000060
+  00010012
+ [1123] sceInetClose
+  00004890
+  00118a28
+  00000048
+  fff10012
+ [1124] Sg2VabClose
+  0000489d
+  0002d0d0
+  00000054
+  00010012
+ [1125] AddDmacHandler2
+  000048a9
+  00106e00
+  00000010
+  fff10012
+ [1126] __sfp
+  000048b9
+  0012d9c8
+  000000f8
+  fff10012
+ [1127] Sg2ExPcmInputSetPan
+  000048bf
+  0002e640
+  00000044
+  00010012
+ [1128] MachineType
+  000048d3
+  00107530
+  00000010
+  fff10012
+ [1129] iosRotCurrentMatrixX
+  000048df
+  0000c0b0
+  000000a4
+  00010012
+ [1130] iosTransMatrix
+  000048f4
+  0000cc78
+  00000058
+  00010012
+ [1131] Sg2SepMasterVol
+  00004903
+  00025998
+  0000009c
+  00010012
+ [1132] iosCdStSectorAlignSkip
+  00004913
+  000005c8
+  00000054
+  00010012
+ [1133] Sg2SlotSetMasPan
+  0000492a
+  00028f78
+  0000005c
+  00010012
+ [1134] gsRegBegin
+  0000493b
+  00016658
+  000000e8
+  00010012
+ [1135] __malloc_av_
+  00004946
+  00135d68
+  00000408
+  fff10011
+ [1136] SetQuaternionByCosineAxisRotateV
+  00004953
+  00011178
+  00000074
+  00010012
+ [1137] RFU061
+  00004974
+  001070b0
+  00000010
+  fff10012
+ [1138] sceDopen
+  0000497b
+  0010c720
+  000000c8
+  fff10012
+ [1139] ResumeThread
+  00004984
+  00107070
+  00000010
+  fff10012
+ [1140] GetLastQuaternion
+  00004991
+  0000ed00
+  00000020
+  00010012
+ [1141] myaddr
+  000049a3
+  001320c0
+  00000010
+  fff10011
+ [1142] Sg2RemoteSendDmaCom
+  000049aa
+  00024bd8
+  000000ac
+  00010012
+ [1143] sceDmaPause
+  000049be
+  00115058
+  00000098
+  fff10012
+ [1144] iosPadRead
+  000049ca
+  00005ea0
+  000000f0
+  00010012
+ [1145] iosGetFontDataWithID
+  000049d5
+  0001bc38
+  00000078
+  00010012
+ [1146] __ieee754_powf
+  000049ea
+  00031428
+  000007e0
+  00010012
+ [1147] __sread
+  000049f9
+  0012fb40
+  00000064
+  fff10012
+ [1148] _sceMcFatChDir
+  00004a01
+  0011fb20
+  00000124
+  fff10012
+ [1149] _LoadExecPS2
+  00004a10
+  00106d20
+  00000010
+  fff10012
+ [1150] fread
+  00004a1d
+  0012db90
+  0000011c
+  fff10012
+ [1151] iosDlGetTransAdrs
+  00004a23
+  00012fe0
+  00000024
+  00010012
+ [1152] iosEI
+  00004a35
+  00000db0
+  00000070
+  00010012
+ [1153] sceVif1PkTerminate
+  00004a3b
+  00113198
+  00000058
+  fff10012
+ [1154] iosEntryLocaleFontNoLoad
+  00004a4e
+  0001c170
+  00000054
+  00010012
+ [1155] scePad2GetButtonProfile
+  00004a67
+  001153e8
+  000000cc
+  fff10012
+ [1156] SetVTLBRefillHandler
+  00004a7f
+  00106d90
+  00000010
+  fff10012
+ [1157] sndSepPlayerSrh2
+  00004a94
+  0001d758
+  00000078
+  00010012
+ [1158] CompareString16
+  00004aa5
+  0000bc78
+  00000030
+  00010012
+ [1159] StopTimerSystemTime
+  00004ab5
+  00110800
+  0000007c
+  fff10012
+ [1160] IosCdvdManagerSimulation
+  00004ac9
+  000090a8
+  000002cc
+  00010012
+ [1161] Sg2ExStAdpcmSetOutputMode
+  00004ae2
+  00020200
+  00000030
+  00010012
+ [1162] iosInitCurrentMatrix
+  00004afc
+  0000bca8
+  0000001c
+  00010012
+ [1163] sceSifRegisterRpc
+  00004b11
+  00109d58
+  000000d0
+  fff10012
+ [1164] sceDeci2ExLock
+  00004b23
+  001123e0
+  00000024
+  fff10012
+ [1165] __malloc_lock
+  00004b32
+  00128590
+  0000007c
+  fff10012
+ [1166] sceDclose
+  00004b40
+  0010c7e8
+  00000164
+  fff10012
+ [1167] sbrk
+  00004b4a
+  001120d0
+  000000ac
+  fff10012
+ [1168] __ieee754_fmodf
+  00004b4f
+  00031258
+  000001d0
+  00010012
+ [1169] iosEE2IopEndChk
+  00004b5f
+  00000fb0
+  00000008
+  00010012
+ [1170] sceDmaPutEnv
+  00004b6f
+  00114b20
+  000001d8
+  fff10012
+ [1171] YUnitPointInv
+  00004b7c
+  00000530
+  00000010
+  00050011
+ [1172] scalbnf
+  00004b8a
+  00032c20
+  000000c8
+  00010012
+ [1173] Sg2SlotSetBendRange
+  00004b92
+  00029060
+  00000020
+  00010012
+ [1174] isysDumpSubThreadStatus
+  00004ba6
+  0001c4e0
+  000000b0
+  00010012
+ [1175] isysCreateSubThreadS
+  00004bbe
+  0001cde0
+  000000fc
+  00010012
+ [1176] iosGetASinfExact
+  00004bd3
+  00011858
+  0000005c
+  00010012
+ [1177] _sceCd_ncmdsdata
+  00004be4
+  00133c40
+  00001000
+  fff10011
+ [1178] iSyncDCache
+  00004bf5
+  00131a40
+  00000014
+  fff10012
+ [1179] ZUnitPoint
+  00004c01
+  00000510
+  00000010
+  00050011
+ [1180] iosDumpGIFStatus
+  00004c0c
+  00014048
+  000003f4
+  00010012
+ [1181] _calloc_r
+  00004c1d
+  00131148
+  000000b4
+  fff10012
+ [1182] get_total_letter_in_post
+  00004c27
+  0001b448
+  00000008
+  00010012
+ [1183] SetTimerCount
+  00004c40
+  001112b8
+  000000cc
+  fff10012
+ [1184] Init_Player
+  00004c4e
+  00007438
+  00000040
+  00010012
+ [1185] iosGsChangeMode
+  00004c5a
+  00015be0
+  0000004c
+  00010012
+ [1186] SetGsVParam
+  00004c6a
+  001071d0
+  00000010
+  fff10012
+ [1187] iSignalSema
+  00004c76
+  00107110
+  00000010
+  fff10012
+ [1188] iosFloatModulo
+  00004c82
+  0000c9b0
+  0000003c
+  00010012
+ [1189] EndOfHeap
+  00004c91
+  001070c0
+  00000010
+  fff10012
+ [1190] _sceMcCoreWritePage
+  00004c9b
+  00121b90
+  00000190
+  fff10012
+ [1191] DecodeSection
+  00004caf
+  00100278
+  00000240
+  fff10012
+ [1192] isysInitModuleObjExisted
+  00004cbd
+  00009b98
+  000001bc
+  00010012
+ [1193] Sg2SmfpSetSignal
+  00004cd6
+  0002b9b0
+  0000000c
+  00010012
+ [1194] iosITOF12Vector
+  00004ce7
+  00011ba8
+  00000014
+  00010012
+ [1195] iosPadInit
+  00004cf7
+  00005fb8
+  00000054
+  00010012
+ [1196] constructor_letter_type
+  00004d02
+  0001b620
+  00000020
+  00010012
+ [1197] Sg2SlotFindVab
+  00004d1a
+  00028930
+  00000050
+  00010012
+ [1198] sceDbcCreateSocket
+  00004d29
+  00115f40
+  00000130
+  fff10012
+ [1199] sceIoctl2
+  00004d3c
+  0010bdc0
+  000001e8
+  fff10012
+ [1200] iStopTimerCounter
+  00004d46
+  001111a0
+  000000c4
+  fff10012
+ [1201] iosInitPushPosVuSema
+  00004d58
+  0000c7c0
+  0000002c
+  00010012
+ [1202] DldExceptionByOriginAdr
+  00004d6d
+  0000b0e8
+  00000054
+  00010012
+ [1203] iosSetTransCurrentMatrix
+  00004d85
+  0000bf40
+  00000010
+  00010012
+ [1204] memset
+  00004d9e
+  001284d0
+  000000c0
+  fff10012
+ [1205] iosWaitIopSema
+  00004da5
+  0001e198
+  0000001c
+  00010012
+ [1206] LoaderSysInitExternalIopMemoryList
+  00004db4
+  00102c58
+  00000034
+  fff10012
+ [1207] SearchStrHashKey
+  00004dd7
+  0001e9a8
+  00000058
+  00010012
+ [1208] __ieee754_sqrtf
+  00004de8
+  00031fb8
+  000000cc
+  00010012
+ [1209] _sceMcFatFormat
+  00004df8
+  0011cfb0
+  0000092c
+  fff10012
+ [1210] AddStrHashKey
+  00004e08
+  0001e8a8
+  00000044
+  00010012
+ [1211] Sg2ModSetOutputMode
+  00004e16
+  000222e8
+  00000014
+  00010012
+ [1212] _sceMcpWriteClust
+  00004e2a
+  00120848
+  00000040
+  fff10012
+ [1213] isysSearchSymbol
+  00004e3c
+  000095d0
+  00000058
+  00010012
+ [1214] Sg2RemoteDmaTransStatus
+  00004e4d
+  00024c88
+  00000020
+  00010012
+ [1215] sceFsInit
+  00004e65
+  0010a9c0
+  00000208
+  fff10012
+ [1216] Sg2CtrlTickProc
+  00004e6f
+  0001ecf8
+  00000064
+  00010012
+ [1217] tickProcSound
+  00004e7f
+  0001de10
+  000000e0
+  00010012
+ [1218] GetTimerSystemTime
+  00004e8d
+  00110dc8
+  0000007c
+  fff10012
+ [1219] GetStabYRotQuaternion
+  00004ea0
+  0000fde0
+  000000d8
+  00010012
+ [1220] GetMirrorQuaternion
+  00004eb6
+  0000f408
+  000000e0
+  00010012
+ [1221] sceNetcnfifDeleteCallbackThread
+  00004eca
+  001223d8
+  00000060
+  fff10012
+ [1222] __malloc_max_total_mem
+  00004eea
+  00136190
+  00000008
+  fff10011
+ [1223] sceSifAllocSysMemory
+  00004f01
+  0010dee0
+  00000080
+  fff10012
+ [1224] Sg2SepTickProc
+  00004f16
+  00025a38
+  0000029c
+  00010012
+ [1225] sceSifSendCmd
+  00004f25
+  00112f00
+  0000003c
+  fff10012
+ [1226] usbSerialSysPutString
+  00004f33
+  001050b8
+  000001b0
+  fff10012
+ [1227] Sg2ExPcmInputGetRealPlayFrameCount
+  00004f49
+  0002e548
+  00000028
+  00010012
+ [1228] _iEnableDmac
+  00004f6c
+  00106ea0
+  00000010
+  fff10012
+ [1229] sceNetcnfifDmaCheck
+  00004f79
+  00123258
+  00000024
+  fff10012
+ [1230] iosITOF4Vector
+  00004f8d
+  00011bc0
+  00000014
+  00010012
+ [1231] LoaderSysFSeek
+  00004f9c
+  00103038
+  00000014
+  fff10012
+ [1232] Sg2SlotSearchPriority
+  00004fab
+  00026e28
+  000003f4
+  00010012
+ [1233] _ulp
+  00004fc1
+  0012f3d0
+  000000d0
+  fff10012
+ [1234] iosGetTanf
+  00004fc6
+  000115b0
+  00000030
+  00010012
+ [1235] SetQuaternionByCosineAxisRotateVWithNoRegularize
+  00004fd1
+  0000fcc8
+  00000044
+  00010012
+ [1236] iosPopVu0RegistersFromWork
+  00005002
+  0000be18
+  00000104
+  00010012
+ [1237] EIntr
+  0000501d
+  0010fc70
+  00000018
+  fff10012
+ [1238] iosWaitVU1
+  00005023
+  00016058
+  00000028
+  00010012
+ [1239] iosInitDebPc
+  0000502e
+  000007a8
+  00000008
+  00010012
+ [1240] _kDebugException
+  0000503b
+  0010fb00
+  0000011c
+  fff10012
+ [1241] GetTLBEntry
+  0000504c
+  0010f600
+  00000010
+  fff10012
+ [1242] LoaderSysMkdir
+  00005058
+  001030c8
+  00000014
+  fff10012
+ [1243] GetOsdConfigParam2
+  00005067
+  001073f0
+  00000010
+  fff10012
+ [1244] __sclose
+  0000507a
+  0012fc90
+  0000001c
+  fff10012
+ [1245] sceInetInterfaceControl
+  00005083
+  00118f58
+  000000a8
+  fff10012
+ [1246] sceDbcGetConnection
+  0000509b
+  001162a0
+  000000f4
+  fff10012
+ [1247] Sg2DspGetMasterVolume
+  000050af
+  0001f310
+  00000020
+  00010012
+ [1248] iosInverseMatrixPerfect
+  000050c5
+  0000c950
+  00000024
+  00010012
+ [1249] iosFourthBezier
+  000050dd
+  0000b2c8
+  00000064
+  00010012
+ [1250] _strtol_r
+  000050ed
+  001296c8
+  00000238
+  fff10012
+ [1251] sndSepSetVol
+  000050f7
+  0001d7e8
+  0000003c
+  00010012
+ [1252] sceVif1PkOpenGifTag
+  00005104
+  00113328
+  00000018
+  fff10012
+ [1253] sceSifSetSysCmdBuffer
+  00005118
+  00112ce8
+  00000018
+  fff10012
+ [1254] InitThread
+  0000512e
+  00107868
+  000000ec
+  fff10012
+ [1255] Sg2ExStAdpcmQuit
+  00005139
+  0001f3e0
+  0000001c
+  00010012
+ [1256] _dtoa_r
+  0000514a
+  0012c570
+  00001264
+  fff10012
+ [1257] DivQuaternion
+  00005152
+  0000f288
+  00000050
+  00010012
+ [1258] Sg2ExStAdpcmSetUserParam
+  00005160
+  0001fa50
+  0000000c
+  00010012
+ [1259] _malloc_r
+  00005179
+  00127b60
+  00000728
+  fff10012
+ [1260] RFU116
+  00005183
+  00107460
+  00000010
+  fff10012
+ [1261] sceDmaGetChan
+  0000518a
+  00114a18
+  00000028
+  fff10012
+ [1262] iosSleepThread
+  00005198
+  000067a0
+  00000014
+  00010012
+ [1263] iosSwClipMvec
+  000051a7
+  0000d7f8
+  0000007c
+  00010012
+ [1264] iosGetRotXVector
+  000051b5
+  0000bf60
+  000000a4
+  00010012
+ [1265] getZBufferAddressFBP
+  000051c6
+  00015480
+  0000001c
+  00010012
+ [1266] discard_selecting_letter_in_post
+  000051db
+  0001b548
+  000000d4
+  00010012
+ [1267] iosGetIopTotalFreeMemSize
+  000051fc
+  0001e120
+  00000048
+  00010012
+ [1268] iosGetTableSin
+  00005216
+  00011980
+  00000050
+  00010012
+ [1269] create_letter_post
+  00005225
+  0001b358
+  00000040
+  00010012
+ [1270] __submore
+  00005238
+  00130e78
+  000000e8
+  fff10012
+ [1271] iosStopPc
+  00005242
+  000007b0
+  00000008
+  00010012
+ [1272] _init_signal
+  0000524c
+  00128a30
+  0000001c
+  fff10012
+ [1273] iosDebugPartitionFileDump
+  00005259
+  00003d10
+  00000068
+  00010012
+ [1274] Sg2ModTickProc
+  00005273
+  00021028
+  000003a4
+  00010012
+ [1275] _fwalk
+  00005282
+  0012e4f8
+  00000094
+  fff10012
+ [1276] sceLibnetUnregisterHandler
+  00005289
+  00119510
+  00000040
+  fff10012
+ [1277] close_letter_post
+  000052a4
+  0001b488
+  0000000c
+  00010012
+ [1278] AddIntcHandler
+  000052b6
+  00106dc0
+  00000010
+  fff10012
+ [1279] Sg2SlotSetGroup
+  000052c5
+  00028d88
+  00000020
+  00010012
+ [1280] sceDelDrv
+  000052d5
+  0010c700
+  0000001c
+  fff10012
+ [1281] iResumeThread
+  000052df
+  00107080
+  00000010
+  fff10012
+ [1282] Sg2DmaTransStatus
+  000052ed
+  0001ee38
+  00000014
+  00010012
+ [1283] _mbtowc_r
+  000052ff
+  0012e7d0
+  00000034
+  fff10012
+ [1284] Sg2ExStAdpcmSetSignal
+  00005309
+  00020270
+  0000000c
+  00010012
+ [1285] __fixunssfdi
+  0000531f
+  00124e90
+  00000128
+  fff10012
+ [1286] iosConvertStringEUCtoID
+  0000532c
+  0001bae8
+  00000138
+  00010012
+ [1287] Sg2StAdpcmStop
+  00005344
+  0002c938
+  00000050
+  00010012
+ [1288] LoaderSysFClose
+  00005353
+  00103020
+  00000014
+  fff10012
+ [1289] iosGetThread
+  00005363
+  00006650
+  00000034
+  00010012
+ [1290] iosPopVu0Registers
+  00005370
+  0000c698
+  00000124
+  00010012
+ [1291] __thenan_df
+  00005383
+  00139338
+  00000018
+  fff10011
+ [1292] sceSifSearchModuleByName
+  0000538f
+  0010e9a0
+  000000a0
+  fff10012
+ [1293] LoaderSysDeleteExternalIopMemoryList
+  000053a8
+  00102970
+  00000054
+  fff10012
+ [1294] _malloc_trim_r
+  000053cd
+  0012dfa8
+  0000016c
+  fff10012
+ [1295] addMemoryDebugCallback
+  000053dc
+  00003d98
+  0000000c
+  00010012
+ [1296] __CTOR_END__
+  000053f3
+  001361d0
+  00000000
+  fff10011
+ [1297] sceDbcGetDeviceStatus
+  00005400
+  001164f8
+  000000ac
+  fff10012
+ [1298] _putString
+  00005416
+  001056d8
+  0000026c
+  fff10012
+ [1299] HeapStart
+  00005421
+  00139f00
+  00000004
+  fff10011
+ [1300] doit_letter_manager
+  0000542b
+  0001b108
+  00000160
+  00010012
+ [1301] Sg2SlotSetLfoPitchSpeed
+  0000543f
+  00029328
+  000000b4
+  00010012
+ [1302] iosAddIntcHandler
+  00005457
+  000009a0
+  000000c0
+  00010012
+ [1303] Sg2SlotSetPoltamentParam
+  00005469
+  00029828
+  0000005c
+  00010012
+ [1304] Sg2ExStAdpcmPreLoad
+  00005482
+  00020758
+  00000090
+  00010012
+ [1305] strcmp
+  00005496
+  00128f6c
+  00000144
+  fff10012
+ [1306] iosGetYDirXYZFromMatrix
+  0000549d
+  0000d168
+  00000014
+  00010012
+ [1307] iosTransposeRotationCurrentMatrix
+  000054b5
+  0000c4f8
+  00000030
+  00010012
+ [1308] debug_set_smfp_time_count_delta_per
+  000054d7
+  0002c020
+  000000e0
+  00010012
+ [1309] GetQuaternionByEulerZXY
+  000054fb
+  000104e0
+  00000218
+  00010012
+ [1310] iosMallocAlignNoCheck
+  00005513
+  00003880
+  00000080
+  00010012
+ [1311] LoaderSysHookPoint
+  00005529
+  00103e90
+  00000008
+  fff10012
+ [1312] __DTOR_LIST__
+  0000553c
+  001361d4
+  00000000
+  fff10011
+ [1313] moduleInfo
+  0000554a
+  00131d00
+  00000048
+  fff10011
+ [1314] sceSifGetDataTable
+  00005555
+  00112a08
+  0000000c
+  fff10012
+ [1315] iosMcDeleteFile
+  00005568
+  00004200
+  000000a8
+  00010012
+ [1316] usbSerialSysPrintf
+  00005578
+  00105268
+  0000006c
+  fff10012
+ [1317] iosGetInverseVectorXYZ
+  0000558b
+  00011f68
+  00000024
+  00010012
+ [1318] sceVif1PkOpenDirectCode
+  000055a2
+  001132a0
+  00000058
+  fff10012
+ [1319] iosRotTransPersCurrentMatrix
+  000055ba
+  0000c478
+  0000002c
+  00010012
+ [1320] isysGetModuleObjMallocSize
+  000055d7
+  00009f28
+  00000040
+  00010012
+ [1321] iPollSema
+  000055f2
+  00107140
+  00000010
+  fff10012
+ [1322] sceDbcInitSocket
+  000055fc
+  00116398
+  000000ac
+  fff10012
+ [1323] sceSifLoadElf
+  0000560d
+  0010eea0
+  00000028
+  fff10012
+ [1324] Sg2SmfpGetParam
+  0000561b
+  0002b848
+  000000cc
+  00010012
+ [1325] __fixunsdfdi
+  0000562b
+  00124d78
+  00000118
+  fff10012
+ [1326] Sg2SlotSetOutputMode
+  00005638
+  00029f90
+  00000014
+  00010012
+ [1327] loaderSetResetCallback
+  0000564d
+  00103f98
+  0000005c
+  fff10012
+ [1328] InitDL
+  00005664
+  000137d8
+  00000040
+  00010012
+ [1329] sndSepReq
+  0000566b
+  0001d560
+  00000170
+  00010012
+ [1330] iosGetACos
+  00005675
+  00011760
+  0000009c
+  00010012
+ [1331] __deregister_frame
+  00005680
+  00126398
+  00000020
+  fff10012
+ [1332] acosf
+  00005693
+  00030500
+  00000014
+  00010012
+ [1333] sceNetcnfifCheckAdditionalAT
+  00005699
+  00122d88
+  00000054
+  fff10012
+ [1334] iosDmaSendSChainPath3
+  000056b6
+  00015a28
+  000000d4
+  00010012
+ [1335] sceWrite
+  000056cc
+  0010b778
+  000002c0
+  fff10012
+ [1336] usbSerialSysInit
+  000056d5
+  001052d8
+  00000118
+  fff10012
+ [1337] iosUnitCurrentMatrix
+  000056e6
+  0000bcc8
+  00000018
+  00010012
+ [1338] isysInitSubThreadObj
+  000056fb
+  0001cd10
+  000000d0
+  00010012
+ [1339] sceInetAddress2Name
+  00005710
+  001188a8
+  000000c8
+  fff10012
+ [1340] RestoreNormalDrawEnvironment
+  00005724
+  00106618
+  00000070
+  fff10012
+ [1341] copysignf
+  00005741
+  00032ce8
+  0000003c
+  00010012
+ [1342] sndSepPause
+  0000574b
+  0001d908
+  00000018
+  00010012
+ [1343] GetEulerXYZFromQuaternion
+  00005757
+  0000e318
+  0000031c
+  00010012
+ [1344] Sg2SlotSearchTypeOlder
+  00005771
+  000283f8
+  000003f4
+  00010012
+ [1345] __swsetup
+  00005788
+  0012c1f8
+  0000010c
+  fff10012
+ [1346] EnableIntcHandler
+  00005792
+  001072a0
+  00000010
+  fff10012
+ [1347] memalign
+  000057a4
+  00127638
+  00000064
+  fff10012
+ [1348] sceInetGetNameServers
+  000057ad
+  00119098
+  00000088
+  fff10012
+ [1349] Sg2RemoteGetAdpStmAdr
+  000057c3
+  00024ca8
+  00000018
+  00010012
+ [1350] RFU008
+  000057d9
+  00106d40
+  00000010
+  fff10012
+ [1351] sprintf
+  000057e0
+  00128b70
+  00000090
+  fff10012
+ [1352] _iRotateThreadReadyQueue
+  000057e8
+  00106fa0
+  00000010
+  fff10012
+ [1353] iosCreatePartition
+  00005801
+  00003ad0
+  00000070
+  00010012
+ [1354] ischedStop
+  00005814
+  0001ab20
+  0000003c
+  00010012
+ [1355] sceGsResetGraph
+  0000581f
+  00113490
+  00000190
+  fff10012
+ [1356] loadtest
+  0000582f
+  0000a768
+  00000054
+  00010012
+ [1357] SetQuaternionByAxisRotateVWithNoRegularizeRadian
+  00005838
+  0000fd10
+  00000060
+  00010012
+ [1358] ReferThreadStatus
+  00005869
+  00106fe0
+  00000010
+  fff10012
+ [1359] __fixdfdi
+  0000587b
+  00131b98
+  00000078
+  fff10012
+ [1360] InvertCurrentQuaternion
+  00005885
+  0000edd0
+  00000030
+  00010012
+ [1361] iosRotCurrentMatrixZ
+  0000589d
+  0000c200
+  000000a4
+  00010012
+ [1362] sceSifIsAliveIop
+  000058b2
+  0010f1f0
+  00000028
+  fff10012
+ [1363] ischedRestart
+  000058c3
+  0001ab60
+  00000038
+  00010012
+ [1364] getFrameBufferSizeFBP
+  000058d1
+  00015390
+  00000030
+  00010012
+ [1365] Sg2SlotSetMasTune
+  000058e7
+  000291d8
+  00000030
+  00010012
+ [1366] sceLibnetWaitGetAddress
+  000058f9
+  00119908
+  00000034
+  fff10012
+ [1367] Sg2SepMidiOut
+  00005911
+  000258d8
+  000000bc
+  00010012
+ [1368] isysGetXffEntryPointPreRelocation
+  0000591f
+  00009378
+  00000154
+  00010012
+ [1369] Init_ShockVoiceSet
+  00005941
+  00007308
+  00000038
+  00010012
+ [1370] atexit
+  00005954
+  00127560
+  000000a0
+  fff10012
+ [1371] CancelWakeupThread
+  0000595b
+  00107030
+  00000010
+  fff10012
+ [1372] LoaderSysExternalThreadListCallBack
+  0000596e
+  00102a80
+  0000006c
+  fff10012
+ [1373] _sceMcpFlushCache
+  00005992
+  00120888
+  00000070
+  fff10012
+ [1374] iosMcReadFile
+  000059a4
+  000042a8
+  000000f8
+  00010012
+ [1375] _write_r
+  000059b2
+  001310e8
+  00000060
+  fff10012
+ [1376] GetHeapCurrentPoint
+  000059bb
+  00101a48
+  00000008
+  fff10012
+ [1377] iosDumpDMAStatus
+  000059cf
+  00013968
+  0000033c
+  00010012
+ [1378] sceMc2Sync
+  000059e0
+  0011b840
+  00000024
+  fff10012
+ [1379] init_letter
+  000059eb
+  0001b010
+  00000014
+  00010012
+ [1380] sceNetcnfifCheck
+  000059f7
+  00122458
+  0000001c
+  fff10012
+ [1381] _b2d
+  00005a08
+  0012f4a0
+  00000198
+  fff10012
+ [1382] setlocale
+  00005a0d
+  0012e630
+  00000024
+  fff10012
+ [1383] iosCdStRead
+  00005a17
+  00000498
+  00000110
+  00010012
+ [1384] getFrameBufferSizeTBP
+  00005a23
+  000153c0
+  00000030
+  00010012
+ [1385] ChangeThreadPriority
+  00005a39
+  00106f70
+  00000010
+  fff10012
+ [1386] iosClampUW_AddMvec
+  00005a4e
+  0000d2c0
+  0000003c
+  00010012
+ [1387] _sceFs_q
+  00005a61
+  00132390
+  00000080
+  fff10011
+ [1388] _sceMcFatRename
+  00005a6a
+  001202f0
+  0000017c
+  fff10012
+ [1389] Sg2SlotSetKeyOnBit
+  00005a7a
+  00029d10
+  00000064
+  00010012
+ [1390] sceCdStatus
+  00005a8d
+  00033198
+  000000b8
+  00010012
+ [1391] PutChar
+  00005a99
+  00106c58
+  00000034
+  fff10012
+ [1392] SetGsCrt
+  00005aa1
+  00106ce0
+  00000010
+  fff10012
+ [1393] iosCreateMsgQueue
+  00005aaa
+  000049a8
+  0000006c
+  00010012
+ [1394] iosGetFontIDWithEUC
+  00005abc
+  0001c0a0
+  000000cc
+  00010012
+ [1395] Sg2StAdpcmOpen
+  00005ad0
+  0002c750
+  00000084
+  00010012
+ [1396] iosSetRootDC
+  00005adf
+  00012748
+  0000001c
+  00010012
+ [1397] loaderThreadId
+  00005aec
+  0013a184
+  00000004
+  fff10011
+ [1398] LoaderSysChangeExteranalThreadPriorityExceptMe
+  00005afb
+  00102af0
+  00000078
+  fff10012
+ [1399] _impure_ptr
+  00005b2a
+  00135d60
+  00000004
+  fff10011
+ [1400] Interrupt2Iop
+  00005b36
+  00106d80
+  00000010
+  fff10012
+ [1401] iosSetIFinishFunc
+  00005b44
+  000163b0
+  00000010
+  00010012
+ [1402] ZUnitVector
+  00005b56
+  00000480
+  00000010
+  00050011
+ [1403] iosMcMkDir
+  00005b62
+  000040b0
+  000000a8
+  00010012
+ [1404] Sg2ExStAdpcmLoopSecNum
+  00005b6d
+  00020230
+  00000018
+  00010012
+ [1405] decrement_letter_refcount
+  00005b84
+  0001b060
+  0000005c
+  00010012
+ [1406] isysAddGroupWithLinkParam
+  00005b9e
+  000191c0
+  00000260
+  00010012
+ [1407] iGsPutIMR
+  00005bb8
+  00107430
+  00000010
+  fff10012
+ [1408] _sceMcFatGetInfo
+  00005bc2
+  0011cc18
+  00000398
+  fff10012
+ [1409] iosWakeupThread
+  00005bd3
+  000067b8
+  00000060
+  00010012
+ [1410] Sg2StAdpcmPlay
+  00005be3
+  0002c8e8
+  00000050
+  00010012
+ [1411] atan2f
+  00005bf2
+  00030530
+  00000014
+  00010012
+ [1412] isysDebugSetSubThreadSleepProtection
+  00005bf9
+  0001d0f8
+  0000000c
+  00010012
+ [1413] sceMc2GetDir
+  00005c1e
+  0011bae8
+  0000003c
+  fff10012
+ [1414] Sg2DspSetMasterVolume
+  00005c2b
+  0001f250
+  00000090
+  00010012
+ [1415] increment_letter_refcount
+  00005c41
+  0001b050
+  00000010
+  00010012
+ [1416] iosResetGraph
+  00005c5b
+  00015550
+  0000006c
+  00010012
+ [1417] sceNetcnfifGetAddr
+  00005c69
+  00122e68
+  00000034
+  fff10012
+ [1418] sceSifWriteBackDCache
+  00005c7c
+  001130c8
+  000000b0
+  fff10012
+ [1419] sceSifInitCmd
+  00005c92
+  00112a18
+  00000280
+  fff10012
+ [1420] ExecPS2
+  00005ca0
+  00110220
+  00000070
+  fff10012
+ [1421] sceInetCtlUpInterface
+  00005ca8
+  00119238
+  00000044
+  fff10012
+ [1422] Sg2ExPcmInputOpenDoubleBuffer
+  00005cbe
+  0002e350
+  00000034
+  00010012
+ [1423] isnan
+  00005cdc
+  0012fb00
+  0000003c
+  fff10012
+ [1424] sceVif1PkInit
+  00005ce2
+  00113178
+  00000010
+  fff10012
+ [1425] iosCheckDrawFinish
+  00005cf0
+  00015ef0
+  00000098
+  00010012
+ [1426] RemoveDmacHandler
+  00005d03
+  00106e10
+  00000010
+  fff10012
+ [1427] Sg2ExPcmOutputAutoFilterInit
+  00005d15
+  0002ebb0
+  00000020
+  00010012
+ [1428] iSetTLBEntry
+  00005d32
+  0010f5f0
+  00000010
+  fff10012
+ [1429] kputs
+  00005d3f
+  00112430
+  00000024
+  fff10012
+ [1430] sceInetChangeThreadPriority
+  00005d45
+  00119120
+  00000044
+  fff10012
+ [1431] iosTransMatrixF
+  00005d61
+  0000ccd0
+  00000074
+  00010012
+ [1432] iEnableDmac
+  00005d71
+  00107750
+  00000020
+  fff10012
+ [1433] SetQuaternionByAxisRotateVWithNoRegularize
+  00005d7d
+  0000f220
+  00000064
+  00010012
+ [1434] iosReallocAlign
+  00005da8
+  00003998
+  00000080
+  00010012
+ [1435] endSCEDemo
+  00005db8
+  00006be0
+  00000008
+  00010012
+ [1436] isysSleepSubThread
+  00005dc3
+  0001c99c
+  00000000
+  00010011
+ [1437] iosDumpFVector
+  00005dd6
+  00011d40
+  00000008
+  00010012
+ [1438] padSysGet
+  00005de5
+  00104e78
+  00000020
+  fff10012
+ [1439] sce_delete_callback_thread
+  00005def
+  001231b0
+  00000054
+  fff10012
+ [1440] Sg2ExStAdpcmPitchPercent
+  00005e0a
+  0001ffd0
+  0000005c
+  00010012
+ [1441] sceGetstat
+  00005e23
+  0010caa8
+  000001b4
+  fff10012
+ [1442] vab_check_alive
+  00005e2e
+  0002cbd8
+  0000003c
+  00010012
+ [1443] iosGetLengthPointToLine
+  00005e3e
+  00011eb0
+  000000b4
+  00010012
+ [1444] _InitSys
+  00005e56
+  0010fed8
+  00000054
+  fff10012
+ [1445] iosMallocGarbageTickProc
+  00005e5f
+  00003640
+  00000128
+  00010012
+ [1446] LoaderSysInitExternalIntcHandlerList
+  00005e78
+  001029c8
+  00000034
+  fff10012
+ [1447] Sg2SepSetParam
+  00005e9d
+  00025740
+  00000198
+  00010012
+ [1448] ResetEE
+  00005eac
+  00106cd0
+  00000010
+  fff10012
+ [1449] sceSifLoadIopHeap
+  00005eb4
+  0010dff8
+  000000f0
+  fff10012
+ [1450] isceSifDmaStat
+  00005ec6
+  00107490
+  00000010
+  fff10012
+ [1451] _sceMcCoreCheckSocket
+  00005ed5
+  00122118
+  00000030
+  fff10012
+ [1452] iosSetIStartFunc
+  00005eeb
+  00016390
+  00000010
+  00010012
+ [1453] sceInetCtlSetAutoMode
+  00005efc
+  001192c8
+  00000044
+  fff10012
+ [1454] isysCreateExceptionThread
+  00005f12
+  0000b200
+  00000008
+  00010012
+ [1455] dptoli
+  00005f2c
+  00131c10
+  0000009c
+  fff10012
+ [1456] iosLoaderGetFileSizeName
+  00005f33
+  0000a7c0
+  00000154
+  00010012
+ [1457] GetQuaternionByEulerXYZExact
+  00005f4c
+  00010b28
+  00000214
+  00010012
+ [1458] iosDmaSendSChainPath1
+  00005f69
+  00015878
+  000000d4
+  00010012
+ [1459] GetSymbolByIndex
+  00005f7f
+  00009e40
+  00000028
+  00010012
+ [1460] iosSendMsg
+  00005f90
+  000046b0
+  00000178
+  00010012
+ [1461] Sg2ExPcmOutputSetEffect
+  00005f9b
+  0002ead8
+  00000014
+  00010012
+ [1462] iosLoadIopModule
+  00005fb3
+  0001e050
+  000000d0
+  00010012
+ [1463] SignalSema
+  00005fc4
+  00107100
+  00000010
+  fff10012
+ [1464] iosMouseSetCallBackFunc
+  00005fcf
+  0001e7a8
+  00000024
+  00010012
+ [1465] Sg2ExStAdpcmWorkClear
+  00005fe7
+  0001f540
+  00000044
+  00010012
+ [1466] sceDbcInit
+  00005ffd
+  00115b88
+  000002a0
+  fff10012
+ [1467] sceGsSetDefTexEnv
+  00006008
+  00114010
+  0000010c
+  fff10012
+ [1468] getDrawBufferAddressTBP
+  0000601a
+  00015400
+  00000030
+  00010012
+ [1469] sceDbcResetSocket
+  00006032
+  00116448
+  000000ac
+  fff10012
+ [1470] iosGetSinf
+  00006044
+  00011378
+  00000120
+  00010012
+ [1471] Sg2ExStAdpcmStop
+  0000604f
+  00020118
+  00000080
+  00010012
+ [1472] sceDbcSendData3
+  00006060
+  00116ad8
+  00000158
+  fff10012
+ [1473] sinf
+  00006070
+  00030400
+  000000e8
+  00010012
+ [1474] sceCdMmode
+  00006075
+  00118388
+  000000d0
+  fff10012
+ [1475] iosGetArbitraryUpVectorElement
+  00006080
+  00011d50
+  0000008c
+  00010012
+ [1476] isysInitObjSystem
+  0000609f
+  0001a500
+  000000b8
+  00010012
+ [1477] sce_create_callback_thread
+  000060b1
+  00123100
+  000000b0
+  fff10012
+ [1478] Sg2SmfpTickProc
+  000060cc
+  0002b9c0
+  000002f0
+  00010012
+ [1479] VSync
+  000060dc
+  00111e60
+  00000090
+  fff10012
+ [1480] iFreeTimerCounter
+  000060e2
+  00110f00
+  000000a0
+  fff10012
+ [1481] Sg2SlotFindSlotClassCh
+  000060f4
+  00028b10
+  0000005c
+  00010012
+ [1482] sceGsSetDefDBuff
+  0000610b
+  00113968
+  00000298
+  fff10012
+ [1483] iosCopyFrameBuffer
+  0000611c
+  00014e38
+  000004e8
+  00010012
+ [1484] _sceCd_rcmd_semid
+  0000612f
+  00133b70
+  00000004
+  fff10011
+ [1485] _sceMcFatSetAttr
+  00006141
+  00120168
+  00000188
+  fff10012
+ [1486] _sceMcCoreCreateSocket
+  00006152
+  00121ff8
+  00000120
+  fff10012
+ [1487] iosUnitRotation
+  00006169
+  0000c870
+  00000024
+  00010012
+ [1488] sceSifLoadStartModuleBuffer
+  00006179
+  0010eaf0
+  0000001c
+  fff10012
+ [1489] Sg2ExStAdpcmOpen
+  00006195
+  0001f8a8
+  0000015c
+  00010012
+ [1490] getScreenOffsetY
+  000061a6
+  00015520
+  0000000c
+  00010012
+ [1491] sceSifRemoveCmdHandler
+  000061b7
+  00112d78
+  0000004c
+  fff10012
+ [1492] iosUnitMatrix
+  000061ce
+  0000c848
+  00000028
+  00010012
+ [1493] iosSetISchedulerSubthreadTask
+  000061dc
+  0001ab98
+  0000000c
+  00010012
+ [1494] SubThreadTerminateRestorePoint
+  000061fa
+  0001cb40
+  00000000
+  00010011
+ [1495] localeconv
+  00006219
+  0012e658
+  0000001c
+  fff10012
+ [1496] sceRead
+  00006224
+  0010b508
+  0000026c
+  fff10012
+ [1497] _multadd
+  0000622c
+  0012e9c0
+  00000108
+  fff10012
+ [1498] GetQuaternionByEulerYXZ
+  00006235
+  0000ff88
+  00000218
+  00010012
+ [1499] sceInetAddress2String
+  0000624d
+  00118810
+  00000098
+  fff10012
+ [1500] RFU085_iClearEventFlag
+  00006263
+  00107230
+  00000010
+  fff10012
+ [1501] sceMc2CreateSocket
+  0000627a
+  0011a508
+  00000090
+  fff10012
+ [1502] __ieee754_sqrt
+  0000628d
+  00030590
+  0000031c
+  00010012
+ [1503] iosGetCpuRapCountPar1Int
+  0000629c
+  00000cc0
+  00000074
+  00010012
+ [1504] RotQuaternionXExact
+  000062b5
+  0000f4e8
+  000000b4
+  00010012
+ [1505] sceVibGetProfile
+  000062c9
+  001159c0
+  00000080
+  fff10012
+ [1506] _sceMcpIsSpeckOutClust
+  000062da
+  00120e58
+  00000048
+  fff10012
+ [1507] GetEulerYXZFromQuaternion
+  000062f1
+  0000dcf8
+  00000310
+  00010012
+ [1508] GetTimerCount
+  0000630b
+  00111490
+  0000004c
+  fff10012
+ [1509] Sg2SlotSetDumperOff
+  00006319
+  000298c8
+  000000e0
+  00010012
+ [1510] isysCreateModuleObjExisted
+  0000632d
+  00008448
+  00000234
+  00010012
+ [1511] Sg2ExPcmTickProc
+  00006348
+  0002ed48
+  000000bc
+  00010012
+ [1512] iosMulCurrentMatrixR
+  00006359
+  0000c378
+  00000068
+  00010012
+ [1513] Sg2SlotSetLfoPitchTbl
+  0000636e
+  000292e0
+  00000044
+  00010012
+ [1514] padSysTickProc
+  00006384
+  00104cc0
+  00000134
+  fff10012
+ [1515] stat
+  00006393
+  001121d0
+  00000028
+  fff10012
+ [1516] iosInitThreadSystem
+  00006398
+  000064f8
+  00000154
+  00010012
+ [1517] _sceMcCoreClearNewCardFlag
+  000063ac
+  001215d0
+  000000d8
+  fff10012
+ [1518] iosDlGetEndAdrs
+  000063c7
+  000135c8
+  00000030
+  00010012
+ [1519] sceDeci2GrpClose
+  000063d7
+  00112318
+  00000024
+  fff10012
+ [1520] __sce_sema_id
+  000063e8
+  00132aa0
+  00000004
+  fff10011
+ [1521] iosITOF15Vector
+  000063f6
+  00011b90
+  00000014
+  00010012
+ [1522] iosGetScaleMatrixV
+  00006406
+  0000d120
+  00000044
+  00010012
+ [1523] Sg2SlotBlock
+  00006419
+  000287f0
+  0000006c
+  00010012
+ [1524] iCpuConfig
+  00006426
+  001073a0
+  00000010
+  fff10012
+ [1525] Sg2ExStAdpcmSetLsn
+  00006431
+  0001fa20
+  0000000c
+  00010012
+ [1526] iosGetCos
+  00006444
+  00011660
+  0000003c
+  00010012
+ [1527] isysGroupForNext
+  0000644e
+  0001a340
+  00000088
+  00010012
+ [1528] isysGroupForNextForce
+  0000645f
+  0001a3c8
+  0000005c
+  00010012
+ [1529] Sg2ExPcmOutputSetAutoFilter
+  00006475
+  0002ec98
+  0000006c
+  00010012
+ [1530] SetTLBEntry
+  00006491
+  0010f5c0
+  00000030
+  fff10012
+ [1531] _iEnableIntc
+  0000649d
+  00106e80
+  00000010
+  fff10012
+ [1532] LoaderSysJumpRecoverPoint
+  000064aa
+  00100c80
+  000000c8
+  fff10012
+ [1533] bootGPThread
+  000064c4
+  000161b8
+  000000c8
+  00010012
+ [1534] iosMemToSprDmaAdrCopy
+  000064d1
+  00006108
+  00000068
+  00010012
+ [1535] iosFastPowf
+  000064e7
+  0000d950
+  00000014
+  00010012
+ [1536] __sce_eh_sema_id
+  000064f3
+  00132aa4
+  00000004
+  fff10011
+ [1537] sceGszbufaddr
+  00006504
+  001146f0
+  000000c8
+  fff10012
+ [1538] ____VolReflection
+  00006512
+  0001fef0
+  0000008c
+  00010012
+ [1539] iosDmaSendPath3
+  00006524
+  00015790
+  000000e4
+  00010012
+ [1540] __EH_FRAME_BEGIN__
+  00006534
+  001361e0
+  00000000
+  fff10011
+ [1541] PollSema
+  00006547
+  00107130
+  00000010
+  fff10012
+ [1542] RFU060
+  00006550
+  001070a0
+  00000010
+  fff10012
+ [1543] YUnitVectorInv
+  00006557
+  000004c0
+  00000010
+  00050011
+ [1544] iosSetDlTransFunc
+  00006566
+  000163d8
+  00000010
+  00010012
+ [1545] ExecBaseProc
+  00006578
+  00106408
+  00000078
+  fff10012
+ [1546] InitStrHash
+  00006585
+  0001e808
+  000000a0
+  00010012
+ [1547] GetZDirFromQuaternion
+  00006591
+  00010e48
+  000000a0
+  00010012
+ [1548] sndSepSetPan
+  000065a7
+  0001d828
+  00000058
+  00010012
+ [1549] Sg2ExPcmInputCtrl
+  000065b4
+  0002e488
+  00000094
+  00010012
+ [1550] _sceCd_ee_read_mode
+  000065c6
+  00133b78
+  00000004
+  fff10011
+ [1551] sceSifSetRpcQueue
+  000065da
+  00109cc0
+  00000094
+  fff10012
+ [1552] iosGsResetCRTC
+  000065ec
+  00015d10
+  000000a8
+  00010012
+ [1553] IosGetMergeDataFileName
+  000065fb
+  000095c0
+  0000000c
+  00010012
+ [1554] sceGsSyncPath
+  00006613
+  00113cf8
+  00000314
+  fff10012
+ [1555] kprintf
+  00006621
+  00109078
+  00000080
+  fff10012
+ [1556] isysFlushModuleObj
+  00006629
+  00009d58
+  000000e4
+  00010012
+ [1557] iosGetThreadPriority
+  0000663c
+  00006878
+  00000040
+  00010012
+ [1558] sceMc2UnformatAsync
+  00006651
+  0011a7e8
+  000000b0
+  fff10012
+ [1559] setNewIopIdentifier
+  00006665
+  00103340
+  00000070
+  fff10012
+ [1560] isceSifSetDChain
+  00006679
+  001074d0
+  00000010
+  fff10012
+ [1561] _sceMcpCheckNewCard
+  0000668a
+  00120590
+  0000001c
+  fff10012
+ [1562] iosPushDCWithClear
+  0000669e
+  00012980
+  0000006c
+  00010012
+ [1563] iosApplyRotMatrix
+  000066b1
+  0000c818
+  0000002c
+  00010012
+ [1564] iosMakeNormalLightMatrix
+  000066c3
+  0000cb10
+  000000f4
+  00010012
+ [1565] Sg2SlotSetVol
+  000066dc
+  00028f48
+  00000030
+  00010012
+ [1566] sceSifAllocIopHeap
+  000066ea
+  0010de70
+  00000070
+  fff10012
+ [1567] _sceCd_rcmdrdata
+  000066fd
+  001355c0
+  00000100
+  fff10011
+ [1568] isysLetterObjDiscardLetterAll
+  0000670e
+  0001ae28
+  000000b0
+  00010012
+ [1569] MultiCurrentQuaternionL
+  0000672c
+  0000ed78
+  00000054
+  00010012
+ [1570] iEnableDmacHandler
+  00006744
+  001072f0
+  00000010
+  fff10012
+ [1571] iosGetATanfExact
+  00006757
+  000118b8
+  00000014
+  00010012
+ [1572] iSetTimerHandler
+  00006768
+  001114e0
+  000000f4
+  fff10012
+ [1573] getAntiAlias
+  00006779
+  00015530
+  0000000c
+  00010012
+ [1574] iosPadEntryTickFunc
+  00006786
+  00005e90
+  0000000c
+  00010012
+ [1575] LoaderSysDrawSprite
+  0000679a
+  00105f30
+  000004d8
+  fff10012
+ [1576] padSysVibSetAcrParam
+  000067ae
+  00104ef8
+  00000060
+  fff10012
+ [1577] iosSetGpFinishFunc
+  000067c3
+  000163a0
+  00000010
+  00010012
+ [1578] WakeupThread
+  000067d6
+  00107010
+  00000010
+  fff10012
+ [1579] Sg2ExPcmInit
+  000067e3
+  0002ee18
+  00000090
+  00010012
+ [1580] sceInetAbortLog
+  000067f0
+  001191f8
+  00000040
+  fff10012
+ [1581] TerminateThread
+  00006800
+  00106f30
+  00000010
+  fff10012
+ [1582] isysGroupForFirstForce
+  00006810
+  00019ed0
+  000000fc
+  00010012
+ [1583] isysResolveAllModuleObjHasUndefSymbol
+  00006827
+  00008680
+  000000f4
+  00010012
+ [1584] iosConvertStringEUCtoSJIS
+  0000684d
+  0001ba18
+  000000cc
+  00010012
+ [1585] _sceMcCoreEnd
+  00006867
+  00121218
+  00000074
+  fff10012
+ [1586] LoaderSysFWrite
+  00006875
+  00103080
+  00000014
+  fff10012
+ [1587] Sync
+  00006885
+  00105cc0
+  00000114
+  fff10012
+ [1588] iosMvecZero
+  0000688a
+  0000d210
+  0000000c
+  00010012
+ [1589] iosStartThread
+  00006896
+  00006750
+  0000004c
+  00010012
+ [1590] memprintf
+  000068a5
+  00103ff8
+  00000048
+  fff10012
+ [1591] ClearDisplay
+  000068af
+  00106530
+  00000064
+  fff10012
+ [1592] RotQuaternionZExact
+  000068bc
+  0000f658
+  000000b4
+  00010012
+ [1593] DldSysUndefSymbol
+  000068d0
+  00000394
+  00000004
+  00050011
+ [1594] Sg2SlotSetMute
+  000068e2
+  00028da8
+  00000080
+  00010012
+ [1595] sceCdCbfunc_num
+  000068f1
+  00133ba0
+  00000004
+  fff10011
+ [1596] rootPtn
+  00006901
+  00000148
+  0000000c
+  00050011
+ [1597] sce_sync
+  00006909
+  001233f0
+  0000008c
+  fff10012
+ [1598] iosMcChDir
+  00006912
+  00004008
+  000000a8
+  00010012
+ [1599] GetExecModuleSize
+  0000691d
+  0000a060
+  0000000c
+  00010012
+ [1600] sceSifInitRebootNotify
+  0000692f
+  00111bf0
+  00000024
+  fff10012
+ [1601] isysDeleteObjManager
+  00006946
+  00018ad0
+  00000320
+  00010012
+ [1602] sceNetcnfifTerm
+  0000695b
+  00122f68
+  0000003c
+  fff10012
+ [1603] sceSnprintf
+  0000696b
+  00108f40
+  00000048
+  fff10012
+ [1604] sceDmaSendI
+  00006977
+  00114e28
+  00000074
+  fff10012
+ [1605] iosDlTrans
+  00006983
+  000134b8
+  00000070
+  00010012
+ [1606] sceNetcnfifSetFNoDecode
+  0000698e
+  00122548
+  00000010
+  fff10012
+ [1607] iosPopDC
+  000069a6
+  000126e8
+  00000050
+  00010012
+ [1608] sceCdGetError
+  000069af
+  00033100
+  00000098
+  00010012
+ [1609] LoaderSysDeleteAllExternalThreadExceptMe
+  000069bd
+  00102bd8
+  0000007c
+  fff10012
+ [1610] sceChstat
+  000069e6
+  0010cc60
+  0000024c
+  fff10012
+ [1611] getVIntrCnt
+  000069f0
+  0001a9f0
+  00000014
+  00010012
+ [1612] Sg2ExPcmOutputCtrl
+  000069fc
+  0002eb00
+  000000a0
+  00010012
+ [1613] Sg2SlotVabKeyOff
+  00006a0f
+  00029ab8
+  0000010c
+  00010012
+ [1614] discard_all_letter_in_post
+  00006a20
+  0001b3d8
+  00000070
+  00010012
+ [1615] _StartThread
+  00006a3b
+  00106f00
+  00000010
+  fff10012
+ [1616] __swrite
+  00006a48
+  0012fba8
+  00000080
+  fff10012
+ [1617] InitGp
+  00006a51
+  00015fc8
+  00000064
+  00010012
+ [1618] vschedSetNextFrameForceGarbage
+  00006a58
+  0001abc8
+  00000010
+  00010012
+ [1619] Sg2SmfpOpenSelCore
+  00006a77
+  0002adb8
+  00000214
+  00010012
+ [1620] Sg2ModClose
+  00006a8a
+  000217a8
+  00000030
+  00010012
+ [1621] __malloc_trim_threshold
+  00006a96
+  00136170
+  00000008
+  fff10011
+ [1622] SetT2_MODE
+  00006aae
+  00110510
+  00000010
+  fff10012
+ [1623] sceMc2GetDirAllAsync
+  00006ab9
+  0011aa58
+  000000b0
+  fff10012
+ [1624] sndSepCont
+  00006ace
+  0001d920
+  00000024
+  00010012
+ [1625] DelayThread
+  00006ad9
+  00107b08
+  000000c8
+  fff10012
+ [1626] iosGsSetDrawContext
+  00006ae5
+  00014c80
+  000001b8
+  00010012
+ [1627] getDrawScreenHeight
+  00006af9
+  00015350
+  0000000c
+  00010012
+ [1628] sceVif1PkCloseGifTag
+  00006b0d
+  00113340
+  000000a4
+  fff10012
+ [1629] getDispScreenHeight
+  00006b22
+  00015330
+  0000000c
+  00010012
+ [1630] Sg2ExStAdpcmSlotReserv
+  00006b36
+  0001f420
+  000000ac
+  00010012
+ [1631] sceNetcnfifSync
+  00006b4d
+  00122438
+  0000001c
+  fff10012
+ [1632] isysSearchCalledModuleFuncNameByAddr
+  00006b5d
+  0000b140
+  000000c0
+  00010012
+ [1633] _iSuspendThread
+  00006b82
+  00107060
+  00000010
+  fff10012
+ [1634] iosFvecToMmColMvec
+  00006b92
+  0000d778
+  00000040
+  00010012
+ [1635] sceCdReadClock
+  00006ba5
+  00033250
+  000000bc
+  00010012
+ [1636] PutFont
+  00006bb4
+  00105408
+  000002cc
+  fff10012
+ [1637] __mdiff
+  00006bbc
+  0012f240
+  00000190
+  fff10012
+ [1638] vschedGameTimeExec
+  00006bc4
+  000007d8
+  00000004
+  00050011
+ [1639] _sceMcCoreSetCardSpec
+  00006bd7
+  001212b8
+  0000003c
+  fff10012
+ [1640] iosSetCurrentDC
+  00006bed
+  00012778
+  0000001c
+  00010012
+ [1641] iosITOF0Vector
+  00006bfd
+  00011bd8
+  00000014
+  00010012
+ [1642] GetEulerZXYFromQuaternion
+  00006c0c
+  0000e008
+  00000310
+  00010012
+ [1643] loaderExecResetCallback
+  00006c26
+  00103f28
+  00000070
+  fff10012
+ [1644] EnableCache
+  00006c3e
+  00107330
+  00000010
+  fff10012
+ [1645] LoaderSysEntryExternalIntcHandlerList
+  00006c4a
+  00102730
+  0000005c
+  fff10012
+ [1646] iosPopCurrentMatrix
+  00006c70
+  0000bcf8
+  00000018
+  00010012
+ [1647] DeleteThread
+  00006c84
+  00106ef0
+  00000010
+  fff10012
+ [1648] sceSifSetSreg
+  00006c91
+  001129e8
+  0000001c
+  fff10012
+ [1649] _memalign_r
+  00006c9f
+  001276a0
+  000001c8
+  fff10012
+ [1650] iosFmodf
+  00006cab
+  0000d198
+  00000014
+  00010012
+ [1651] bootSchedulerThread
+  00006cb4
+  0001aa30
+  0000009c
+  00010012
+ [1652] GetMemorySize
+  00006cc8
+  00107540
+  00000010
+  fff10012
+ [1653] Sg2SmfpCheckSndOn
+  00006cd6
+  0002b458
+  00000038
+  00010012
+ [1654] sceDeci2ExSend
+  00006ce8
+  00112378
+  00000034
+  fff10012
+ [1655] vab_get_lfotbl_param
+  00006cf7
+  0002ceb8
+  00000044
+  00010012
+ [1656] Sg2SlotSetDirectPitch
+  00006d0c
+  000291a8
+  00000030
+  00010012
+ [1657] iosInverseMatrix
+  00006d22
+  0000c8e0
+  00000070
+  00010012
+ [1658] sceFormat
+  00006d33
+  0010c350
+  00000280
+  fff10012
+ [1659] Sg2ModCheckSndOn
+  00006d3d
+  00021770
+  00000038
+  00010012
+ [1660] gsReglistBegin
+  00006d4e
+  00016b30
+  000000e4
+  00010012
+ [1661] WaitSema
+  00006d5d
+  00107120
+  00000010
+  fff10012
+ [1662] isysGetUndefModuleObjNum
+  00006d66
+  0000a0d0
+  00000070
+  00010012
+ [1663] iosAddISchedulerTaskList
+  00006d7f
+  0001aad0
+  00000040
+  00010012
+ [1664] DeleteStrHashKey
+  00006d98
+  0001ea30
+  00000098
+  00010012
+ [1665] atanf
+  00006da9
+  00030070
+  0000028c
+  00010012
+ [1666] AddIntcHandler2
+  00006daf
+  00106dd0
+  00000010
+  fff10012
+ [1667] sceSifLoadStartModule
+  00006dbf
+  0010ed58
+  0000001c
+  fff10012
+ [1668] iosUsbSerialPrintf
+  00006dd5
+  00006068
+  0000006c
+  00010012
+ [1669] _print
+  00006de8
+  00107470
+  00000010
+  fff10012
+ [1670] iosKeybdSetCallBackFunc
+  00006def
+  0001e458
+  00000024
+  00010012
+ [1671] Sg2SlotSetBaseVol
+  00006e07
+  00028ef0
+  00000058
+  00010012
+ [1672] __sccl
+  00006e19
+  0012c048
+  00000100
+  fff10012
+ [1673] atoi
+  00006e20
+  00127600
+  00000028
+  fff10012
+ [1674] Sg2CtrlSetTickTime
+  00006e25
+  0001ed88
+  00000014
+  00010012
+ [1675] sndVabCreate
+  00006e38
+  0001da60
+  00000074
+  00010012
+ [1676] RotateThreadReadyQueue
+  00006e45
+  00106f90
+  00000010
+  fff10012
+ [1677] RFU088_iPollEvnetFlag
+  00006e5c
+  00107260
+  00000010
+  fff10012
+ [1678] gsReglist
+  00006e72
+  000187c8
+  00000008
+  00010012
+ [1679] iosScaleMatrixV
+  00006e7c
+  0000c978
+  00000038
+  00010012
+ [1680] GetQuaternionByEulerYXZExact
+  00006e8c
+  000101a0
+  00000214
+  00010012
+ [1681] _ctype_
+  00006ea9
+  00139420
+  00000101
+  fff10011
+ [1682] sceChdir
+  00006eb1
+  0010d0b8
+  0000001c
+  fff10012
+ [1683] iosDI
+  00006eba
+  00000d38
+  00000078
+  00010012
+ [1684] sndBDOpen
+  00006ec0
+  0001db60
+  00000154
+  00010012
+ [1685] LoaderSysResetSystem
+  00006eca
+  00101a50
+  00000050
+  fff10012
+ [1686] Sg2ExStAdpcmTrkVolumeDirect
+  00006edf
+  0001fc28
+  00000124
+  00010012
+ [1687] sceMount
+  00006efb
+  0010d288
+  00000280
+  fff10012
+ [1688] SleepThread
+  00006f04
+  00107000
+  00000010
+  fff10012
+ [1689] getDispScreenWidth
+  00006f10
+  00015320
+  0000000c
+  00010012
+ [1690] sceDbcSendData
+  00006f23
+  001167f8
+  00000130
+  fff10012
+ [1691] iosCreateDC
+  00006f32
+  00012388
+  000000d4
+  00010012
+ [1692] Sg2SlotGetVol
+  00006f3e
+  00029888
+  00000020
+  00010012
+ [1693] iosMcGetInfo
+  00006f4c
+  00003ee0
+  00000128
+  00010012
+ [1694] iFlushCache
+  00006f59
+  00107390
+  00000010
+  fff10012
+ [1695] __moddi3
+  00006f65
+  00123b18
+  00000690
+  fff10012
+ [1696] isysDeleteGroupWithLinkParam
+  00006f6e
+  00019840
+  000001e8
+  00010012
+ [1697] open_letter_post
+  00006f8b
+  0001b450
+  00000010
+  00010012
+ [1698] all_keyoff
+  00006f9c
+  00020ba0
+  0000009c
+  00010012
+ [1699] XUnitVectorInv
+  00006fa7
+  000004b0
+  00000010
+  00050011
+ [1700] isysFlushISYSLetterObj
+  00006fb6
+  0001add0
+  00000018
+  00010012
+ [1701] sceMkdir
+  00006fcd
+  0010c178
+  000001b8
+  fff10012
+ [1702] RFU003
+  00006fd6
+  00106cf0
+  00000010
+  fff10012
+ [1703] soundGetRevMode
+  00006fdd
+  0001df58
+  0000000c
+  00010012
+ [1704] sceLibnetInitialize
+  00006fed
+  00119388
+  000000c8
+  fff10012
+ [1705] Sg2ExStAdpcmIopReadAdr
+  00007001
+  00020198
+  00000064
+  00010012
+ [1706] iosCalcFColorToBrightness
+  00007018
+  00011fe8
+  00000038
+  00010012
+ [1707] InitTimer
+  00007032
+  00110530
+  00000154
+  fff10012
+ [1708] __kernel_rem_pio2f
+  0000703c
+  000321d8
+  00000864
+  00010012
+ [1709] sceSifQueryBlockSize
+  0000704f
+  0010e2b8
+  0000007c
+  fff10012
+ [1710] scePad2GetState
+  00007064
+  001154b8
+  00000140
+  fff10012
+ [1711] sceDmaSend
+  00007074
+  00114d48
+  00000068
+  fff10012
+ [1712] SetT2_COUNT
+  0000707f
+  00110500
+  00000010
+  fff10012
+ [1713] PutTLBEntry
+  0000708b
+  0010f590
+  00000010
+  fff10012
+ [1714] LoaderSysDeleteExternalSemaList
+  00007097
+  00102930
+  0000003c
+  fff10012
+ [1715] sceSifExitRpc
+  000070b7
+  00109298
+  00000024
+  fff10012
+ [1716] Sg2SlotSearchParamOlder1
+  000070c5
+  00027fa0
+  00000458
+  00010012
+ [1717] InitNet
+  000070de
+  00004eb0
+  00000170
+  00010012
+ [1718] iosDmaSendPath2
+  000070e6
+  000156a8
+  000000e4
+  00010012
+ [1719] __muldi3
+  000070f6
+  00127028
+  00000074
+  fff10012
+ [1720] iosSrpWaitDMA
+  000070ff
+  000060f0
+  00000018
+  00010012
+ [1721] Sg2ChipInitHot
+  0000710d
+  0001eb30
+  0000002c
+  00010012
+ [1722] iosMallocAlign
+  0000711c
+  00003768
+  00000118
+  00010012
+ [1723] RelocateElfInfoHeader
+  0000712b
+  001004b8
+  000000d4
+  fff10012
+ [1724] InitDisp
+  00007141
+  00106598
+  0000007c
+  fff10012
+ [1725] DeleteSema
+  0000714a
+  001070f0
+  00000010
+  fff10012
+ [1726] sceGsSetHalfOffset
+  00007155
+  00114180
+  00000088
+  fff10012
+ [1727] iosInit
+  00007168
+  00000968
+  00000034
+  00010012
+ [1728] sceInetCtlDownInterface
+  00007170
+  00119280
+  00000044
+  fff10012
+ [1729] strlen
+  00007188
+  001291c4
+  00000138
+  fff10012
+ [1730] sceSifLoadModule
+  0000718f
+  0010ed38
+  00000020
+  fff10012
+ [1731] iosPushVu0Registers
+  000071a0
+  0000c578
+  00000120
+  00010012
+ [1732] ischedExecSubThread
+  000071b4
+  000007c0
+  00000004
+  00050011
+ [1733] CreateThread
+  000071c8
+  00106ee0
+  00000010
+  fff10012
+ [1734] Sg2DspEffectSetDelay
+  000071d5
+  0001f008
+  00000060
+  00010012
+ [1735] iosMulMvec
+  000071ea
+  0000d340
+  00000058
+  00010012
+ [1736] _init_signal_r
+  000071f5
+  00128788
+  00000070
+  fff10012
+ [1737] open
+  00007204
+  00112090
+  00000028
+  fff10012
+ [1738] sndSepSetDefaultParam
+  00007209
+  0001d880
+  0000005c
+  00010012
+ [1739] iosDlSetLayer
+  0000721f
+  00013610
+  00000060
+  00010012
+ [1740] _sceCd_cd_callback
+  0000722d
+  00116de8
+  000000a0
+  fff10012
+ [1741] _sceMcCoreAuthentication
+  00007240
+  001216a8
+  000000ec
+  fff10012
+ [1742] Sg2SmfpSetParam
+  00007259
+  0002b490
+  000003b8
+  00010012
+ [1743] _sceMcpAuthentication
+  00007269
+  001205b0
+  0000001c
+  fff10012
+ [1744] EnableDmac
+  0000727f
+  001076a8
+  00000068
+  fff10012
+ [1745] LoaderSysDeleteExternalIntcHandlerList
+  0000728a
+  001028a0
+  0000004c
+  fff10012
+ [1746] sceDeci2ExUnLock
+  000072b1
+  00112408
+  00000024
+  fff10012
+ [1747] iosFreeIopHeap
+  000072c2
+  0001e008
+  00000048
+  00010012
+ [1748] sceMc2RenameAsync
+  000072d1
+  0011b350
+  0000011c
+  fff10012
+ [1749] LoaderSysRelocateOnlineElfInfo
+  000072e3
+  00101518
+  000001cc
+  fff10012
+ [1750] needResolveModuleGroup
+  00007302
+  00000388
+  00000004
+  00050011
+ [1751] RFU086_WaitEvnetFlag
+  00007319
+  00107240
+  00000010
+  fff10012
+ [1752] iosDumpVIF1Status
+  0000732e
+  00013ca8
+  000003a0
+  00010012
+ [1753] iosPadGetXZInputLwithThresholdIndepAxis
+  00007340
+  00005b28
+  0000016c
+  00010012
+ [1754] iosSignalIopSema
+  00007368
+  0001e1b8
+  0000001c
+  00010012
+ [1755] iReleaseTimerAlarm
+  00007379
+  00111b78
+  00000078
+  fff10012
+ [1756] GetQuaternionByDegEulerYXZ
+  0000738c
+  00010ee8
+  0000020c
+  00010012
+ [1757] div
+  000073a7
+  0002ffe8
+  00000084
+  00010012
+ [1758] getFrameBufferSize
+  000073ab
+  00015360
+  0000002c
+  00010012
+ [1759] iosSetPacketPtrPath1
+  000073be
+  00013050
+  00000014
+  00010012
+ [1760] sceSifExecRequest
+  000073d3
+  00109fa8
+  000001c4
+  fff10012
+ [1761] getCRTCoffsetU
+  000073e5
+  00016080
+  0000000c
+  00010012
+ [1762] SysExecPS2Entry
+  000073f4
+  00133250
+  00000018
+  fff10011
+ [1763] initDldSys
+  00007404
+  0000abf8
+  0000003c
+  00010012
+ [1764] iosUcharColClampAdd
+  0000740f
+  0000d618
+  000000bc
+  00010012
+ [1765] floorf
+  00007423
+  00032b48
+  000000d8
+  00010012
+ [1766] strchr
+  0000742a
+  00128ddc
+  00000190
+  fff10012
+ [1767] Sg2RemoteSyncStatus
+  00007431
+  00024d00
+  0000001c
+  00010012
+ [1768] iosGetATan2
+  00007445
+  00011948
+  0000000c
+  00010012
+ [1769] sceSifLoadModuleBuffer
+  00007451
+  0010ead0
+  0000001c
+  fff10012
+ [1770] __srefill
+  00007468
+  0012f938
+  0000017c
+  fff10012
+ [1771] iosGetCurrentMatrixTrans
+  00007472
+  0000c350
+  0000000c
+  00010012
+ [1772] Sg2ModMidiout
+  0000748b
+  00020f28
+  00000100
+  00010012
+ [1773] _iDisableIntc
+  00007499
+  00106e90
+  00000010
+  fff10012
+ [1774] iosMcGetDir
+  000074a7
+  00004528
+  000000e8
+  00010012
+ [1775] sceSifGetOtherData
+  000074b3
+  001095d8
+  00000164
+  fff10012
+ [1776] sceMc2SearchFile
+  000074c6
+  0011bb68
+  0000003c
+  fff10012
+ [1777] Sg2SlotSetVolPhase
+  000074d7
+  00029258
+  00000038
+  00010012
+ [1778] isysGetThisSubThread
+  000074ea
+  0001cd00
+  0000000c
+  00010012
+ [1779] _iosAssert
+  000074ff
+  00000000
+  0000002c
+  00010012
+ [1780] Sg2ChipSetDigitalOutputMode
+  0000750a
+  0001eac8
+  0000002c
+  00010012
+ [1781] asinf
+  00007526
+  00030518
+  00000014
+  00010012
+ [1782] iDisableIntcHandler
+  0000752c
+  001072d0
+  00000010
+  fff10012
+ [1783] Sg2ExStAdpcmSlotMalloc
+  00007540
+  0001f400
+  0000001c
+  00010012
+ [1784] SetTLBHandler
+  00007557
+  0010f378
+  00000060
+  fff10012
+ [1785] iosSwClip255Mvec
+  00007565
+  0000d570
+  00000030
+  00010012
+ [1786] Sg2ExStAdpcmGetLsn
+  00007576
+  0001fa30
+  00000008
+  00010012
+ [1787] IirFilter
+  00007589
+  0002f680
+  0000013c
+  00010012
+ [1788] iosMcFormat
+  00007593
+  00004498
+  00000048
+  00010012
+ [1789] XUnitVector
+  0000759f
+  00000460
+  00000010
+  00050011
+ [1790] iosClearTransCurrentMatrix
+  000075ab
+  0000bf50
+  0000000c
+  00010012
+ [1791] iosMmColToFvecMvec
+  000075c6
+  0000d7b8
+  00000040
+  00010012
+ [1792] Sg2ExPcmSetSignal
+  000075d9
+  0002ee08
+  0000000c
+  00010012
+ [1793] IosLoadIrxSimulation
+  000075eb
+  00009558
+  00000064
+  00010012
+ [1794] sceMc2iChangeThreadPriority
+  00007600
+  0011a700
+  00000038
+  fff10012
+ [1795] Sg2SlotSetDumperOn
+  0000761c
+  000292b8
+  00000028
+  00010012
+ [1796] RemoveSbusIntcHandler
+  0000762f
+  00106d70
+  00000010
+  fff10012
+ [1797] sceSifRemoveRpcQueue
+  00007645
+  00109ec0
+  00000090
+  fff10012
+ [1798] sndSepStopReq
+  0000765a
+  0001d7d0
+  00000018
+  00010012
+ [1799] iosGetSecondFromTCount
+  00007668
+  00000bb8
+  000000d8
+  00010012
+ [1800] SetTimerAlarm
+  0000767f
+  001118b0
+  0000012c
+  fff10012
+ [1801] iosLoaderResetEntry
+  0000768d
+  00000e20
+  00000098
+  00010012
+ [1802] sceVif1PkAlign
+  000076a1
+  001133e8
+  0000007c
+  fff10012
+ [1803] SuspendThread
+  000076b0
+  00107050
+  00000010
+  fff10012
+ [1804] _sceIDC
+  000076be
+  00131a58
+  000000a4
+  fff10012
+ [1805] iosDebugPartitionDump
+  000076c6
+  00003cb0
+  0000005c
+  00010012
+ [1806] RotX90Quaternion
+  000076dc
+  00000410
+  00000010
+  00050011
+ [1807] _vfprintf_r
+  000076ed
+  00129aa8
+  00001670
+  fff10012
+ [1808] JoinThread
+  000076f9
+  00107090
+  00000010
+  fff10012
+ [1809] ReleaseStrHashKeyAll
+  00007704
+  0001ea00
+  00000030
+  00010012
+ [1810] ExpandScratchPad
+  00007719
+  0010f640
+  00000010
+  fff10012
+ [1811] iosScaleNormalLightMatrix
+  0000772a
+  0000cc08
+  00000038
+  00010012
+ [1812] LoaderSysEntryExternalThreadList
+  00007744
+  00102790
+  0000004c
+  fff10012
+ [1813] SetQuaternionByAxisRotate
+  00007765
+  0000f0c0
+  0000005c
+  00010012
+ [1814] sceInetOpen
+  0000777f
+  001189e0
+  00000048
+  fff10012
+ [1815] iosMulRotMatrixXInt16
+  0000778b
+  0000cd78
+  00000104
+  00010012
+ [1816] iosGetCurrentMatrix
+  000077a1
+  0000c338
+  00000018
+  00010012
+ [1817] sg2NicoReverbMode
+  000077b5
+  00000b7c
+  00000004
+  00050011
+ [1818] SetCurrentQuaternion
+  000077c7
+  0000ee00
+  00000024
+  00010012
+ [1819] iosDlLockObj
+  000077dc
+  00013528
+  00000070
+  00010012
+ [1820] GetInverseMatrixFromQuaternionPos
+  000077e9
+  0000f2d8
+  00000098
+  00010012
+ [1821] iosSyncV
+  0000780b
+  00015b60
+  00000054
+  00010012
+ [1822] sceSifResetIop
+  00007814
+  0010f098
+  00000154
+  fff10012
+ [1823] sceTtyRead
+  00007823
+  00112810
+  000000d0
+  fff10012
+ [1824] sceDmaPutStallAddr
+  0000782e
+  00114d30
+  00000014
+  fff10012
+ [1825] isysSetObjImmediateDeleteFunc
+  00007841
+  0001a1b0
+  00000008
+  00010012
+ [1826] SetPgifHandler
+  0000785f
+  00107440
+  00000010
+  fff10012
+ [1827] Sg2SlotSetMasVol
+  0000786e
+  00028e28
+  0000006c
+  00010012
+ [1828] LoaderSysRemove
+  0000787f
+  00103098
+  00000014
+  fff10012
+ [1829] sceGsPutDrawEnv
+  0000788f
+  00113880
+  000000e8
+  fff10012
+ [1830] sceNetcnfifDeleteAll
+  0000789f
+  00122cd8
+  00000054
+  fff10012
+ [1831] _kExecArg
+  000078b4
+  001327b0
+  00000004
+  fff10011
+ [1832] sceMc2GetDirAsync
+  000078be
+  0011af28
+  00000130
+  fff10012
+ [1833] __register_frame_info_table
+  000078d0
+  00126240
+  00000068
+  fff10012
+ [1834] Sg2ExStAdpcmInit
+  000078ec
+  0001f370
+  00000060
+  00010012
+ [1835] sceSifAddRebootNotifyHandler
+  000078fd
+  00111c98
+  000000b8
+  fff10012
+ [1836] sceMc2ChangeThreadPriority
+  0000791a
+  0011a6c8
+  00000038
+  fff10012
+ [1837] sceDeci2ExRecv
+  00007935
+  00112340
+  00000034
+  fff10012
+ [1838] sceAddDrv
+  00007944
+  0010c5d0
+  0000012c
+  fff10012
+ [1839] iosMvecAllOnes
+  0000794e
+  0000d220
+  0000000c
+  00010012
+ [1840] __sigtramp
+  0000795d
+  00128a50
+  00000020
+  fff10012
+ [1841] Sg2ExStAdpcmTrkDspSw
+  00007968
+  0001fdf0
+  00000100
+  00010012
+ [1842] sceVif1PkCnt
+  0000797d
+  001131f0
+  00000058
+  fff10012
+ [1843] ZeroVector
+  0000798a
+  00000450
+  00000010
+  00050011
+ [1844] sceInetAbort
+  00007995
+  00118de0
+  00000048
+  fff10012
+ [1845] __register_frame_info
+  000079a2
+  001261a8
+  00000068
+  fff10012
+ [1846] _sceCd_scmdrdata
+  000079b8
+  00134d40
+  00000420
+  fff10011
+ [1847] iosGetField
+  000079c9
+  00015bb8
+  00000024
+  00010012
+ [1848] iosInitIntrSystem
+  000079d5
+  00000ac8
+  000000b0
+  00010012
+ [1849] LoaderSysSetPowerOffCallBackFunc
+  000079e7
+  00104f58
+  00000008
+  fff10012
+ [1850] iosNetSend
+  00007a08
+  00005148
+  000000f0
+  00010012
+ [1851] sceSifLoadElfPart
+  00007a13
+  0010ee80
+  0000001c
+  fff10012
+ [1852] Shock_Request
+  00007a25
+  00007488
+  0000009c
+  00010012
+ [1853] PopQuaternion
+  00007a33
+  0000f080
+  00000020
+  00010012
+ [1854] sceInetGetLog
+  00007a41
+  00119168
+  0000008c
+  fff10012
+ [1855] CpuConfig
+  00007a4f
+  00107370
+  00000010
+  fff10012
+ [1856] close
+  00007a59
+  001120b8
+  00000008
+  fff10012
+ [1857] _sceMcFatSearchFile
+  00007a5f
+  0011ea88
+  000000f0
+  fff10012
+ [1858] LoaderSysInitExternalSemaList
+  00007a73
+  00102a00
+  0000003c
+  fff10012
+ [1859] sceSifLoadFileReset
+  00007a91
+  0010e4c8
+  00000038
+  fff10012
+ [1860] iosGsSetMode
+  00007aa5
+  00014bf0
+  00000090
+  00010012
+ [1861] isysObjDeleteLock
+  00007ab2
+  0001a2f0
+  00000028
+  00010012
+ [1862] _sceMcFatWriteFile
+  00007ac4
+  0011f310
+  000005dc
+  fff10012
+ [1863] iosGetAlignSinCosf
+  00007ad7
+  000111f0
+  00000038
+  00010012
+ [1864] isysResolveOneModuleObj
+  00007aea
+  000099b8
+  00000098
+  00010012
+ [1865] create_letter
+  00007b02
+  0001aed8
+  00000134
+  00010012
+ [1866] iSetTimerAlarm
+  00007b10
+  001119e0
+  000000f0
+  fff10012
+ [1867] sndSepStopTypeAll
+  00007b1f
+  0001d948
+  00000050
+  00010012
+ [1868] iosGetFontIDWithSJIS
+  00007b31
+  0001bfe8
+  000000b4
+  00010012
+ [1869] __pack_d
+  00007b46
+  001271d8
+  000000d8
+  fff10012
+ [1870] sndSepPauseAll
+  00007b4f
+  0001d8e0
+  00000024
+  00010012
+ [1871] Sg2ModGetParam
+  00007b5e
+  00022220
+  000000c8
+  00010012
+ [1872] Sg2ExStAdpcmSlotFree
+  00007b6d
+  0001f4d0
+  00000070
+  00010012
+ [1873] Sg2RemoteInit
+  00007b82
+  00024f10
+  000000d8
+  00010012
+ [1874] iosDeleteThread
+  00007b90
+  000068b8
+  00000074
+  00010012
+ [1875] vfprintf
+  00007ba0
+  00129a30
+  00000074
+  fff10012
+ [1876] isysLaunchModule
+  00007ba9
+  00008ea0
+  00000208
+  00010012
+ [1877] iosDlPushLayer
+  00007bba
+  00013670
+  000000b8
+  00010012
+ [1878] ExitDeleteThread
+  00007bc9
+  00106f20
+  00000010
+  fff10012
+ [1879] sceSifRpcLoop
+  00007bda
+  0010a170
+  00000040
+  fff10012
+ [1880] iReleaseAlarm
+  00007be8
+  00106ed0
+  00000010
+  fff10012
+ [1881] gsBox2
+  00007bf6
+  000172c8
+  0000059c
+  00010012
+ [1882] raise
+  00007bfd
+  001289e8
+  00000020
+  fff10012
+ [1883] schedGarbageDisableFlag
+  00007c03
+  000007c8
+  00000004
+  00050011
+ [1884] _lshift
+  00007c1b
+  0012f080
+  00000158
+  fff10012
+ [1885] free
+  00007c23
+  001278c0
+  00000048
+  fff10012
+ [1886] isysGetLinkMax
+  00007c28
+  0001a618
+  00000008
+  00010012
+ [1887] _kTLBRefillHandler
+  00007c37
+  00132768
+  00000004
+  fff10011
+ [1888] Sg2StPcmQuit
+  00007c4a
+  0002f8c8
+  0000002c
+  00010012
+ [1889] iDisableDmacHandler
+  00007c57
+  00107310
+  00000010
+  fff10012
+ [1890] _Bfree
+  00007c6b
+  0012e990
+  0000002c
+  fff10012
+ [1891] sceCdSearchFile
+  00007c72
+  00117688
+  0000001c
+  fff10012
+ [1892] iosGetDataSizeOfFont
+  00007c82
+  0001bc20
+  00000018
+  00010012
+ [1893] __ieee754_atan2f
+  00007c97
+  00031078
+  000001e0
+  00010012
+ [1894] Sg2CtrlEntryTickProc
+  00007ca8
+  0001eb68
+  00000094
+  00010012
+ [1895] sceDmaGetEnv
+  00007cbd
+  00114cf8
+  00000038
+  fff10012
+ [1896] iosGetIopTotalMemSize
+  00007cca
+  0001e168
+  0000002c
+  00010012
+ [1897] __do_global_ctors
+  00007ce0
+  00125048
+  000000c0
+  fff10012
+ [1898] StartThread
+  00007cf2
+  00107bd0
+  00000178
+  fff10012
+ [1899] loaderLoop
+  00007cfe
+  001039c0
+  0000017c
+  fff10012
+ [1900] _sceMcCoreGetCardSpec
+  00007d09
+  001212f8
+  000001d4
+  fff10012
+
+Hdr0
+
+Hdr5
+ [0]
+  00000009
+  00000000
+  00000001
+  40058e58
+  40058e58
+  00048e58
+  00048e58
+ [1]
+  00000009
+  00000000
+  00000005
+  40058e58
+  40058e58
+  00048e58
+  00048e58
+ [2]
+  00000009
+  00000000
+  00000008
+  40058e58
+  40058e58
+  00048e58
+  00048e58
+ [3]
+  00000009
+  000017f7
+  00000001
+  40058e58
+  400664f0
+  00048e58
+  000564f0
+ [4]
+  00000009
+  00000129
+  00000005
+  40064e10
+  400724a8
+  00054e10
+  000624a8
+ [5]
+  00000009
+  000001b3
+  00000008
+  40065758
+  40072df0
+  00055758
+  00062df0
+
+Sections
+ [0] 
+  00000000
+  00000000
+  00000000 0 size
+  00000000
+  00000000
+  00000000
+  00000000
+  00000000 (00006990)
+ [1] .text
+  00000000
+  400121a0
+  0003330c 209676 size
+  00000008
+  00000001
+  00000000
+  00000000
+  000021a0 (00008b30)
+ [2] .rel.text
+  00000000
+  00000000
+  0000bfb8 49080 size
+  00000004
+  00000009
+  00000000
+  00000000
+  00000000 (00006990)
+ [3] .rela.text
+  00000000
+  00000000
+  00000000 0 size
+  00000004
+  00000004
+  00000000
+  00000000
+  00000000 (00006990)
+ [4] .reginfo
+  00000000
+  00000000
+  00000018 24 size
+  00000004
+  70000006
+  00000000
+  00000000
+  00000000 (00006990)
+ [5] .data
+  00000000
+  400454b0
+  00000f74 3956 size
+  00000010
+  00000001
+  00000000
+  00000000
+  000354b0 (0003be40)
+ [6] .rel.data
+  00000000
+  00000000
+  00000948 2376 size
+  00000004
+  00000009
+  00000000
+  00000000
+  00000000 (00006990)
+ [7] .rela.data
+  00000000
+  00000000
+  00000000 0 size
+  00000004
+  00000004
+  00000000
+  00000000
+  00000000 (00006990)
+ [8] .rodata
+  00000000
+  40046430
+  00003637 13879 size
+  00000010
+  00000001
+  00000000
+  00000000
+  00036430 (0003cdc0)
+ [9] .rel.rodata
+  00000000
+  00000000
+  00000d98 3480 size
+  00000004
+  00000009
+  00000000
+  00000000
+  00000000 (00006990)
+ [10] .rela.rodata
+  00000000
+  00000000
+  00000000 0 size
+  00000004
+  00000004
+  00000000
+  00000000
+  00000000 (00006990)
+ [11] .bss
+  00000000
+  00000000
+  000a24ec 664812 size
+  00000040
+  00000008
+  00000001
+  00000000
+  00000000 (00006990)
+ [12] .mdebug.eabi64
+  00000000
+  40049a68
+  00000000 0 size
+  00000001
+  00000001
+  00000000
+  00000000
+  00039a68 (000403f8)
+ [13] .shstrtab
+  00000000
+  00000000
+  0000008f 143 size
+  00000001
+  00000003
+  00000000
+  00000000
+  00000000 (00006990)
+ [14] .symtab
+  00000000
+  40049a68
+  000076d0 30416 size
+  00000004
+  00000002
+  00000000
+  00000000
+  00039a68 (000403f8)
+ [15] .strtab
+  00000000
+  00000000
+  00007d1f 32031 size
+  00000001
+  00000003
+  00000000
+  00000000
+  00000000 (00006990)

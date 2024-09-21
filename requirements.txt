@@ -1,6 +1,7 @@
 spimdisasm
 rabbitizer
 splat64[mips]>=0.26.0,<1.0.0
+pyelftools
 tqdm
 ninja_syntax
 mapfile_parser

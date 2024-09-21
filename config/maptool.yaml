@@ -1,0 +1,46 @@
+sha1: 919e9991fd032046891275d43478b43848b6eb33
+options:
+    # paths
+    basename: MAPTOOL.XFF
+    target_path: iso/TOOLS/MAPTOOL.XFF
+    base_path: ..
+
+    asm_path: asm/maptool
+    src_path: src/maptool
+    build_path: build
+
+    symbol_addrs_path: config/symbols.maptool.txt
+    reloc_addrs_path: config/relocs.maptool.txt
+    create_undefined_funcs_auto: False
+    create_undefined_syms_auto: False
+
+    # compiler
+    compiler: EEGCC
+    platform: ps2
+
+    migrate_rodata_to_functions: True
+
+    string_encoding: EUC-JP
+    rodata_string_guesser_level: 2 # improve string detection
+    disasm_unknown: True
+    named_regs_for_c_funcs: True
+    find_file_boundaries: True
+    section_order: [".text", ".data", ".rodata", ".lit4", ".sdata", ".sbss", ".bss"]
+segments:
+    - name: main
+      type: code
+      start: 0x0
+      vram: 0x40010000
+      subsegments:
+        - [0x0, databin, maptool_header]
+        - [0x608, c]
+        # - [0x868, c]
+        # - [0x42E8, c]
+        # - [0x4378, c]
+        # - [0x4488, c]
+        # - [0x44C8, c]
+        # - [0x46F8, c]
+        - [0x4850, data]
+        - [0x4F70, rodata]
+        - [0x54c0, databin]
+    - [0x8C64]

@@ -9,8 +9,8 @@ options:
     src_path: src/gamecore
     build_path: build
 
-    symbol_addrs_path: config/symbols.gamecore.txt
-    reloc_addrs_path: config/relocs.gamecore.txt
+    symbol_addrs_path: config/gamecore.symbols.txt
+    reloc_addrs_path: config/gamecore.relocs.txt
     create_undefined_funcs_auto: False
     create_undefined_syms_auto: False
 

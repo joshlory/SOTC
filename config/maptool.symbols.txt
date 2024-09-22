@@ -1,1 +1,2 @@
 CreateMapWindow = 0x40013DC8;
+LOAD_MODE_STR = 0x40014860;

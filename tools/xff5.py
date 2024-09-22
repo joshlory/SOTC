@@ -99,19 +99,6 @@ def get_symbol_info(file, sym_table, sym_str_table, sym_idx, section_names):
     name = read_string(file, sym_str_table + sym['nameOffs'])
     return name if name else section_names[sym['sect']], sym['addr']
 
-def format_reloc_output(addr, relType, sym_name):
-    rom_addr = 0x608 + addr
-    reloc_type = {
-        4: "MIPS_26",
-        5: "MIPS_HI16",
-        6: "MIPS_LO16"
-    }.get(relType)
-
-    if relType in [4, 5, 6]:
-        return f"rom:0x{rom_addr:X} symbol:{sym_name} reloc:{reloc_type}"
-    else:
-        return None
-
 def extract_reloc_and_symbols(filename):
     with open(filename, 'rb') as file:
         hdr = read_xffEntPntHdr(file)
@@ -166,21 +153,51 @@ def extract_reloc_and_symbols(filename):
             inst_table_offset = reloc_entry['inst_Rel']
 
             print("\n  Addr Table:")
-            for j in range(reloc_entry['nrEnt']):
+            j = 0
+            while j < reloc_entry['nrEnt']:
                 addr, relType, tgSymIx = read_xffRelocAddrEnt(file, addr_table_offset + j * 8)
                 instr, unk = read_xffRelocInstEnt(file, inst_table_offset + j * 8)
+
+                sym_name, sym_addr = get_symbol_info(file, hdr['symTab_Rel'], hdr['symTabStr_Rel'], tgSymIx, section_names)
+
                 if relType == 4 and tgSymIx == 1:
                     func_offset = (instr & 0xFFFFFF) * 4
-                    sym_name = f"func_{0x40010000 + 0x608 + func_offset:08X}"
-                else:
-                    sym_name, sym_addr = get_symbol_info(file, hdr['symTab_Rel'], hdr['symTabStr_Rel'], tgSymIx, section_names)
-                    if relType == 6 and sym_name.startswith('.'):
-                        sym_name = sym_name + '+0x' + format(instr & 0xFFFF, 'X')
-                # print(f"    Entry {j}: Addr: 0x{addr:08X}, Type: {relType}, SymIdx: {tgSymIx}, Instr: {instr:08X}, Unk: {unk:08X}")
-                # print(f"      Symbol: {sym_name}, Address: 0x{sym_addr:08X}")
+                    sym_name = f"func_{0x40010608 + func_offset:08X}"
+                elif relType == 5:  # MIPS_HI16
+                    # Look for the next MIPS_LO16 entry
+                    k = j + 1
+                    while k < reloc_entry['nrEnt']:
+                        next_addr, next_relType, next_tgSymIx = read_xffRelocAddrEnt(file, addr_table_offset + k * 8)
+                        next_instr, next_unk = read_xffRelocInstEnt(file, inst_table_offset + k * 8)
+                        if next_relType == 6:  # MIPS_LO16
+                            lo_val = next_instr & 0xFFFF
+                            if lo_val & 0x8000:
+                                lo_val -= 0x10000  # Convert to signed
+                            full_addr = ((instr & 0xFFFF) << 16) + lo_val + sym_addr
+                            sym_name = f"D_{full_addr:08X}"
+                            break
+                        k += 1
+                    if k == reloc_entry['nrEnt']:
+                        print(f"Warning: Couldn't find MIPS_LO16 for MIPS_HI16 at rom:0x{0x608+addr:X}")
+
                 formatted_output = format_reloc_output(addr, relType, sym_name)
                 if formatted_output:
                     print(f"{formatted_output}")
+
+                j += 1
+
+def format_reloc_output(addr, relType, sym_name):
+    rom_addr = 0x608 + addr
+    reloc_type = {
+        4: "MIPS_26",
+        5: "MIPS_HI16",
+        6: "MIPS_LO16"
+    }.get(relType)
+
+    if relType in [4, 5, 6]:
+        return f"rom:0x{rom_addr:X} symbol:{sym_name} reloc:{reloc_type}"
+    else:
+        return None
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

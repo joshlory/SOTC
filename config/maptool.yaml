@@ -9,8 +9,8 @@ options:
     src_path: src/maptool
     build_path: build
 
-    symbol_addrs_path: config/symbols.maptool.txt
-    reloc_addrs_path: config/relocs.maptool.txt
+    symbol_addrs_path: config/maptool.symbols.txt
+    reloc_addrs_path: config/maptool.relocs.txt
     create_undefined_funcs_auto: False
     create_undefined_syms_auto: False
 
@@ -34,12 +34,6 @@ segments:
       subsegments:
         - [0x0, databin, maptool_header]
         - [0x608, c]
-        # - [0x868, c]
-        # - [0x42E8, c]
-        # - [0x4378, c]
-        # - [0x4488, c]
-        # - [0x44C8, c]
-        # - [0x46F8, c]
         - [0x4850, data]
         - [0x4F70, rodata]
         - [0x54c0, databin]

@@ -18,10 +18,24 @@ import splat
 import splat.scripts.split as split
 from splat.segtypes.linker_entry import LinkerEntry
 
+from tools import parse_xff_relocs
+
 ROOT = Path(__file__).parent
 TOOLS_DIR = ROOT / "tools"
 
-YAML_FILE = "config/sotc_preview.yaml"
+XFF_FILES = [
+    "iso/KERNEL.XFF",
+    "iso/MANAGER.XFF",
+    "iso/GAMECORE.XFF",
+    "iso/TOOLS/MAPTOOL.XFF",
+]
+YAML_FILES = [
+    "config/kernel.yaml",
+    "config/manager.yaml",
+    "config/gamecore.yaml",
+    "config/maptool.yaml",
+    "config/sotc_preview.yaml",
+]
 BASENAME = "SCPS_150.97"
 LD_PATH = f"{BASENAME}.ld"
 ELF_PATH = f"build/{BASENAME}"
@@ -242,7 +256,11 @@ if __name__ == "__main__":
     if args.cleansrc:
         shutil.rmtree("src", ignore_errors=True)
 
-    split.main([YAML_FILE], modes="all", verbose=False)
+    for xff_file in XFF_FILES:
+        parse_xff_relocs.main(xff_file)
+
+    for yaml_file in YAML_FILES:
+        split.main([yaml_file], modes="all", verbose=False)
 
     linker_entries = split.linker_writer.entries
 

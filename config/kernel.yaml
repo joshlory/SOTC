@@ -9,8 +9,8 @@ options:
     src_path: src/kernel
     build_path: build
 
-    symbol_addrs_path: config/symbols.kernel.txt
-    reloc_addrs_path: config/relocs.kernel.txt
+    symbol_addrs_path: config/kernel.symbols.txt
+    reloc_addrs_path: config/kernel.relocs.txt
     create_undefined_funcs_auto: False
     create_undefined_syms_auto: False
 

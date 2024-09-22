@@ -9,8 +9,8 @@ options:
     src_path: src/manager
     build_path: build
 
-    symbol_addrs_path: config/symbols.manager.txt
-    reloc_addrs_path: config/relocs.manager.txt
+    symbol_addrs_path: config/manager.symbols.txt
+    reloc_addrs_path: config/manager.relocs.txt
     create_undefined_funcs_auto: False
     create_undefined_syms_auto: False
 

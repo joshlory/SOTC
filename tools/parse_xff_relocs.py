@@ -149,8 +149,9 @@ def extract_reloc_and_symbols(filename):
             if section_names[i] == '.text':
                 text_offs_rel = sect['offs_Rel']
 
-        # Extract symbols
+        # Extract symbols and build symbol table
         print("\nSymbols:")
+        symbol_table = {}
         for i in range(hdr['symTabNrE']):
             sym_offset = hdr['symTab_Rel'] + i * 0x10
             sym = read_xffSymEnt(file, sym_offset)
@@ -166,6 +167,9 @@ def extract_reloc_and_symbols(filename):
             if sym['sect'] != 0 and sym['bindAttr'] != 0:
                 # Write symbol information to the symbols output file
                 symbols_out.write(f"{name} = 0x{(VRAM + actual_address):X};\n")
+
+                # Add symbol to the symbol table
+                symbol_table[VRAM + actual_address] = name
 
         # Extract relocation tables
         for i in range(hdr['relocTabNrE']):
@@ -185,7 +189,8 @@ def extract_reloc_and_symbols(filename):
                 instr, unk = read_xffRelocInstEnt(file, inst_table_offset + j * 8)
                 if relType == 4 and tgSymIx == 1:
                     func_offset = (instr & 0x3FFFFFF) * 4
-                    sym_name = f"func_{VRAM + text_offs_rel + func_offset:08X}"
+                    func_addr = VRAM + text_offs_rel + func_offset
+                    sym_name = symbol_table.get(func_addr, f"func_{func_addr:08X}")
                 else:
                     sym_name, sym_addr = get_symbol_info(file, hdr['symTab_Rel'], hdr['symTabStr_Rel'], tgSymIx, section_names)
                     if relType == 6 and sym_name.startswith('.'):
